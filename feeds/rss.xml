@@ -5,7 +5,31 @@
   <link>https://github.com/makinotes/ai-daily-feed</link>
   <description>Daily AI learning feed. 40+ sources scored and structured.</description>
   <language>zh-cn</language>
-  <lastBuildDate>2026-03-01</lastBuildDate>
+  <lastBuildDate>2026-03-02</lastBuildDate>
+<item>
+  <title>Full Tutorial: Connect Claude Code to Google, Slack, Reddit, and More in 40 Min (MCPs, Skills)</title>
+  <link>https://creatoreconomy.so/p/connect-claude-code-to-google-slack-reddit-carl-vellotti</link>
+  <description><![CDATA[Claude Code 连接外部工具（MCP）的实操教程，极具实用价值。<ul><li>亮点1：演示了如何将 Claude Code 连接到 Google Workspace、Slack、Reddit 和 Linear 等应用，直接在终端中完成会议准备、工单更新、状态分享等任务。</li><li>亮点2：Carl 的每日站会生成命令能从 Linear、Google Calendar 和本地会议笔记中提取信息，用一个命令准备全天工作。</li><li>亮点3：介绍了 Carl 为 Claude Code 设置的文件系统结构，以及一个能与多个 AI 代理协作的“咨询委员会”技能。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://creatoreconomy.so/p/connect-claude-code-to-google-slack-reddit-carl-vellotti">Peter Yang</source>
+</item>
+<item>
+  <title>The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)</title>
+  <link>https://www.lennysnewsletter.com/p/the-design-process-is-dead</link>
+  <description><![CDATA[Anthropic 设计负责人分享 AI 时代设计流程的变革与职业洞察。<ul><li>亮点1：Jenny Wen 指出，经典的“发现→原型→迭代”设计流程正变得过时。</li><li>亮点2：她分享了在 Anthropic 作为设计师的日常工作，包括所使用的 AI 工具栈。</li><li>亮点3：她讨论了 AI 是否最终会在品味和判断力上超越人类的问题。</li><li>亮点4：Jenny 离开了 Figma 的总监职位，回到 Anthropic 担任个人贡献者角色。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://www.lennysnewsletter.com/p/the-design-process-is-dead">Lenny's Newsletter</source>
+</item>
+<item>
+  <title>Quoting claude.com/import-memory</title>
+  <link>https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything</link>
+  <description><![CDATA[提供了一个现成的 Prompt 用于导出/迁移 Claude 的记忆数据。<ul><li>亮点1：提供了一个结构化的提示词，用于要求 Claude 导出所有存储的用户记忆和上下文信息。</li><li>亮点2：提示词要求覆盖指令、个人细节、项目、工具、偏好修正等所有类别，并保留用户原话。</li><li>亮点3：要求以代码块形式输出每个条目，并注明日期（如果可用），且不得总结、分组或遗漏任何条目。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything">Simon Willison</source>
+</item>
 <item>
   <title>RCCLX: Innovating GPU Communications on AMD Platforms</title>
   <link>https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/</link>
@@ -381,30 +405,6 @@
   <category>AI/Tech</category>
   <pubDate>Tue, 24 Feb 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247513335&amp;idx=1&amp;sn=d4420d677d713a0767ab066511190d08">赛博禅心</source>
-</item>
-<item>
-  <title>AI Agent公司应该怎样组织人才</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&amp;mid=2247485159&amp;idx=1&amp;sn=a33140f470974628bd7f07220e9c5c2e</link>
-  <description><![CDATA[提出 AI Agent 公司应效仿量化对冲基金的人才体系，强调个人英雄主义与系统闭缘。<ul><li>AI顶尖人才薪酬已对标二十年前的量化基金，反映出行业对极端智力资本的争夺。</li><li>成功的AI Agent公司与量化基金在“系统闭环”和“寻找edge”的核心逻辑上高度相似。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzU2MTgzMjQyMA==&amp;mid=2247485159&amp;idx=1&amp;sn=a33140f470974628bd7f07220e9c5c2e">周喆吾</source>
-</item>
-<item>
-  <title>OpenAI 为 Responses API 引入 WebSocket 模式</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158607&amp;idx=1&amp;sn=cb22aaa404fc6129dd3185a32faab410</link>
-  <description><![CDATA[详解 OpenAI Responses API 的 WebSocket 模式，提供代码示例与性能优化逻辑。<ul><li>连接方式从“每次打电话重新自我介绍”的HTTP模式，变为保持会话状态的WebSocket持久连接。</li><li>通过连接级内存缓存避免状态重建，显著提升多轮工具调用任务的性能。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158607&amp;idx=1&amp;sn=cb22aaa404fc6129dd3185a32faab410">AI工程化</source>
-</item>
-<item>
-  <title>5 OpenClaw agents run my home, finances, and code | Jesse Genet</title>
-  <link>https://www.lennysnewsletter.com/p/5-openclaw-agents-run-my-home-finances</link>
-  <description><![CDATA[Jesse Genet 展示如何通过 5 个 OpenClaw 代理全面自动化管理家庭与业务工作流。<ul><li>使用五个专用OpenClaw智能体分别管理家庭教育、财务、日程、开发和运营</li><li>通过拍摄教材照片，由智能体生成可直接教学的格式化教案</li><li>零终端经验下，用编码智能体四天开发出定制儿童电视应用并部署到真实电视</li><li>扫描家中所有玩具、书籍和用品，使AI能在课程规划中推荐实体材料</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.lennysnewsletter.com/p/5-openclaw-agents-run-my-home-finances">Lenny's Newsletter</source>
 </item>
 </channel>
 </rss>

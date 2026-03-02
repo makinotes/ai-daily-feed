@@ -1,26 +1,22 @@
 {
-  "updated": "2026-03-01",
+  "updated": "2026-03-02",
   "window": "7d",
-  "article_count": 143,
+  "article_count": 127,
   "trending": [
+    {
+      "keyword": "Claude",
+      "count": 12
+    },
     {
       "keyword": "Agent",
       "count": 12
     },
     {
-      "keyword": "Claude",
-      "count": 11
-    },
-    {
       "keyword": "Anthropic",
-      "count": 10
-    },
-    {
-      "keyword": "大模型",
       "count": 9
     },
     {
-      "keyword": "OpenClaw",
+      "keyword": "大模型",
       "count": 8
     },
     {
@@ -28,12 +24,8 @@
       "count": 7
     },
     {
-      "keyword": "OpenAI",
-      "count": 6
-    },
-    {
-      "keyword": "推理",
-      "count": 5
+      "keyword": "OpenClaw",
+      "count": 7
     },
     {
       "keyword": "智能体",
@@ -44,6 +36,14 @@
       "count": 5
     },
     {
+      "keyword": "OpenAI",
+      "count": 5
+    },
+    {
+      "keyword": "Google",
+      "count": 4
+    },
+    {
       "keyword": "DeepSeek",
       "count": 4
     },
@@ -52,20 +52,12 @@
       "count": 4
     },
     {
+      "keyword": "推理",
+      "count": 4
+    },
+    {
       "keyword": "训练",
       "count": 4
-    },
-    {
-      "keyword": "安全",
-      "count": 4
-    },
-    {
-      "keyword": "Agentic",
-      "count": 4
-    },
-    {
-      "keyword": "Google",
-      "count": 3
     },
     {
       "keyword": "Nano",
@@ -76,11 +68,19 @@
       "count": 3
     },
     {
+      "keyword": "API",
+      "count": 3
+    },
+    {
       "keyword": "Gemini",
       "count": 3
     },
     {
-      "keyword": "API",
+      "keyword": "SOTA",
+      "count": 3
+    },
+    {
+      "keyword": "安全",
       "count": 3
     }
   ]

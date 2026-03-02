@@ -1,28 +1,27 @@
 {
-  "date": "2026-03-01",
-  "must_read": [
-    {
-      "title": "RCCLX: Innovating GPU Communications on AMD Platforms",
-      "link": "https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/",
-      "source": "Meta Engineering Blog",
-      "score": 90,
-      "why": "对于依赖 AMD 硬件进行 AI 研发的工程师和团队，RCCLX 提供了关键的底层通信优化工具，有助于提升大模型训练和推理的效率。"
-    }
-  ],
+  "date": "2026-03-02",
+  "must_read": [],
   "worth_reading": [
     {
-      "title": "Interactive explanations",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
-      "source": "Simon Willison",
-      "score": 77,
-      "why": "对于使用 AI 辅助编程的开发者，管理“认知债务”是确保代码质量、维护性和未来开发效率的关键。"
+      "title": "Full Tutorial: Connect Claude Code to Google, Slack, Reddit, and More in 40 Min (MCPs, Skills)",
+      "link": "https://creatoreconomy.so/p/connect-claude-code-to-google-slack-reddit-carl-vellotti",
+      "source": "Peter Yang",
+      "score": 83,
+      "why": "对数据PM/开发者意味着一种新的、高效的 AI 辅助工作流范式，可能改变日常任务的处理方式。"
     },
     {
-      "title": "Dylan Patel of SemiAnalysis on the $200B AI CapEx, Chip Wars, and Why Google Might Have No Profits in 2027 — In-Context Cooking",
-      "link": "https://www.latent.space/p/dylanpatel-cooking",
-      "source": "Latent Space",
-      "score": 73,
-      "why": "为 AI 基础设施投资者、战略规划者和行业观察者提供了来自顶级分析师的、结合地缘政治与商业战略的深度行业洞察。"
+      "title": "The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)",
+      "link": "https://www.lennysnewsletter.com/p/the-design-process-is-dead",
+      "source": "Lenny's Newsletter",
+      "score": 83,
+      "why": "对产品/设计负责人意味着需要重新思考 AI 原生时代的设计流程、团队结构和设计师的核心价值。"
+    },
+    {
+      "title": "Quoting claude.com/import-memory",
+      "link": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
+      "source": "Simon Willison",
+      "score": 83,
+      "why": "对 AI 用户/开发者意味着掌握了一种管理和迁移个人 AI 记忆数据的具体方法，提升了数据的可控性。"
     }
   ],
   "neutral": [],

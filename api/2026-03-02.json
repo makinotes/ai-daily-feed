@@ -1,0 +1,67 @@
+{
+  "date": "2026-03-02",
+  "total": 3,
+  "verdict_counts": {
+    "worth_reading": 3
+  },
+  "articles": [
+    {
+      "title": "Full Tutorial: Connect Claude Code to Google, Slack, Reddit, and More in 40 Min (MCPs, Skills)",
+      "link": "https://creatoreconomy.so/p/connect-claude-code-to-google-slack-reddit-carl-vellotti",
+      "source": "Peter Yang",
+      "source_channel": "overseas",
+      "category": "AI 使用",
+      "pub_date": "2026-03-01",
+      "summary": "Claude Code 连接外部工具（MCP）的实操教程，极具实用价值。",
+      "core_point": "主张：Carl Vellotti 在视频中演示了如何将 Claude Code 连接到 Google Workspace、Slack、Reddit 和 Linear 等常用应用，以直接在终端中完成工作，无需打开其他应用。论据：他具体展示了如何为会议做准备、从产品需求文档创建工单、从终端分享状态更新、监控 Reddit 讨论，以及一个能从多个工具中提取信息的每日站会生成命令。启示：这展示了 Claude Code 作为工作流中心枢纽的潜力，能显著提升开发者和产品负责人的工作效率，减少在不同应用间切换的上下文切换成本。",
+      "highlights": [
+        "亮点1：演示了如何将 Claude Code 连接到 Google Workspace、Slack、Reddit 和 Linear 等应用，直接在终端中完成会议准备、工单更新、状态分享等任务。",
+        "亮点2：Carl 的每日站会生成命令能从 Linear、Google Calendar 和本地会议笔记中提取信息，用一个命令准备全天工作。",
+        "亮点3：介绍了 Carl 为 Claude Code 设置的文件系统结构，以及一个能与多个 AI 代理协作的“咨询委员会”技能。"
+      ],
+      "why_matters": "对数据PM/开发者意味着一种新的、高效的 AI 辅助工作流范式，可能改变日常任务的处理方式。",
+      "score": 83,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)",
+      "link": "https://www.lennysnewsletter.com/p/the-design-process-is-dead",
+      "source": "Lenny's Newsletter",
+      "source_channel": "overseas",
+      "category": "AI 使用",
+      "pub_date": "2026-03-01",
+      "summary": "Anthropic 设计负责人分享 AI 时代设计流程的变革与职业洞察。",
+      "core_point": "主张：Anthropic 的 Claude 设计负责人 Jenny Wen 认为，传统的“发现→原型→迭代”设计流程正在过时。论据：她分享了在 Anthropic 设计师的日常工作，包括其 AI 工具栈，并讨论了 AI 是否最终会在品味和判断力上超越人类。启示：这预示着 AI 时代的设计方法论和工作流程正在发生根本性变革，设计师的角色和所需技能可能需要进行重大调整。",
+      "highlights": [
+        "亮点1：Jenny Wen 指出，经典的“发现→原型→迭代”设计流程正变得过时。",
+        "亮点2：她分享了在 Anthropic 作为设计师的日常工作，包括所使用的 AI 工具栈。",
+        "亮点3：她讨论了 AI 是否最终会在品味和判断力上超越人类的问题。",
+        "亮点4：Jenny 离开了 Figma 的总监职位，回到 Anthropic 担任个人贡献者角色。"
+      ],
+      "why_matters": "对产品/设计负责人意味着需要重新思考 AI 原生时代的设计流程、团队结构和设计师的核心价值。",
+      "score": 83,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "Quoting claude.com/import-memory",
+      "link": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
+      "source": "Simon Willison",
+      "source_channel": "overseas",
+      "category": "AI 使用",
+      "pub_date": "2026-03-01",
+      "summary": "提供了一个现成的 Prompt 用于导出/迁移 Claude 的记忆数据。",
+      "core_point": "主张：文章展示了一个用于从 Claude 导出所有存储记忆的详细提示词。论据：该提示词要求 Claude 列出所有关于用户的记忆，包括指令、个人细节、项目、工具偏好等，并以特定格式在代码块中完整输出，不得总结或遗漏。启示：这为用户提供了管理和迁移其 AI 记忆数据的具体方法，也揭示了 AI 记忆功能的潜在应用场景和数据可移植性需求。",
+      "highlights": [
+        "亮点1：提供了一个结构化的提示词，用于要求 Claude 导出所有存储的用户记忆和上下文信息。",
+        "亮点2：提示词要求覆盖指令、个人细节、项目、工具、偏好修正等所有类别，并保留用户原话。",
+        "亮点3：要求以代码块形式输出每个条目，并注明日期（如果可用），且不得总结、分组或遗漏任何条目。"
+      ],
+      "why_matters": "对 AI 用户/开发者意味着掌握了一种管理和迁移个人 AI 记忆数据的具体方法，提升了数据的可控性。",
+      "score": 83,
+      "level": "精读",
+      "verdict": "worth_reading"
+    }
+  ]
+}
