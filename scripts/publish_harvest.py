@@ -145,53 +145,60 @@ def generate_daily_picks(articles, date_str):
 
 
 def update_source_stats(articles, date_str):
-    """Update cumulative per-source statistics (private, not pushed to GitHub)."""
+    """Rebuild source stats from JSONL ground truth. Idempotent — safe to re-run."""
     sources_dir = os.path.join(HARVEST_DIR, "sources")
     os.makedirs(sources_dir, exist_ok=True)
     stats_path = os.path.join(sources_dir, "source_stats.json")
+    jsonl_path = os.path.join(HARVEST_DIR, "datasets", "scored-articles.jsonl")
 
-    # Load existing stats
-    stats = {}
-    if os.path.exists(stats_path):
-        with open(stats_path, "r", encoding="utf-8") as f:
-            stats = json.load(f)
+    sources_data = {}
 
-    sources_data = stats.get("sources", {})
+    # Rebuild from JSONL (single source of truth)
+    if os.path.exists(jsonl_path):
+        with open(jsonl_path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    a = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                src = a.get("source", "")
+                if not src:
+                    continue
+                pub_date = a.get("pub_date", "")
+                if src not in sources_data:
+                    sources_data[src] = {
+                        "articles_count": 0,
+                        "total_score": 0,
+                        "must_read_count": 0,
+                        "noise_count": 0,
+                        "first_seen": pub_date or date_str,
+                        "last_seen": pub_date or date_str,
+                    }
+                s = sources_data[src]
+                s["articles_count"] += 1
+                s["total_score"] += a.get("score", 0)
+                if a.get("verdict") == "must_read":
+                    s["must_read_count"] += 1
+                if a.get("verdict") == "overhyped":
+                    s["noise_count"] += 1
+                if pub_date:
+                    if pub_date < s["first_seen"]:
+                        s["first_seen"] = pub_date
+                    if pub_date > s["last_seen"]:
+                        s["last_seen"] = pub_date
 
-    # Aggregate today's data per source
-    today_by_source = {}
-    for a in articles:
-        src = a["source"]
-        if src not in today_by_source:
-            today_by_source[src] = {"scores": [], "verdicts": []}
-        today_by_source[src]["scores"].append(a["score"])
-        today_by_source[src]["verdicts"].append(a["verdict"])
+    # Compute derived fields
+    for s in sources_data.values():
+        cnt = s["articles_count"]
+        if cnt > 0:
+            s["avg_score"] = round(s["total_score"] / cnt, 1)
+            s["must_read_rate"] = round(s["must_read_count"] / cnt * 100, 1)
+            s["noise_rate"] = round(s["noise_count"] / cnt * 100, 1)
 
-    # Update cumulative stats
-    for src, data in today_by_source.items():
-        if src not in sources_data:
-            sources_data[src] = {
-                "articles_count": 0,
-                "total_score": 0,
-                "must_read_count": 0,
-                "noise_count": 0,
-                "first_seen": date_str,
-                "last_seen": date_str,
-            }
-        s = sources_data[src]
-        s["articles_count"] += len(data["scores"])
-        s["total_score"] += sum(data["scores"])
-        s["must_read_count"] += data["verdicts"].count("must_read")
-        s["noise_count"] += data["verdicts"].count("overhyped")
-        s["last_seen"] = date_str
-        # Computed fields
-        s["avg_score"] = round(s["total_score"] / s["articles_count"], 1)
-        s["must_read_rate"] = round(s["must_read_count"] / s["articles_count"] * 100, 1)
-        s["noise_rate"] = round(s["noise_count"] / s["articles_count"] * 100, 1)
-
-    stats["sources"] = sources_data
-    stats["updated"] = date_str
-
+    stats = {"sources": sources_data, "updated": date_str}
     with open(stats_path, "w", encoding="utf-8") as f:
         json.dump(stats, f, ensure_ascii=False, indent=2)
     print(f"  [ok] {stats_path} ({len(sources_data)} sources tracked)")
@@ -461,7 +468,10 @@ def generate_rss(articles, date_str):
         "{items}\n"
         "</channel>\n"
         "</rss>"
-    ).format(date=xml_escape(date_str), items=items_xml)
+    ).format(
+        date=datetime.strptime(date_str, "%Y-%m-%d").strftime("%a, %d %b %Y %H:%M:%S GMT"),
+        items=items_xml,
+    )
 
     with open(rss_path, "w", encoding="utf-8") as f:
         f.write(rss_xml)
@@ -757,20 +767,44 @@ def main():
 
     if not all_articles:
         print("  [warn] No articles found, skipping")
-        return
+        sys.exit(1)
 
-    # Generate outputs (existing)
-    generate_json(all_articles, date_str)
-    generate_daily_picks(all_articles, date_str)
-    generate_markdown(all_articles, date_str)
-    update_source_stats(all_articles, date_str)
+    # Generate outputs — each step isolated so one failure doesn't block others
+    errors = []
 
-    # Generate new outputs
-    jsonl_path = append_dataset(all_articles, date_str)
-    generate_csv(jsonl_path)
-    generate_rss(all_articles, date_str)
-    update_indexes(date_str)
-    generate_folder_readmes()
+    steps = [
+        ("api JSON", lambda: generate_json(all_articles, date_str)),
+        ("daily picks", lambda: generate_daily_picks(all_articles, date_str)),
+        ("markdown digest", lambda: generate_markdown(all_articles, date_str)),
+        ("dataset JSONL", lambda: append_dataset(all_articles, date_str)),
+    ]
+
+    jsonl_path = None
+    for name, fn in steps:
+        try:
+            result = fn()
+            if name == "dataset JSONL":
+                jsonl_path = result
+        except Exception as e:
+            print(f"  [ERROR] {name} failed: {e}", file=sys.stderr)
+            errors.append(name)
+
+    # Steps that depend on JSONL or are independent
+    independent_steps = [
+        ("source stats", lambda: update_source_stats(all_articles, date_str)),
+        ("RSS feed", lambda: generate_rss(all_articles, date_str)),
+        ("indexes", lambda: update_indexes(date_str)),
+        ("folder READMEs", lambda: generate_folder_readmes()),
+    ]
+    if jsonl_path:
+        independent_steps.insert(1, ("CSV export", lambda: generate_csv(jsonl_path)))
+
+    for name, fn in independent_steps:
+        try:
+            fn()
+        except Exception as e:
+            print(f"  [ERROR] {name} failed: {e}", file=sys.stderr)
+            errors.append(name)
 
     # Summary
     verdicts = {}
@@ -779,6 +813,9 @@ def main():
         verdicts[v] = verdicts.get(v, 0) + 1
     v_summary = ", ".join(f"{v}={c}" for v, c in sorted(verdicts.items()))
     print(f"Done. {len(all_articles)} articles published. [{v_summary}]")
+    if errors:
+        print(f"  [warn] {len(errors)} step(s) failed: {', '.join(errors)}", file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == "__main__":

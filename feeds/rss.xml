@@ -5,7 +5,135 @@
   <link>https://github.com/makinotes/ai-daily-feed</link>
   <description>Daily AI learning feed. 40+ sources scored and structured.</description>
   <language>zh-cn</language>
-  <lastBuildDate>2026-03-04</lastBuildDate>
+  <lastBuildDate>Thu, 05 Mar 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>IQuest Research 发布 UBio - MolFM：让生物大分子模拟同时实现更高精度与更快推理</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653100372&amp;idx=2&amp;sn=29d671cc2f61adba479c3d4ee591fcea</link>
+  <description><![CDATA[IQuest Research 发布 UBio-MolFM 框架，解决生物大分子模拟的精度与速度矛盾，并开源大规模数据集。<ul><li>构建了目前最大的生物大分子高精度DFT数据集UBio-Mol26，并开源了500万条数据的子集UBio-Protein26 5M。</li><li>模型在1300-1500原子规模的DFT基准上实现SOTA精度，同时推理吞吐量可达单卡15万原子，兼顾了精度与规模。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653100372&amp;idx=2&amp;sn=29d671cc2f61adba479c3d4ee591fcea">极客公园</source>
+</item>
+<item>
+  <title>一句话生成LoRA、长文档瞬间内化：大模型更新成本还能这样摊销？</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718294&amp;idx=1&amp;sn=98574ef7e60acb19a3894a5663f78549</link>
+  <description><![CDATA[介绍 Sakana AI 的最新研究：通过“更新成本摊销”实现瞬间内化长文档，大幅降低推理显存至 50MB。<ul><li>Doc-to-LoRA处理128K token长文档时，推理显存增量稳定在50MB以内，相比原生大模型节省超12GB显存。</li><li>在2WikiMultihopQA任务中，将传统上下文蒸馏所需的79.3GB更新期显存压缩至3.79GB，并实现亚秒级更新延迟。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718294&amp;idx=1&amp;sn=98574ef7e60acb19a3894a5663f78549">PaperWeekly</source>
+</item>
+<item>
+  <title>Large genome model: Open source AI trained on trillions of bases</title>
+  <link>https://arstechnica.com/science/2026/03/large-genome-model-open-source-ai-trained-on-trillions-of-bases/</link>
+  <description><![CDATA[Evo 2 大规模基因组模型发布，支持生命三大领域及复杂真核生物序列预测。<ul><li>亮点1：Evo 2是一个开源AI，其训练数据涵盖了细菌、古菌和真核生物三个生命领域的基因组。</li><li>亮点2：该模型在数万亿个DNA碱基对上训练后，能够内部表征复杂基因组（如人类基因组）的关键特征，包括调控DNA和剪接位点。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://arstechnica.com/science/2026/03/large-genome-model-open-source-ai-trained-on-trillions-of-bases/">Ars Technica AI</source>
+</item>
+<item>
+  <title>林俊旸提出离职后，阿里高管紧急答疑丨36氪独家</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&amp;mid=2248880248&amp;idx=1&amp;sn=77288dcfa886dbca9a03e24d4911c832</link>
+  <description><![CDATA[36氪独家揭秘阿里千问团队核心林俊旸离职背后的组织架构调整、算力资源冲突及团队整合内幕。<ul><li>林俊旸作为阿里AI开源核心推手和最年轻P10之一，其离职被团队成员视为重大损失，反映了核心人才与公司战略之间的张力。</li><li>阿里云CTO周靖人承认内部团队处于‘资源紧张状态’，并解释为何外部客户用算力顺畅而内部团队捉襟见肘，但未给出具体解决方案。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&amp;mid=2248880248&amp;idx=1&amp;sn=77288dcfa886dbca9a03e24d4911c832">36氪</source>
+</item>
+<item>
+  <title>Anti-patterns: things to avoid</title>
+  <link>https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything</link>
+  <description><![CDATA[Simon Willison 总结的 AI Agent 辅助编程反模式及最佳实践。<ul><li>亮点1：核心反模式是提交由AI生成但自己未经审查的代码，这相当于将实际工作推给他人。</li><li>亮点2：一个好的智能体工程PR应确保代码有效、变更规模小便于审查，并包含解释变更目的的背景信息。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/#atom-everything">Simon Willison</source>
+</item>
+<item>
+  <title>OpenClaw最佳工具榜来了，这6款龙虾最受欢迎</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&amp;mid=2248880248&amp;idx=4&amp;sn=294a393af05d352ab3fcad4e0f03f860</link>
+  <description><![CDATA[OpenClaw生态工具榜单发布，推荐了6款最受欢迎的辅助部署和增强工具。<ul><li>网站提供了涵盖部署、托管、Agent团队、插件等九大功能类别的精细化梳理，并支持按‘必备’、‘开源’等标签筛选。</li><li>公布了不区分功能的综合总榜，列出了目前最受欢迎的六款工具，如Claw for All、OpenClaw Launch等。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&amp;mid=2248880248&amp;idx=4&amp;sn=294a393af05d352ab3fcad4e0f03f860">36氪</source>
+</item>
+<item>
+  <title>AI公司怎么估值？高盛给MiniMax算了三笔账</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493401&amp;idx=1&amp;sn=9e38d4106541fcfcc8efb55e4bf76122</link>
+  <description><![CDATA[以高盛对 MiniMax 的估值为例，探讨 AI 大模型公司新的估值逻辑——从 PS 转向 Token 产能与单位收益。<ul><li>提出AI公司的核心‘产能’是生成和消耗Token的能力，商业模式优劣的关键指标是‘每生产一枚Token能赚多少钱’。</li><li>高盛在基准情景中预测，到2030年MiniMax经调整净利润为12.78亿美元，自由现金流7.94亿美元，股权价值约410亿美元。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493401&amp;idx=1&amp;sn=9e38d4106541fcfcc8efb55e4bf76122">硅基观察Pro</source>
+</item>
+<item>
+  <title>刚刚，Claude Code 上线语音模式！「用嘴编程」的时代，来了</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkwMzYzMTc5NA==&amp;mid=2247511592&amp;idx=1&amp;sn=03e443faf95ea4af287ee7ada3de54ac</link>
+  <description><![CDATA[Claude Code上线语音模式，支持“用嘴编程”，实现语音转代码指令的无缝切换。<ul><li>交互设计简洁：在终端输入/voice开启，长按空格说话、松手发送，支持与打字输入无缝衔接。</li><li>语音转录免费且技术术语识别准：如async/await、React hook等术语能正确转录，为开发者提供了实用价值。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkwMzYzMTc5NA==&amp;mid=2247511592&amp;idx=1&amp;sn=03e443faf95ea4af287ee7ada3de54ac">AI信息Gap</source>
+</item>
+<item>
+  <title>Building Claude Code with Boris Cherny</title>
+  <link>https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny</link>
+  <description><![CDATA[Anthropic 核心成员揭秘 Claude Code 构建细节与 Agent 工作流。<ul><li>亮点1：Claude Code从Anthropic内部的一个副项目演变成了核心内部工具。</li><li>亮点2：播客深入探讨了其工作流程细节，包括并行智能体、PR结构、确定性审查模式和上下文检索。</li></ul>]]></description>
+  <category>Builder 实践</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://newsletter.pragmaticengineer.com/p/building-claude-code-with-boris-cherny">The Pragmatic Engineer</source>
+</item>
+<item>
+  <title>第一批被 AI「喂养」长大的孩子，已经「中毒」了</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653100372&amp;idx=1&amp;sn=744ec00c2d155b2c49fb9feaf18f2990</link>
+  <description><![CDATA[深度探讨 AI 算法和生成内容如何异化青少年的价值观，涉及极端主义、阴谋论及网络霸凌的新形态。<ul><li>官方旨在反仇恨的教育游戏角色Amelia，被社区用AI工具重塑为传播种族主义的‘叛逆偶像’，形成巨大讽刺。</li><li>AI生成的高质量‘地心文明’图像与视频，让缺乏鉴别力的青少年将其当作‘真相’，助长了反智神秘主义和危险历史观的传播。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653100372&amp;idx=1&amp;sn=744ec00c2d155b2c49fb9feaf18f2990">极客公园</source>
+</item>
+<item>
+  <title>Your New Job Is to Onboard AI Agents: How AI Native Companies Actually Operate</title>
+  <link>https://creatoreconomy.so/p/your-new-job-is-to-onboard-ai-agents</link>
+  <description><![CDATA[深度调研AI原生公司（Linear, Ramp等）如何将AI Agent融入日常工作流。 <ul><li>亮点1：Linear的负责人认为，智能体应是一等员工，可以像人一样被添加到项目、分配任务和@提及。</li><li>亮点2：Factory的CTO表示，他们将产品管理、前端UI、数据分析等工作编码为可复用的技能，供任何员工调用。</li><li>亮点3：Ramp的CPO认为，无论什么职位，不使用Claude Code可能意味着表现不佳。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://creatoreconomy.so/p/your-new-job-is-to-onboard-ai-agents">Peter Yang</source>
+</item>
+<item>
+  <title>我们都被OpenClaw的爽感骗了</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkyNDYwMzg3OA==&amp;mid=2247490736&amp;idx=1&amp;sn=bf0d6d67c53e6b8f5f05f184d55fb8c0</link>
+  <description><![CDATA[针对爆火的开源 Agent 项目 OpenClaw 进行了冷静复盘，指出其高昂的 Token 消耗、稳定性难题及安装门槛。<ul><li>揭示了OpenClaw的隐藏成本：仅维持系统心跳，无实际产出也可能每天消耗20美元，一个月白烧近750美元。</li><li>指出其爆火深层击中了用户‘摆脱电脑’的心理渴望，但现实是它仍无法完全替代需要复杂判断和稳定输出的工作。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkyNDYwMzg3OA==&amp;mid=2247490736&amp;idx=1&amp;sn=bf0d6d67c53e6b8f5f05f184d55fb8c0">GeekSavvy</source>
+</item>
+<item>
+  <title>How Many People Does It Take to Kill a ChatGPT?</title>
+  <link>https://www.thealgorithmicbridge.com/p/how-many-people-does-it-take-to-kill</link>
+  <description><![CDATA[分析 OpenAI 军事合作引发的抵制潮及用户流向 Anthropic 的现象。<ul><li>亮点1：OpenAI与五角大楼签约后，ChatGPT在美国的移动应用卸载量飙升295%，一星评价激增775%。</li><li>亮点2：与此同时，Anthropic的Claude应用下载量在十天内翻了两番，并登上了美国等多个国家的应用商店榜首。</li><li>亮点3：草根运动“QuitGPT”声称已收集到250万个签名，呼吁用户转向Claude。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://www.thealgorithmicbridge.com/p/how-many-people-does-it-take-to-kill">The Algorithmic Bridge</source>
+</item>
+<item>
+  <title>Something is afoot in the land of Qwen</title>
+  <link>https://simonwillison.net/2026/Mar/4/qwen/#atom-everything</link>
+  <description><![CDATA[Qwen 3.5 发布之际，其核心负责人林俊旸宣布离职及背后的组织变动。<ul><li>亮点1：通义千问（Qwen）项目的技术负责人林俊洋在社交媒体上突然宣布辞职。</li><li>亮点2：据信，触发此次辞职的原因是阿里巴巴内部重组，一位来自谷歌Gemini团队的新研究员被任命负责Qwen项目。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://simonwillison.net/2026/Mar/4/qwen/#atom-everything">Simon Willison</source>
+</item>
+<item>
+  <title>Extending single-minus amplitudes to gravitons</title>
+  <link>https://openai.com/index/extending-single-minus-amplitudes-to-gravitons</link>
+  <description><![CDATA[OpenAI 披露利用 GPT-5.2 Pro 在量子引力物理学研究中取得的新进展。<ul><li>亮点1：研究将“单负振幅”方法扩展应用于引力子。</li><li>亮点2：GPT-5.2 Pro帮助推导并验证了量子引力中非零的引力子树图振幅。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://openai.com/index/extending-single-minus-amplitudes-to-gravitons">OpenAI Blog</source>
+</item>
+<item>
+  <title>400亿3D打印巨头，「惹怒」泡泡玛特</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&amp;mid=2248880248&amp;idx=3&amp;sn=f36dbe12e64c251e942ed77cd39996f4</link>
+  <description><![CDATA[3D打印独角兽拓竹科技因社区版权问题遭泡泡玛特起诉，探讨硬件生态与内容版权的边界矛盾。<ul><li>纠纷直指拓竹科技估值400亿背后的核心资产——全球月活第一的3D模型社区MakerWorld，该平台上有大量用户上传的‘拉布布同款’模型。</li><li>法律专家指出，争议焦点在于平台是否‘明知或应知’侵权仍提供展示、下载，这将对所有依赖UGC的硬件生态平台产生示范效应。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&amp;mid=2248880248&amp;idx=3&amp;sn=f36dbe12e64c251e942ed77cd39996f4">36氪</source>
+</item>
 <item>
   <title>Mac变身AI超算！用Claude逆向M4芯片，纯推理引擎跑通Transformer</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718241&amp;idx=1&amp;sn=c4cc6c6555827f1824bdb16c72150bd1</link>
@@ -277,134 +405,6 @@
   <category>Builder 实践</category>
   <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/">Meta Engineering Blog</source>
-</item>
-<item>
-  <title>Interactive explanations</title>
-  <link>https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything</link>
-  <description><![CDATA[探讨如何通过构建交互式解释来降低 AI 编程带来的认知负债。<ul><li>亮点1：AI 代理生成的代码若成为开发者无法理解的“黑箱”，会积累“认知债务”，其负面影响类似于技术债务，会降低开发信心和进度。</li><li>亮点2：偿还“认知债务”的方法是提高对代码工作原理的理解，作者推荐的方法是构建“交互式解释”。</li><li>亮点3：作者以研究“词云”生成为例，通过向 Claude 下达研究任务，让其生成 Rust 代码和报告，从而主动探索并理解了词云算法的工作原理。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything">Simon Willison</source>
-</item>
-<item>
-  <title>Dylan Patel of SemiAnalysis on the $200B AI CapEx, Chip Wars, and Why Google Might Have No Profits in 2027 — In-Context Cooking</title>
-  <link>https://www.latent.space/p/dylanpatel-cooking</link>
-  <description><![CDATA[SemiAnalysis 创始人访谈：AI 算力竞赛、芯片战争与地缘政治。<ul><li>亮点1：Dylan Patel 从匿名的芯片推文博主和养蜂人，成长为 AI 基础设施领域被广泛引用的分析师，其公司 SemiAnalysis 已发展为拥有 60 名员工的全球研究机构。</li><li>亮点2：讨论涉及台湾问题的多种可能结局（维持现状、国民党/民进党执政、政治不稳定），并认为“软性”接管比入侵更可能发生，且美国出口管制无论如何都会约束台积电。</li><li>亮点3：节目提到亚马逊和谷歌可能“故意”每年投入高达 2000 亿美元的资本支出，并探讨了最大的 AI 风险可能不是来自中国，而是来自选民。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.latent.space/p/dylanpatel-cooking">Latent Space</source>
-</item>
-<item>
-  <title>V4底座浮现？DeepSeek唤醒闲置网卡，「双路径」破解长上下文I/O瓶颈</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718066&amp;idx=1&amp;sn=27ecab7f00ba5039b04f0a22030e55c0</link>
-  <description><![CDATA[深度解析 DeepSeek 新论文 DualPath 架构，如何通过重构 I/O 链路释放长文本推理性能。]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718066&amp;idx=1&amp;sn=27ecab7f00ba5039b04f0a22030e55c0">PaperWeekly</source>
-</item>
-<item>
-  <title>WWW 2026 | 大模型推荐真懂你吗？首次揭示微调中的上下文偏差</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718066&amp;idx=2&amp;sn=51d708263e802a02fbb90c8f0daf5d37</link>
-  <description><![CDATA[WWW 2026 论文揭示了 LLM 推荐系统在微调中存在的上下文偏置问题并提出 GDRT 优化方法。]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718066&amp;idx=2&amp;sn=51d708263e802a02fbb90c8f0daf5d37">PaperWeekly</source>
-</item>
-<item>
-  <title>Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock</title>
-  <link>https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock</link>
-  <description><![CDATA[Amazon Bedrock 推出 Agent 有状态运行环境，支持持久化编排与内存。<ul><li>亮点1：为AI智能体引入了持久化编排、记忆和安全执行功能。</li><li>亮点2：该功能旨在支持由OpenAI等模型驱动的多步骤AI工作流。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock">OpenAI Blog</source>
-</item>
-<item>
-  <title>Free Claude Max for (large project) open source maintainers</title>
-  <link>https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything</link>
-  <description><![CDATA[Anthropic 向符合条件的开源维护者提供免费的 Claude Max 计划。<ul><li>亮点1：免费提供价值200美元/月的Claude Max 20x计划，为期六个月。</li><li>亮点2：申请者需是拥有5000+ GitHub星标或100万+月NPM下载量的公共代码库的主要维护者或核心团队成员，且近三个月内有贡献记录。</li><li>亮点3：即使不完全符合标准，如果项目对生态系统至关重要，仍可申请说明情况。</li><li>亮点4：该计划总共接受最多10,000名贡献者申请。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything">Simon Willison</source>
-</item>
-<item>
-  <title>Minimax出了个OpenClaw变体，把6个超好用Agent都传云上用了</title>
-  <link>https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505192&amp;idx=1&amp;sn=4faf526db4b6ea6c936f3f28dc3c2242</link>
-  <description><![CDATA[详细实测了 MiniMax 版 OpenClaw（MaxClaw）的多智能体协作能力与具体应用场景。]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505192&amp;idx=1&amp;sn=4faf526db4b6ea6c936f3f28dc3c2242">卡尔的AI沃茨</source>
-</item>
-<item>
-  <title>Google API Keys Weren't Secrets. But then Gemini Changed the Rules.</title>
-  <link>https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything</link>
-  <description><![CDATA[警示 Google API 密钥因 Gemini 权限静默升级而导致的重大安全风险。<ul><li>权限升级风险：开发者为地图服务创建的公开API密钥，若在其所属项目中启用了Gemini API，会悄然转变为可访问敏感Gemini端点并产生账单的密钥，且无任何警告。</li><li>大规模暴露：Truffle Security在2025年11月的Common Crawl数据中发现了2,863个可访问Gemini的API密钥，其中包括谷歌自己的密钥，其中一个甚至在Gemini API推出前就已部署。</li><li>历史遗留问题：其中一个被发现的谷歌密钥自2023年2月就已存在，早于其现在能访问的Gemini API，说明问题源于服务权限的后续叠加。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything">Simon Willison</source>
-</item>
-<item>
-  <title>New Paper: Towards a science of AI agent reliability</title>
-  <link>https://www.normaltech.ai/p/new-paper-towards-a-science-of-ai</link>
-  <description><![CDATA[AI Agent可靠性科学测量框架发布，填补行业评估空白。<ul><li>亮点1：作者团队发布了一份名为《迈向AI代理可靠性科学》的草案论文，旨在对AI代理的可靠性进行全面的测量。</li><li>亮点2：研究将可靠性分解为12个不同维度，并评估了14个模型在两个互补基准上的表现。</li><li>亮点3：评估发现，近两年的快速能力进步只带来了适度的可靠性提升。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.normaltech.ai/p/new-paper-towards-a-science-of-ai">AI Snake Oil</source>
-</item>
-<item>
-  <title>近期，Google发了2篇不错的Multi-Agent新Paper</title>
-  <link>https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504482&amp;idx=2&amp;sn=02869647fbb5aea215549487592eac76</link>
-  <description><![CDATA[Google两篇多智能体（MARL）论文深度解析，探讨协作涌现与LLM算法发现。<ul><li>提出“上下文共玩家推理”机制，通过混合训练池诱导协作，无需显式元梯度。</li><li>揭示了“相互剥削”作为协作驱动力的三步因果链，为理解合作涌现提供新视角。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504482&amp;idx=2&amp;sn=02869647fbb5aea215549487592eac76">PaperAgent</source>
-</item>
-<item>
-  <title>DeepSeek联手清北发新论文，5000行代码改写规则！V4 架构专治推理I/O瓶颈，性能暴增187%</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651276519&amp;idx=1&amp;sn=4b4fb425f744235e11d59c7d55087969</link>
-  <description><![CDATA[DeepSeek 与清北合作发布 DualPath 架构，解决 Agent 长上下文推理中的 I/O 带宽瓶颈。]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651276519&amp;idx=1&amp;sn=4b4fb425f744235e11d59c7d55087969">InfoQ</source>
-</item>
-<item>
-  <title>DeepSeek新论文剧透V4新框架！用闲置网卡加速智能体推理性能，打破PD分离瓶颈</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870799&amp;idx=1&amp;sn=db1a82726be958a63025b8a8ec7d3eef</link>
-  <description><![CDATA[DeepSeek与清北联合发布DualPath框架，通过利用闲置网卡带宽优化KV-Cache加载，解决Agent长文本推理瓶颈。]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870799&amp;idx=1&amp;sn=db1a82726be958a63025b8a8ec7d3eef">量子位</source>
-</item>
-<item>
-  <title>首次证实RL能让3D模型学会推理，复杂文本描述下生成质量跃升！</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870799&amp;idx=2&amp;sn=2b0533c6fbe7a5e606992a3ad72e0a09</link>
-  <description><![CDATA[AR3D-R1研究首次将RL（GRPO）引入3D生成，并总结了奖励模型选择、Token级优化等关键方法论。]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870799&amp;idx=2&amp;sn=2b0533c6fbe7a5e606992a3ad72e0a09">量子位</source>
-</item>
-<item>
-  <title>谈谈光互连的一些问题</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497667&amp;idx=1&amp;sn=06ec4d01c307eebc6cc47826a750fd47</link>
-  <description><![CDATA[深度解析 ISSCC 2026 关于光互连的前沿论文，探讨 CPO 与硅光技术的演进与取舍。<ul><li>系统梳理了光互连替代铜互连的核心驱动力：密度、距离和功耗限制。</li><li>对比分析了ISSCC 2026上三大厂商（Nvidia、BRCM、Marvell）针对不同场景的硅光技术方案与取舍。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497667&amp;idx=1&amp;sn=06ec4d01c307eebc6cc47826a750fd47">zartbot</source>
-</item>
-<item>
-  <title>何恺明团队新作GeoPT，全新预训练范式用合成动力学让模型自学真实物理规律</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870766&amp;idx=2&amp;sn=2fb31bcb2cd1fc0ce1ba89ea7fb4afb5</link>
-  <description><![CDATA[何恺明团队 GeoPT 论文解读：用合成动力学解决物理仿真 Scaling 难题。<ul><li>提出“动力学提升的几何预训练”新范式，用合成动力学将静态几何表征提升至动态空间。</li><li>在无真实物理标签的情况下，通过海量无标签几何数据预训练模型，学习物理演化的通用规律。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Thu, 26 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247870766&amp;idx=2&amp;sn=2fb31bcb2cd1fc0ce1ba89ea7fb4afb5">量子位</source>
-</item>
-<item>
-  <title>OpenClaw深度分析：为什么突然就火了，以及对我们意味着什么</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&amp;mid=2649105070&amp;idx=1&amp;sn=ffa36d016fc21a5735133df8f4ed86b0</link>
-  <description><![CDATA[深度解析 OpenClaw 爆火背后的“降维打击”逻辑及 Agent 行业的断层现状。]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&amp;mid=2649105070&amp;idx=1&amp;sn=ffa36d016fc21a5735133df8f4ed86b0">十字路口Crossing</source>
 </item>
 </channel>
 </rss>
