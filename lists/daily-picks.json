@@ -1,275 +1,205 @@
 {
-  "date": "2026-03-06",
+  "date": "2026-03-07",
   "must_read": [
     {
-      "title": "Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines",
-      "link": "https://huggingface.co/blog/modular-diffusers",
-      "source": "Hugging Face Blog",
+      "title": "一文读懂GPT-5.4：83%任务执行超人类专家，打个招呼80美元就烧完了",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&mid=2691565484&idx=1&sn=fe7b6e3465269fc59531099b72a3a0d4",
+      "source": "腾讯科技",
       "score": 93,
-      "why": "为AI开发者和研究者提供了更灵活、模块化的工具来构建和实验先进的图像生成模型。"
+      "why": ""
     },
     {
-      "title": "Context Mode：为你的AI开发工具节省98%的上下文token",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158648&idx=1&sn=4f5937dd2dd7a9bdba9fcc260c06efb8",
-      "source": "AI工程化",
-      "score": 93,
-      "why": "对AI开发者而言，这意味着在成本可控的前提下，能进行更长时间、更复杂的工具调用会话，直接提升开发效率。"
-    },
-    {
-      "title": "OpenAI发布Symphony：AI时代的敏捷看板",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158703&idx=1&sn=280cd8252eb26987e098f064da573682",
-      "source": "AI工程化",
-      "score": 90,
-      "why": "对工程管理者而言，这预示着未来团队组织与开发流程可能因AI代理的深度集成而发生根本性变革。"
-    },
-    {
-      "title": "Computer Use & Frontend UI with GPT-5.4 Thinking",
-      "link": "https://www.youtube.com/watch?v=YICiHiU2GBU",
-      "source": "OpenAI YouTube",
+      "title": "Google's new command-line tool can plug OpenClaw into your Workspace data",
+      "link": "https://arstechnica.com/ai/2026/03/googles-new-command-line-tool-can-plug-openclaw-into-your-workspace-data/",
+      "source": "Ars Technica AI",
       "score": 87,
-      "why": "对于开发者和产品经理而言，这意味着可以构建更高效、令牌成本更低且能处理视觉任务的AI代理。"
+      "why": ""
     },
     {
-      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
-      "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
-      "source": "OpenAI Blog",
+      "title": "林俊旸离职风波始末：AI 技术负责人与大公司的成长与分歧",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247533927&idx=1&sn=e7bed2f07c3b6ec1d6eef22089f7cc87",
+      "source": "晚点LatePost",
       "score": 87,
-      "why": "对AI安全研究者和开发者来说，理解并控制模型的内部推理过程是确保其可靠性和安全性的关键。"
-    },
-    {
-      "title": "被封杀当晚，OpenAI 拿到了相同条款——Amodei 首次专访揭开 Anthropic 与五角大楼冲突内幕",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247493755&idx=1&sn=20bc5e69aa0d3422dbf5741ddb0c2262",
-      "source": "硅星人Pro",
-      "score": 87,
-      "why": "对投资者与行业观察者而言，这揭示了AI公司地缘政治风险的具体形态，以及商业伦理在政府合同中的实际权重。"
-    },
-    {
-      "title": "阿里开源OpenSandbox：AI智能体的生产级沙盒来了",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158644&idx=1&sn=024bbc934b4645ae2c68b21bf836a384",
-      "source": "AI工程化",
-      "score": 87,
-      "why": "对AI智能体开发者而言，一个可靠的开源沙盒能大幅减少在安全执行环境上的重复造轮子工作，加速产品开发。"
+      "why": ""
     }
   ],
   "worth_reading": [
     {
-      "title": "一分钟上手 Nano Banana 2，编辑避坑指南",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzU2ODEwMzE0Nw==&mid=2247547992&idx=1&sn=1228633b8d5782510ad03f65c3e8fae5",
-      "source": "优设AIGC",
+      "title": "[AINews] GPT 5.4: SOTA Knowledge Work -and- Coding -and- CUA Model, OpenAI is so very back",
+      "link": "https://www.latent.space/p/ainews-gpt-54-sota-knowledge-work",
+      "source": "Latent Space",
       "score": 83,
-      "why": "对UI/UX设计师、自媒体创作者等而言，这是一款能极大提升视觉内容生产效率和创意实现度的强大工具。"
+      "why": ""
     },
     {
-      "title": "The Codex app is now on Windows",
-      "link": "https://www.youtube.com/watch?v=8hNcRChDrNk",
-      "source": "OpenAI YouTube",
-      "score": 80,
-      "why": "这为广大的 Windows 开发者生态系统提供了强大的AI编码助手工具，可能提升其开发效率。"
-    },
-    {
-      "title": "Interrupting and Adding Details in GPT-5.4 Thinking",
-      "link": "https://www.youtube.com/watch?v=qSHMlduU6Lw",
-      "source": "OpenAI YouTube",
-      "score": 80,
-      "why": "对普通用户和专业人士而言，这意味着与AI的协作变得更加直观、可控，能更高效地达成复杂目标。"
-    },
-    {
-      "title": "暴涨75%，Circle怎么就成了AI支付龙头？",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&mid=2247493425&idx=1&sn=81b8e0525396125e0cf083447604ed78",
-      "source": "硅基观察Pro",
-      "score": 80,
-      "why": "对投资者而言，这提供了一个评估Crypto/区块链公司价值的新视角：其在即将到来的AI Agent经济中可能扮演的基础设施角色。"
-    },
-    {
-      "title": "Dario Amodei 不是你以为的道德英雄",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==&mid=2652775955&idx=1&sn=820dde99cf5a83b37f1ccd4504aa5200",
-      "source": "张无常",
-      "score": 80,
-      "why": "对投资者和公众意味着，评估AI公司的伦理立场需要穿透其公关叙事，关注其具体政策声明和潜在的技术商业化路径。"
-    },
-    {
-      "title": "陶哲轩最新演讲：AI 不是来抢数学家蛋糕的，是来把蛋糕做大的",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247493895&idx=1&sn=492ad67c0010674717f1330e39625864",
-      "source": "硅星人Pro",
-      "score": 80,
-      "why": "对科研工作者意味着，拥抱AI与领域专用工具融合的新工作流，是提升研究效率和探索新前沿的关键。"
-    },
-    {
-      "title": "阿里Qwen3.5小模型发布：0.8B参数就能处理视频，边缘AI时代真的来了",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158663&idx=1&sn=8e85fb6e3221cdee582fd3530dd12a9f",
-      "source": "AI工程化",
-      "score": 80,
-      "why": "对产品经理和开发者意味着，低成本、高性能的本地化AI能力即将开启新一轮应用创新浪潮。"
-    },
-    {
-      "title": "设计流程已死：Anthropic 设计负责人 Jenny Wen 谈 AI 时代的设计变革",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247493795&idx=1&sn=26a558d82c15c36ea9dc53f1b0aa2055",
-      "source": "硅星人Pro",
-      "score": 80,
-      "why": "对设计从业者意味着，必须适应从线性流程到实时协作、从产出物到提供决策价值的根本性角色转变。"
-    },
-    {
-      "title": "从写代码到管 Agent：斯坦福首门 AI 软件开发课的讲师说，大多数工程师还没准备好",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247493693&idx=1&sn=f95231df551d53ae6dd72d5f5a004654",
-      "source": "硅星人Pro",
-      "score": 80,
-      "why": "对技术管理者和开发者意味着，团队技能栈和代码工程规范需系统性升级，以适配AI原生开发范式。"
-    },
-    {
-      "title": "概念梳理：Agent、Workflow、Skills、MCP…",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&mid=2247490728&idx=1&sn=115a8bf9ef87f795eefcbb21ed9f2dfc",
-      "source": "喜新",
-      "score": 77,
-      "why": "对产品经理和技术决策者意味着，理解这些概念的本质差异是进行合理技术选型、避免盲目跟风的前提。"
-    },
-    {
-      "title": "AI国防，一个被低估的新风口",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&mid=2247493391&idx=1&sn=b4e17d6d37f0e7644d06d265e063dd58",
-      "source": "硅基观察Pro",
-      "score": 77,
-      "why": "对投资者而言，这标志着一个估值逻辑可能发生根本性迁移的新兴高增长赛道。"
-    },
-    {
-      "title": "AI 自媒体业务 SOP，我让 MaxClaw + 钉钉 AI 表格接管了！",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkxMzUyODQ3OA==&mid=2247490721&idx=1&sn=ba9ec22c618817fdeb6e575c92be7866",
-      "source": "AI产品银海",
-      "score": 77,
-      "why": "对自媒体从业者和内容创作者意味着，可以用极低成本获得一套专属的、智能的运营管理系统。"
-    },
-    {
-      "title": "OpenAI introduces GPT-5.4 with more knowledge-work capability",
-      "link": "https://arstechnica.com/ai/2026/03/openai-introduces-gpt-5-4-with-more-knowledge-work-capability/",
-      "source": "Ars Technica AI",
-      "score": 73,
-      "why": "在激烈的AI模型竞争环境中，此次更新显示了OpenAI通过提升模型在具体任务（如计算机操作）上的实用性来留住和吸引用户的策略。"
-    },
-    {
-      "title": "Can coding agents relicense open source through a “clean room” implementation of code?",
-      "link": "https://simonwillison.net/2026/Mar/5/chardet/#atom-everything",
+      "title": "Agentic manual testing",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/agentic-manual-testing/#atom-everything",
       "source": "Simon Willison",
-      "score": 73,
-      "why": "这对开发者意味着，使用AI工具重构代码时需警惕潜在的许可证合规风险，可能影响软件的法律地位和社区信任。"
+      "score": 83,
+      "why": ""
     },
     {
-      "title": "[Cookbook] Fix(contextual-embeddings): prepend context to chunk instead of appending. (#416)",
-      "link": "https://github.com/anthropics/claude-cookbooks/commit/5d2b123fc8f1913f9cee1ee3d9d9c13eca4b8bac",
-      "source": "Anthropic Cookbook",
+      "title": "GPT5.4回一个hi要花80刀，OpenAI应该看看谷歌这篇新论文了｜Hao好聊论文",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&mid=2691565504&idx=1&sn=93d8b4a5a5190330b77ca9341306fe23",
+      "source": "腾讯科技",
+      "score": 80,
+      "why": ""
+    },
+    {
+      "title": "豆包AI手机绝版后，一个叫「肉包」的开源项目火了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4MjUyNTg1OQ==&mid=2247566769&idx=1&sn=8a9742900277e851d42b29642356bdf4",
+      "source": "莫理",
+      "score": 80,
+      "why": ""
+    },
+    {
+      "title": "今天，Vercel官方发布了vercel-cli skill",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MDA3NzI1Nw==&mid=2455087826&idx=1&sn=1df1a4f2fa7e944d17e547c89ad81114",
+      "source": "新西楼",
+      "score": 80,
+      "why": ""
+    },
+    {
+      "title": "Cursor's Third Era: Cloud Agents",
+      "link": "https://www.latent.space/p/cursor-third-era",
+      "source": "Latent Space",
+      "score": 77,
+      "why": ""
+    },
+    {
+      "title": "GPT-5.4 信息全整理",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==&mid=2652775957&idx=1&sn=bc7174cf1945949a66796f801b9dfa95",
+      "source": "张无常",
+      "score": 77,
+      "why": ""
+    },
+    {
+      "title": "字节杀疯了！豆包 Seed 2.0 专家模式已上线",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4MjUyNTg1OQ==&mid=2247566719&idx=1&sn=7032229b7db5f6c202ddf44a7f486d89",
+      "source": "莫理",
+      "score": 77,
+      "why": ""
+    },
+    {
+      "title": "Quoting Ally Piechowski",
+      "link": "https://simonwillison.net/2026/Mar/6/ally-piechowski/#atom-everything",
+      "source": "Simon Willison",
       "score": 73,
       "why": ""
     },
     {
-      "title": "不用算法不费电，深大团队造出纯光域自学习材料，边缘计算再添新利器",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791321&idx=1&sn=c8f7726087a561fd83ed03896a59448a",
-      "source": "DeepTech深科技",
+      "title": "Anthropic’s New AI Report Accidentally Reveals an Industry-Sized Weak Spot",
+      "link": "https://www.thealgorithmicbridge.com/p/anthropics-new-ai-report-accidentally",
+      "source": "The Algorithmic Bridge",
       "score": 73,
-      "why": "对边缘计算和AI硬件开发者意味着，一种可能彻底改变神经网络训练与推理能效比的新兴技术方向。"
+      "why": ""
     },
     {
-      "title": "首个真掌权的Agent CEO，和她的人类二号位",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzU2Njg0OTEyNQ==&mid=2247491794&idx=1&sn=b85404901e5096ded3614c0ae54690c0",
-      "source": "AI异类弗兰克",
-      "score": 73,
-      "why": "对创业者和管理者意味着，AI正从工具演变为具备决策权的合作伙伴，可能重塑公司的权力结构和竞争力来源。"
-    },
-    {
-      "title": "重磅！人工智能，算子接口大一统，标准明天3月1日生效",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzY0MDM1NTc5NA==&mid=2247485315&idx=1&sn=24a6d7ce227954d15d42f2dba87de5e7",
-      "source": "机器人前瞻",
-      "score": 73,
-      "why": "对AI开发者和投资者意味着，国产AI软硬件生态的壁垒被降低，成本下降和国产化替代进程将显著加速。"
-    },
-    {
-      "title": "AI 眼镜，不该只有一个「大脑」",
-      "link": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653100432&idx=1&sn=b38ac33b4c8afc98fbe69bbe965c0ec1",
-      "source": "极客公园",
-      "score": 70,
-      "why": "对消费者和硬件厂商意味着，AI硬件的体验不再被单一厂商的模型进展所束缚，选择权和体验优化空间更大。"
-    },
-    {
-      "title": "工业级生产线！用 AI 当了回漫剧导演",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkxMzUyODQ3OA==&mid=2247490808&idx=1&sn=6ec7b754838507ce83469e79c5c8347c",
-      "source": "AI产品银海",
-      "score": 70,
-      "why": "对内容创作者而言，这提供了一个将创意快速、高质量转化为视频的标准化工具，降低了专业视频制作的门槛。"
-    },
-    {
-      "title": "张江：人工智能的功能与意识，其实是两条不相交的平行线",
-      "link": "https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&mid=2650996055&idx=1&sn=d8da2739cc70e6f4a69a763096a67bec",
-      "source": "腾讯研究院",
-      "score": 70,
-      "why": "对AI伦理与安全研究者而言，需警惕AI在功能上模仿有害意识行为的能力，即使其并无真正的主观体验。"
-    },
-    {
-      "title": "前小米高管创业机器人，用“爆品逻辑”做工业通用具身智能",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkwMDQ2NDU2Nw==&mid=2247515733&idx=1&sn=f7d33c22bc4c507d670fe92ab6f92f32",
-      "source": "智能涌现",
-      "score": 70,
-      "why": "对投资者和机器人领域从业者而言，这展示了一种将消费电子领域的爆品思维与务实场景选择相结合，落地通用具身智能的可行路径。"
-    },
-    {
-      "title": "空间智能第一股来了！年入8亿，发力具身智能仿真训练",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&mid=2247493383&idx=1&sn=fa44c3efcbdc21eadba08852574255a0",
+      "title": "投资人最看好的AI资产，为什么是一块电路板？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&mid=2247493430&idx=1&sn=e33a1c74f2263807e6266557d58f23a3",
       "source": "硅基观察Pro",
-      "score": 70,
-      "why": "对投资者和AI从业者而言，这展示了垂直领域AI公司如何利用其独有的数据资产和行业理解，切入更具潜力的通用AI基础设施赛道。"
+      "score": 73,
+      "why": ""
     },
     {
-      "title": "又变强了！Nano Banana 2究极强大玩法～【免费渠道合集】",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkzMDU2Nzg3MQ==&mid=2247490421&idx=1&sn=1e6c650286bcf961e31aca91e4ad9878",
-      "source": "秋芝2046",
-      "score": 70,
-      "why": "对设计师、内容创作者等用户而言，这是一份及时、详细的新模型能力评估与使用指南，有助于快速了解其适用场景。"
+      "title": "我给Openclaw搭了间像素办公室，它现在每天自己上下班",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA==&mid=2247513808&idx=1&sn=03762a06c425c2c3fbadcf57e3a4d394",
+      "source": "路人甲TM",
+      "score": 73,
+      "why": ""
     },
     {
-      "title": "第一批靠OpenClaw 赚钱的人，已经开始撤退了",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&mid=2247493376&idx=1&sn=04a641644eb6a94fc48409221ea9801f",
-      "source": "硅基观察Pro",
+      "title": "晚点独家丨林俊旸提出离职，Qwen 多位负责人离开，团队或将调整",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247533877&idx=1&sn=432a54cd65c37c28af558a17e59355e0",
+      "source": "晚点LatePost",
+      "score": 73,
+      "why": ""
+    },
+    {
+      "title": "Musk fails to block California data disclosure law he fears will ruin xAI",
+      "link": "https://arstechnica.com/tech-policy/2026/03/musk-fails-to-block-california-data-disclosure-law-he-fears-will-ruin-xai/",
+      "source": "Ars Technica AI",
       "score": 70,
-      "why": "对创业者和投资者而言，这揭示了在热门开源AI项目早期，降低使用门槛的“服务层”往往比底层技术开发更具 immediate 的商业价值，但窗口期可能很短。"
+      "why": "对AI行业而言，这意味着在加州运营的AI公司可能面临更严格的数据透明度要求，需要调整其数据管理和披露策略以符合新规。"
+    },
+    {
+      "title": "对话尚美马英尧：平台越来越强势，酒店怎么在内卷中求生？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247533755&idx=1&sn=e3939458bb9058b9cccb6412fb27c0ac",
+      "source": "晚点LatePost",
+      "score": 70,
+      "why": ""
+    },
+    {
+      "title": "彻底榨干 Nano Banana 2，附最新使用渠道~",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4MjUyNTg1OQ==&mid=2247566631&idx=1&sn=49fa4f1da9bfe36ba274106cb002366f",
+      "source": "莫理",
+      "score": 70,
+      "why": ""
     }
   ],
   "neutral": [
     {
-      "title": "DNA存储重大突破：科学家首创无酶可重写DNA硬盘",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791321&idx=2&sn=bf81a6660e1dcfd5ec941e1f51ae50be",
-      "source": "DeepTech深科技",
+      "title": "GPT-5.4正式发布！",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MDA3NzI1Nw==&mid=2455087833&idx=1&sn=f4f8023efe611bfb713aad8ac4500e4a",
+      "source": "新西楼",
       "score": 67,
-      "why": "对投资者和科技从业者而言，这标志着DNA存储从理论概念向可重复读写实用技术迈出了关键一步，可能颠覆未来数据存储格局。"
+      "why": ""
     },
     {
-      "title": "GitHub崩到忍无可忍，OpenAI决定开发代码托管平台",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791321&idx=3&sn=cc770f2f3c2360da9ed93b005f1e28f9",
-      "source": "DeepTech深科技",
+      "title": "5分钟AI搞定全套IP方案，附详细提示词",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU2ODEwMzE0Nw==&mid=2247548099&idx=1&sn=d3ce145d8518a1d71008765bd13fb6f1",
+      "source": "优设AIGC",
       "score": 67,
-      "why": "对开发者和投资者而言，这预示着AI巨头可能重塑核心开发工具生态，并加剧与微软等现有平台方的竞合关系。"
+      "why": ""
     },
     {
-      "title": "告别「暴力堆料」，理想汽车打破车载芯片「高算力 低智能」困局",
-      "link": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653100418&idx=1&sn=1515f55ade40fd875b6a02aa4adf5fd5",
-      "source": "极客公园",
-      "score": 63,
-      "why": "对汽车行业和芯片投资者而言，这标志着智能驾驶竞争从粗暴堆算力转向精细化效能优化，是决定未来产品竞争力的关键技术路径。"
+      "title": "阿里内部信批准林俊旸辞职，周靖人继续管理通义实验室",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&mid=2691565447&idx=1&sn=5537ef9bfcace286193929f1190680d2",
+      "source": "腾讯科技",
+      "score": 67,
+      "why": ""
     },
     {
-      "title": "Qwen 团队动荡：三位核心成员同时离职",
-      "link": "https://mp.weixin.qq.com/s?__biz=Mzk1NzgxMjQ0OA==&mid=2247493830&idx=1&sn=4c9d5309842ea856240c76631060955f",
-      "source": "硅星人Pro",
-      "score": 63,
-      "why": "对AI开发者和行业观察者而言，核心团队的动荡可能影响一个主流开源模型的后续发展节奏与技术路线，关乎生态稳定性。"
+      "title": "分享一个贼牛的开源项目，让你轻松肢解 AI 图",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4MjUyNTg1OQ==&mid=2247566738&idx=1&sn=9157ecbf3da3b8558fdf8eddd95caebe",
+      "source": "莫理",
+      "score": 67,
+      "why": ""
     },
     {
-      "title": "便宜、大碗、还听得懂人话：Nano Banana 2 是怎么治好我的出图焦虑的？（内附实测Prompt）",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzU5NjY4NzkxNw==&mid=2247486978&idx=1&sn=0965468aefae288e386724770699a993",
-      "source": "赛文乔伊",
+      "title": "PC“复兴”真相：2.74亿台出货量背后，一场针对手机生态的“降维打击”",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&mid=2691565503&idx=1&sn=d925801242d45d983afc84ab2011ba36",
+      "source": "腾讯科技",
       "score": 63,
-      "why": "对内容创作者和AI应用开发者而言，一个兼具强大能力、高性价比和出色指令遵循的模型，能显著降低高质量图像生成的门槛和成本。"
+      "why": ""
     },
     {
-      "title": "OpenClaw来了，我以前学的那些东西没用了？",
-      "link": "https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&mid=2247490709&idx=1&sn=f6cf0b3832813007d056d631715531ae",
-      "source": "喜新",
+      "title": "GPT-5.4深夜发布，最适合OpenClaw的天选模型登场了。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680455&idx=1&sn=72f6e792e3a85f07250949a9f1236ea6",
+      "source": "数字生命卡兹克",
       "score": 63,
-      "why": "对AI产品经理和开发者而言，理解这一演进路径有助于把握技术趋势，明确现有技能在新范式下的定位与价值。"
+      "why": ""
+    },
+    {
+      "title": "爆赚193亿美元，博通成美股“救命稻草”",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&mid=2691565450&idx=1&sn=9f3e03d96415c943af9442e9a92bff28",
+      "source": "腾讯科技",
+      "score": 63,
+      "why": "对投资者而言，博通是观察AI硬件需求与半导体行业景气度的关键风向标。"
+    },
+    {
+      "title": "我们给OpenClaw加了一双眼睛，来观察我们这平凡的一天。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680383&idx=1&sn=2160816ae62aadb77600115d44157db1",
+      "source": "数字生命卡兹克",
+      "score": 63,
+      "why": "为产品经理或开发者提供了一个将多模态AI与物理世界感知结合的轻量化、低成本创意案例。"
+    },
+    {
+      "title": "1组提示词搞定整套3D玻璃天气ICON",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU2ODEwMzE0Nw==&mid=2247548125&idx=1&sn=e5f67639ffe067a14db9e02a3653d59b",
+      "source": "优设AIGC",
+      "score": 60,
+      "why": "为UI设计师和视觉创作者提供了快速获取设计灵感和批量生成素材的实用技巧。"
     }
   ],
   "overhyped": []
