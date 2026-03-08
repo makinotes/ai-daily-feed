@@ -1,34 +1,38 @@
 {
-  "updated": "2026-03-07",
+  "updated": "2026-03-08",
   "window": "7d",
-  "article_count": 103,
+  "article_count": 120,
   "trending": [
     {
       "keyword": "OpenClaw",
+      "count": 12
+    },
+    {
+      "keyword": "Claude",
+      "count": 8
+    },
+    {
+      "keyword": "开源",
       "count": 7
     },
     {
       "keyword": "GPT",
-      "count": 6
+      "count": 7
+    },
+    {
+      "keyword": "Code",
+      "count": 5
+    },
+    {
+      "keyword": "Agent",
+      "count": 5
     },
     {
       "keyword": "OpenAI",
       "count": 5
     },
     {
-      "keyword": "Claude",
-      "count": 5
-    },
-    {
-      "keyword": "开源",
-      "count": 4
-    },
-    {
       "keyword": "阿里",
-      "count": 4
-    },
-    {
-      "keyword": "Agent",
       "count": 4
     },
     {
@@ -36,11 +40,11 @@
       "count": 4
     },
     {
-      "keyword": "Code",
-      "count": 4
+      "keyword": "Openclaw",
+      "count": 3
     },
     {
-      "keyword": "Google",
+      "keyword": "Coding",
       "count": 3
     },
     {
@@ -56,11 +60,11 @@
       "count": 3
     },
     {
-      "keyword": "Nano",
+      "keyword": "Banana",
       "count": 3
     },
     {
-      "keyword": "Banana",
+      "keyword": "Nano",
       "count": 3
     },
     {
@@ -68,19 +72,15 @@
       "count": 3
     },
     {
-      "keyword": "tool",
+      "keyword": "AINews",
       "count": 2
     },
     {
-      "keyword": "data",
+      "keyword": "大模型",
       "count": 2
     },
     {
-      "keyword": "Coding",
-      "count": 2
-    },
-    {
-      "keyword": "SOTA",
+      "keyword": "AGI",
       "count": 2
     }
   ]

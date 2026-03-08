@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-07",
+  "updated": "2026-03-08",
   "categories": {
     "AI/Tech": [
       {
@@ -64,6 +64,24 @@
         "verdict": "must_read",
         "pub_date": "2026-02-22",
         "why_matters": ""
+      },
+      {
+        "title": "ICLR 2026 | 越推越快! 首个面向「Test-Time Scaling」的投机解码基准",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247732009&idx=2&sn=270d9f06707798dd3f8ed50034821371",
+        "source": "AI科技评论",
+        "score": 93,
+        "verdict": "must_read",
+        "pub_date": "2026-03-06",
+        "why_matters": "为AI工程师提供了在模型参数不变的情况下，通过优化推理过程来平衡性能与效率的新工具。"
+      },
+      {
+        "title": "Atom Capital：OpenClaw带来了哪些机会，窗口期还有多久？",
+        "link": "https://mp.weixin.qq.com/s?__biz=Mzg5NDc5NDkzMA==&mid=2247484360&idx=1&sn=b6d4d88198756db077b5951a472fc5e1",
+        "source": "Atom Capital",
+        "score": 93,
+        "verdict": "must_read",
+        "pub_date": "",
+        "why_matters": "对投资者和创业者而言，指明了AI Agent赛道下一个关键壁垒和潜在的价值洼地。"
       },
       {
         "title": "一文读懂GPT-5.4：83%任务执行超人类专家，打个招呼80美元就烧完了",
@@ -136,15 +154,6 @@
         "verdict": "must_read",
         "pub_date": "2026-02-24",
         "why_matters": "为数据工程师和模型训练者提供了一种更高效、更精准的合成数据构建思路，可能颠覆依赖海量数据堆砌的后训练模式。"
-      },
-      {
-        "title": "测试时也能RL，英伟达等提出全新范式：TTT-Discover",
-        "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247503587&idx=2&sn=ec2551e68a6869ecd6fdb6499009424a",
-        "source": "PaperAgent",
-        "score": 93,
-        "verdict": "must_read",
-        "pub_date": "2026-02-05",
-        "why_matters": ""
       },
       {
         "title": "13个参数，让Qwen学会推理，没错，不是13B！",
@@ -352,6 +361,24 @@
         "verdict": "must_read",
         "pub_date": "2026-02-06",
         "why_matters": ""
+      },
+      {
+        "title": "让你的 ClaudeCode 秒变 Openclaw（龙虾），连接飞书、Discord 远程控制",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247495994&idx=1&sn=f94ed7ee25976b39e5b89e6cab681b92",
+        "source": "歸藏的AI工具箱",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "",
+        "why_matters": "为普通用户和开发者提供了快速、安全地体验远程控制AI Agent的实践工具。"
+      },
+      {
+        "title": "用OpenClaw自动做了个公众号排版工具，开源",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247501307&idx=1&sn=d92279dc19df3e7c548aa58e78525421",
+        "source": "刘小排r",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "",
+        "why_matters": "为内容创作者提供了一个由AI生成的高质量排版工具，并展示了AI协同开发的可行范式。"
       },
       {
         "title": "林俊旸离职风波始末：AI 技术负责人与大公司的成长与分歧",
@@ -606,6 +633,42 @@
         "why_matters": ""
       },
       {
+        "title": "北大王选所彭宇新团队：让多模态大模型学会「看懂物种关系」丨CVPR 2026",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247732029&idx=1&sn=3aef5a4eab981ee59aa6dc39fff7de85",
+        "source": "AI科技评论",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-07",
+        "why_matters": "为多模态大模型在生物、医疗等需要严谨层级体系的专业领域落地，提供了重要的技术改进思路。"
+      },
+      {
+        "title": "压缩即智能，左脚踩右脚，就是通往 AGI 之路",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247489164&idx=1&sn=b37ecb188bdd1e5e3953e8c1b96f748c",
+        "source": "有机大橘子",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "",
+        "why_matters": "为AI研究者提供了超越数据规模竞赛的新范式，将注意力转向如何利用算力高效提取和生成结构性知识。"
+      },
+      {
+        "title": "Claude Code + 开源工具的暴力工作流，下次直接躺赢",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&mid=2247615230&idx=1&sn=6e59cf84e44bc315f1c26f1edce9092d",
+        "source": "夕小瑶科技说",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "",
+        "why_matters": "对数据PM/开发者而言，这揭示了提升AI项目ROI的关键：善用社区智慧，将AI的创造力用于整合与优化，而非从零开始。"
+      },
+      {
+        "title": "用OpenClaw搭跨境电商团队：5个AI员工，跑通全平台矩阵！",
+        "link": "https://mp.weixin.qq.com/s?__biz=MjM5NDI4MTY3NA==&mid=2257498997&idx=1&sn=338966fe80824578f4f4efa77414bafc",
+        "source": "饼干哥哥AGI",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "",
+        "why_matters": "对运营者/创业者意味着，可以用极低的边际成本构建一个7x24小时工作的“数字员工”团队，实现业务自动化规模化。"
+      },
+      {
         "title": "一分钟上手 Nano Banana 2，编辑避坑指南",
         "link": "https://mp.weixin.qq.com/s?__biz=MzU2ODEwMzE0Nw==&mid=2247547992&idx=1&sn=1228633b8d5782510ad03f65c3e8fae5",
         "source": "优设AIGC",
@@ -693,15 +756,6 @@
         "score": 83,
         "verdict": "worth_reading",
         "pub_date": "",
-        "why_matters": ""
-      },
-      {
-        "title": "学术特供版Nano Banana来了！Google亲自下场，直接对齐NeurIPS审美",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717544&idx=1&sn=1344d8ebe4465827094d53d21934b65b",
-        "source": "PaperWeekly",
-        "score": 83,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-05",
         "why_matters": ""
       },
       {
@@ -894,13 +948,40 @@
         "why_matters": ""
       },
       {
-        "title": "深度｜MongoDB CEO：平台化才是企业软件唯一的护城河，单点工具必将被AI颠覆",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247513924&idx=1&sn=3df70808445f83f86a00f8058c5db521",
-        "source": "Z Potentials",
-        "score": 81,
+        "title": "Coding Agent 越过奇点，人类该怎么办？",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247489176&idx=1&sn=a3a1500d775f249c7235375dcc90b24b",
+        "source": "有机大橘子",
+        "score": 80,
         "verdict": "worth_reading",
-        "pub_date": "2026-02-05",
-        "why_matters": ""
+        "pub_date": "2026-03-07",
+        "why_matters": "对投资者和创业者而言，这意味着评估项目的标准需要从“技术实现能力”转向“市场需求洞察”和“获取用户注意力的能力”。"
+      },
+      {
+        "title": "全球OpenClaw用量第一的模型，竟然是中国的？（附实测）",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzkwMzE4NjU5NA==&mid=2247515065&idx=1&sn=761f9b2e534fa5ccea9124f9b4b75ae5",
+        "source": "袋鼠帝AI客栈",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-06",
+        "why_matters": "对开发者和技术决策者意味着，在模型选型时有了一个经过大规模实践验证、高性价比的国产选项，可能改变技术栈构成。"
+      },
+      {
+        "title": "GPT-5.4 曝光，表现接近人类；B 站首次实现全年盈利；比亚迪发第二代刀片电池及闪充技术 | 极客早知道",
+        "link": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653100451&idx=1&sn=cc89f64380be3b3d01eb47f87ddcd2e8",
+        "source": "极客公园",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "",
+        "why_matters": "对行业观察者而言，这些信息提供了AI技术前沿进展、巨头战略动向以及内容经济发展状况的关键坐标。"
+      },
+      {
+        "title": "给OpenClaw开天眼！解决了10个跨境电商网站爬虫难题",
+        "link": "https://mp.weixin.qq.com/s?__biz=MjM5NDI4MTY3NA==&mid=2257499085&idx=1&sn=b21b01d92bc6739b42c1f2dbd2a8f256",
+        "source": "饼干哥哥AGI",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "",
+        "why_matters": "对跨境电商运营者和数据分析师而言，这提供了将数据采集工作完全自动化、智能化的实战指南，极大降低了信息获取门槛。"
       },
       {
         "title": "GPT5.4回一个hi要花80刀，OpenAI应该看看谷歌这篇新论文了｜Hao好聊论文",
@@ -1290,13 +1371,13 @@
         "why_matters": ""
       },
       {
-        "title": "实测Lovart新上的设计Skills，我第一次见Agent那么主动的",
-        "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247504591&idx=1&sn=04b0278f969c1cbd620ffb89fb2caf31",
-        "source": "卡尔的AI沃茨",
-        "score": 78,
+        "title": "浏览器已死？Tabbit 实测：AI 接管鼠标，人类负责修 bug｜AI 上新",
+        "link": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653100565&idx=1&sn=f09d213ad0f40e3ebb32685dae5cc82a",
+        "source": "极客公园",
+        "score": 77,
         "verdict": "worth_reading",
-        "pub_date": "2026-02-05",
-        "why_matters": ""
+        "pub_date": "2026-03-07",
+        "why_matters": "对产品经理和开发者而言，这展示了下一代人机交互的雏形，即从“人找信息”到“AI代理人执行任务”的范式转移。"
       },
       {
         "title": "GPT-5.4 信息全整理",
@@ -1612,15 +1693,6 @@
         "verdict": "worth_reading",
         "pub_date": "2026-02-07",
         "why_matters": ""
-      },
-      {
-        "title": "我把一个离职同事的烂摊子，交给了国产 Agent",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&mid=2649104376&idx=1&sn=0e4dc09706ddf41345617529a83973d1",
-        "source": "十字路口Crossing",
-        "score": 75,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-05",
-        "why_matters": ""
       }
     ],
     "AI 使用": [
@@ -1695,6 +1767,15 @@
         "verdict": "must_read",
         "pub_date": "2026-02-25",
         "why_matters": "对开发者和技术爱好者而言，这标志着AI助手向更深度、跨设备的系统控制能力演进。"
+      },
+      {
+        "title": "[AINews] AI Engineer will be the LAST job",
+        "link": "https://www.latent.space/p/ainews-ai-engineer-will-be-the-last",
+        "source": "Latent Space",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-07",
+        "why_matters": "对于技术从业者和投资者而言，这挑战了AI将全面取代人类工作的简单叙事，提示需要更细致地理解AI如何重塑而非单纯淘汰特定职业。"
       },
       {
         "title": "[AINews] GPT 5.4: SOTA Knowledge Work -and- Coding -and- CUA Model, OpenAI is so very back",
@@ -1785,6 +1866,15 @@
         "verdict": "worth_reading",
         "pub_date": "2026-02-23",
         "why_matters": "对AI研究者和开发者而言，这意味着需要重新审视和选择更可靠、无缺陷的基准来评估大模型的代码生成能力，避免被过时或有问题的指标误导。"
+      },
+      {
+        "title": "Codex for Open Source",
+        "link": "https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything",
+        "source": "Simon Willison",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-07",
+        "why_matters": "对于开源维护者和开发者，这意味着可以获得强大的AI编码工具支持，可能提升项目开发效率和质量。"
       },
       {
         "title": "The Problem of the 99%: Why Almost No One Uses AI Well (And How to Solve It)",
