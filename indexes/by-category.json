@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-08",
+  "updated": "2026-03-09",
   "categories": {
     "AI/Tech": [
       {
@@ -156,24 +156,6 @@
         "why_matters": "为数据工程师和模型训练者提供了一种更高效、更精准的合成数据构建思路，可能颠覆依赖海量数据堆砌的后训练模式。"
       },
       {
-        "title": "13个参数，让Qwen学会推理，没错，不是13B！",
-        "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247503655&idx=1&sn=a922f466010a60b7abc74dd7fbf01820",
-        "source": "PaperAgent",
-        "score": 92,
-        "verdict": "must_read",
-        "pub_date": "2026-02-07",
-        "why_matters": ""
-      },
-      {
-        "title": "不止是RAG变体！xMemory重新定义Agent该如何记住和回忆",
-        "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247503617&idx=2&sn=3aba8483559897010b9e670e0a8c4504",
-        "source": "PaperAgent",
-        "score": 91,
-        "verdict": "must_read",
-        "pub_date": "2026-02-06",
-        "why_matters": ""
-      },
-      {
         "title": "OpenAI发布Symphony：AI时代的敏捷看板",
         "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158703&idx=1&sn=280cd8252eb26987e098f064da573682",
         "source": "AI工程化",
@@ -282,24 +264,6 @@
         "why_matters": ""
       },
       {
-        "title": "为什么 ClawdBot 能带火 Mac mini？叶天奇聊 Agent 电脑丨100 个 AI 创业者",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&mid=2247532736&idx=2&sn=890319e583a9131cd775fb86b19b7dcd",
-        "source": "晚点LatePost",
-        "score": 90,
-        "verdict": "must_read",
-        "pub_date": "2026-02-05",
-        "why_matters": ""
-      },
-      {
-        "title": "延迟下降20×，token减少4.4×！突破多智能体「共识」瓶颈",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652672670&idx=3&sn=075050bb19fac0d308a98c4862559dfe",
-        "source": "新智元",
-        "score": 89,
-        "verdict": "must_read",
-        "pub_date": "2026-02-07",
-        "why_matters": ""
-      },
-      {
         "title": "谈谈光互连的一些问题",
         "link": "https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&mid=2247497667&idx=1&sn=06ec4d01c307eebc6cc47826a750fd47",
         "source": "zartbot",
@@ -351,15 +315,6 @@
         "score": 88,
         "verdict": "must_read",
         "pub_date": "2026-02-08",
-        "why_matters": ""
-      },
-      {
-        "title": "比二维码还小！Meta发布TinyLoRA：13个参数媲美全量，RL完胜SFT",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717574&idx=1&sn=85cf726941e249793d092f44812b2c0b",
-        "source": "PaperWeekly",
-        "score": 88,
-        "verdict": "must_read",
-        "pub_date": "2026-02-06",
         "why_matters": ""
       },
       {
@@ -579,15 +534,6 @@
         "why_matters": ""
       },
       {
-        "title": "Anthropic发现一件离谱的事：AI排行榜前几名的差距，可能跟模型能力一点关系都没有。",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&mid=2247489837&idx=1&sn=8cdb08e469566176423ad1bb3ef6f8df",
-        "source": "探索AGI",
-        "score": 85,
-        "verdict": "must_read",
-        "pub_date": "2026-02-06",
-        "why_matters": ""
-      },
-      {
         "title": "大模型桌游试玩员来了：用五大画像模拟「千人千面」，评分精准度超越GPT-5.1",
         "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247868538&idx=3&sn=2bdd4203f5f0e8e99a2ed813f0af654a",
         "source": "量子位",
@@ -621,15 +567,6 @@
         "score": 84,
         "verdict": "worth_reading",
         "pub_date": "2026-02-09",
-        "why_matters": ""
-      },
-      {
-        "title": "像挖币一样挖激活函数？DeepMind搭建「算力矿场」，暴力搜出下一代ReLU",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651016067&idx=2&sn=c6820336952b2efb60691a733f812ccc",
-        "source": "机器之心",
-        "score": 84,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-07",
         "why_matters": ""
       },
       {
@@ -867,33 +804,6 @@
         "why_matters": ""
       },
       {
-        "title": "去年的Multi-Agent全是假的，Anthropic、Kimi、OpenAI集体换玩法了。",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&mid=2247489989&idx=1&sn=18cc2379373e49a7ff33adcf4d7603c4",
-        "source": "探索AGI",
-        "score": 82,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-07",
-        "why_matters": ""
-      },
-      {
-        "title": "收购叮咚，美团在低利润基建上血战到底",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzA5OTQ2MTk2MQ==&mid=2247490148&idx=1&sn=194fcb522b8b067e149456dc06705398",
-        "source": "饭後服用AfterHours",
-        "score": 82,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-05",
-        "why_matters": ""
-      },
-      {
-        "title": "Nature认定的论文综述神器来了",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247867411&idx=2&sn=563cf8579175bd717b8fe7d458da3b9f",
-        "source": "量子位",
-        "score": 82,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-07",
-        "why_matters": ""
-      },
-      {
         "title": "AI、AI、AI，一天到晚都是AI，这背后是不是有什么阴谋？",
         "link": "https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&mid=2247538775&idx=1&sn=9165cd4e0cd3c4fb13a44152511e2458",
         "source": "追问nextquestion",
@@ -927,24 +837,6 @@
         "score": 81,
         "verdict": "worth_reading",
         "pub_date": "2026-02-09",
-        "why_matters": ""
-      },
-      {
-        "title": "只用一天Opus4.6+Agent Teams做了个ClaudeCode桌面端：已开源",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247495787&idx=1&sn=6d2ed6a6a695c79178ad68cd70a5798c",
-        "source": "歸藏的AI工具箱",
-        "score": 81,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-07",
-        "why_matters": ""
-      },
-      {
-        "title": "从“选择”迈向“生成”！华科团队最新综述：定义多模态推荐系统新范式",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247717544&idx=2&sn=3070472fb68191712a5849ee0f4f9b50",
-        "source": "PaperWeekly",
-        "score": 81,
-        "verdict": "worth_reading",
-        "pub_date": "",
         "why_matters": ""
       },
       {
@@ -1146,15 +1038,6 @@
         "why_matters": ""
       },
       {
-        "title": "全新视角看世界模型：从视频生成迈向通用世界模拟器",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651016067&idx=3&sn=c25e731703e6caf8fe8e9ac53a9ef282",
-        "source": "机器之心",
-        "score": 80,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-07",
-        "why_matters": ""
-      },
-      {
         "title": "开源多模态推理「破壁」时刻：MMFineReason助力4B逆袭30B",
         "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651016856&idx=3&sn=f518aba917e70e50301993fa33ec0cba",
         "source": "机器之心",
@@ -1353,24 +1236,6 @@
         "why_matters": ""
       },
       {
-        "title": "我们破解了鲸鱼的语言 | OpenAI 内部分享",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&mid=2247512832&idx=1&sn=91070bb99b15333ee815cab419fb8942",
-        "source": "赛博禅心",
-        "score": 78,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-07",
-        "why_matters": ""
-      },
-      {
-        "title": "Claude Opus 4.6 发布，跑分霸榜，价格不变",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453480287&idx=1&sn=9fa3fdb4be13341dcdf7f3929d18825e",
-        "source": "AGI Hunt",
-        "score": 78,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-06",
-        "why_matters": ""
-      },
-      {
         "title": "浏览器已死？Tabbit 实测：AI 接管鼠标，人类负责修 bug｜AI 上新",
         "link": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653100565&idx=1&sn=f09d213ad0f40e3ebb32685dae5cc82a",
         "source": "极客公园",
@@ -1551,33 +1416,6 @@
         "why_matters": ""
       },
       {
-        "title": "我的龙虾🦞做了一个 YouTube 实时翻译插件",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&mid=2247488933&idx=1&sn=e62597fb11cceaab8f847dc414461a8a",
-        "source": "有机大橘子",
-        "score": 76,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-07",
-        "why_matters": ""
-      },
-      {
-        "title": "实测 GPT-5.3-Codex，OpenAI 史上第一个高危模型，连 API 都还不敢给我们",
-        "link": "https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&mid=2651080099&idx=1&sn=d0706221a48c7e3347c3a45b3edc32d5",
-        "source": "APPSO",
-        "score": 76,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-06",
-        "why_matters": ""
-      },
-      {
-        "title": "实测可灵3.0 - 属于每个人的AI导演时代。",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647679720&idx=1&sn=10989908d7c854025ae4b0bae5493afb",
-        "source": "数字生命卡兹克",
-        "score": 76,
-        "verdict": "worth_reading",
-        "pub_date": "",
-        "why_matters": ""
-      },
-      {
         "title": "Minimax出了个OpenClaw变体，把6个超好用Agent都传云上用了",
         "link": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&mid=2247505192&idx=1&sn=4faf526db4b6ea6c936f3f28dc3c2242",
         "source": "卡尔的AI沃茨",
@@ -1683,15 +1521,6 @@
         "score": 75,
         "verdict": "worth_reading",
         "pub_date": "2026-02-08",
-        "why_matters": ""
-      },
-      {
-        "title": "Cloudflare 的 Matrix 家庭服务器演示引发了关于 AI 生成代码的争论",
-        "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651274735&idx=3&sn=8f0cd5f4cceabd87ee4440824ae2953f",
-        "source": "InfoQ",
-        "score": 75,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-07",
         "why_matters": ""
       }
     ],

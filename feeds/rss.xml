@@ -5,7 +5,23 @@
   <link>https://github.com/makinotes/ai-daily-feed</link>
   <description>Daily AI learning feed. 40+ sources scored and structured.</description>
   <language>zh-cn</language>
-  <lastBuildDate>Sun, 08 Mar 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Mon, 09 Mar 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>I Watched 6 AI Agents Design an App Together And It Blew My Mind | Tom Krcha</title>
+  <link>https://creatoreconomy.so/p/i-watched-6-ai-agents-design-an-app-in-real-time-tom-krcha</link>
+  <description><![CDATA[AI Agent 协同设计应用的案例展示，探讨了设计到代码的自动化流程。<ul><li>亮点1：演示了多达6个AI智能体以“集群”模式协作，实时设计一款旅行应用。</li><li>亮点2：展示了Pencil的扩展功能，可将Cursor等代码编辑器直接转变为设计工具。</li><li>亮点3：仅需一个提示，即可将视觉设计直接转换为可用的React网站代码。</li><li>亮点4：通过使用设计系统，可以确保AI输出的设计风格保持一致性和专业性。</li><li>亮点5：Pencil作为一个副业项目，在8周内就获得了10万用户。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://creatoreconomy.so/p/i-watched-6-ai-agents-design-an-app-in-real-time-tom-krcha">Peter Yang</source>
+</item>
+<item>
+  <title>The most successful AI company you’ve never heard of | Qasar Younis</title>
+  <link>https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of</link>
+  <description><![CDATA[访谈 Applied Intuition 创始人，探讨 AI 在非软件传统行业的应用及公司建设经验。<ul><li>亮点1：预测AI革命的核心将在于为汽车、拖拉机、飞机等实体交通工具（而非软件）注入智能。</li><li>亮点2：阐述了Applied Intuition的公司价值观：速度高于一切、开怀大笑、一半工作是跟进、永不令客户失望。</li><li>亮点3：分享了在Y Combinator担任COO时的关键洞察：最成功的公司在早期就能展现出明显的市场吸引力。</li><li>亮点4：认为阅读经典旧书是培养卓越品味的最佳方式。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of">Lenny's Newsletter</source>
+</item>
 <item>
   <title>ICLR 2026 | 越推越快! 首个面向「Test-Time Scaling」的投机解码基准</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;mid=2247732009&amp;idx=2&amp;sn=270d9f06707798dd3f8ed50034821371</link>
@@ -389,22 +405,6 @@
   <category>YouTube</category>
   <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://www.youtube.com/watch?v=8hNcRChDrNk">OpenAI YouTube</source>
-</item>
-<item>
-  <title>Interrupting and Adding Details in GPT-5.4 Thinking</title>
-  <link>https://www.youtube.com/watch?v=qSHMlduU6Lw</link>
-  <description><![CDATA[ChatGPT 现支持在 GPT-5.4 Thinking 过程中实时中断并调整方向。<ul><li>亮点1：GPT-5.4 Thinking 在 ChatGPT 中能提供“预先思考计划”。</li><li>亮点2：用户可以在模型响应过程中中断并调整方向，以更快获得理想结果。</li></ul>]]></description>
-  <category>YouTube</category>
-  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.youtube.com/watch?v=qSHMlduU6Lw">OpenAI YouTube</source>
-</item>
-<item>
-  <title>暴涨75%，Circle怎么就成了AI支付龙头？</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493425&amp;idx=1&amp;sn=81b8e0525396125e0cf083447604ed78</link>
-  <description><![CDATA[深度探讨稳定币USDC在AI Agent微支付场景中的核心地位及其金融逻辑。<ul><li>指出AI支付的核心矛盾：传统人类中心支付体系与机器间高频小额、协议化交易需求的不匹配</li><li>稳定币（特别是USDC）因可编程、低成本、实时结算，成为当前AI代理经济的实际支付标准</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Thu, 05 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&amp;mid=2247493425&amp;idx=1&amp;sn=81b8e0525396125e0cf083447604ed78">硅基观察Pro</source>
 </item>
 </channel>
 </rss>
