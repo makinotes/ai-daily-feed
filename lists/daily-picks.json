@@ -1,22 +1,136 @@
 {
-  "date": "2026-03-09",
-  "must_read": [],
-  "worth_reading": [
+  "date": "2026-03-10",
+  "must_read": [
     {
-      "title": "I Watched 6 AI Agents Design an App Together And It Blew My Mind | Tom Krcha",
-      "link": "https://creatoreconomy.so/p/i-watched-6-ai-agents-design-an-app-in-real-time-tom-krcha",
-      "source": "Peter Yang",
-      "score": 70,
-      "why": "对于产品经理和开发者而言，这展示了AI如何深度融入并加速从设计到代码的完整产品开发流程。"
+      "title": "ICLR2026 Oral | 北大彭一杰团队提出高效优化新范式，递归似然比梯度优化器赋能扩散模型后训练",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651020452&idx=3&sn=03867dc330326ea9435922490dc834f7",
+      "source": "机器之心",
+      "score": 93,
+      "why": "为AI视觉生成领域的研究者与工程师提供了一种高效、稳定的扩散模型后训练方案，能加速模型在实际场景中的部署。"
     },
     {
-      "title": "The most successful AI company you’ve never heard of | Qasar Younis",
-      "link": "https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of",
-      "source": "Lenny's Newsletter",
-      "score": 70,
-      "why": "对投资者和创业者而言，这指出了AI在传统实体行业中被低估的巨大机遇和一种有效的长期建设策略。"
+      "title": "Production query plans without production data",
+      "link": "https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything",
+      "source": "Simon Willison",
+      "score": 87,
+      "why": "对数据工程师和DBA而言，这能显著提升查询性能调试的效率和准确性，降低开发与生产环境差异带来的风险。"
+    },
+    {
+      "title": "Anthropic 用一份报告，说透了 AI 时代的就业真相",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&mid=2247493441&idx=1&sn=f545ea6859d55197b140d163d862c8e0",
+      "source": "硅基观察Pro",
+      "score": 87,
+      "why": "为投资者、政策制定者和职场人提供了基于实证数据的AI就业影响分析，有助于理性规划职业路径与投资方向。"
     }
   ],
-  "neutral": [],
+  "worth_reading": [
+    {
+      "title": "Claude Code, Claude Cowork and Codex #5",
+      "link": "https://thezvi.substack.com/p/claude-code-claude-cowork-and-codex",
+      "source": "Zvi Mowshowitz",
+      "score": 83,
+      "why": "对开发者而言，了解AI编码智能体的当前能力边界和实用场景，有助于更有效地将其集成到工作流中。"
+    },
+    {
+      "title": "Perhaps not Boring Technology after all",
+      "link": "https://simonwillison.net/2026/Mar/9/not-so-boring/#atom-everything",
+      "source": "Simon Willison",
+      "score": 83,
+      "why": "对技术决策者而言，这意味着AI辅助编程不一定会将技术生态锁死在主流选项上，为新工具的创新和采用保留了空间。"
+    },
+    {
+      "title": "🎙️ This week on How I AI: Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts",
+      "link": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-mastering-midjourney",
+      "source": "Lenny's Newsletter",
+      "score": 80,
+      "why": "对营销人员、设计师和品牌管理者而言，这提供了降低AI图像生成使用门槛、规模化产出高质量品牌资产的具体方法。"
+    },
+    {
+      "title": "我花了3万块钱，养了8个AI员工，干了 5 个人的活！",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI4NDk2NTU1NQ==&mid=2247492723&idx=1&sn=3a718d48d092e1c057137cf345bb9a90",
+      "source": "陈天AI实战笔记",
+      "score": 80,
+      "why": "为个体创业者、自由职业者及中小微企业主展示了如何利用现有AI工具低成本实现业务流程自动化，提升个人效能的实战案例。"
+    },
+    {
+      "title": "普通路由器变“透视眼”？WiFi穿墙识别人体姿态",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791639&idx=2&sn=4775c476f560eae9b1dc1dbe546f957b",
+      "source": "DeepTech深科技",
+      "score": 80,
+      "why": "为物联网开发者、健康科技公司及安防领域提供了全新的、低成本且隐私友好的环境感知技术路径。"
+    },
+    {
+      "title": "AI圈贩卖焦虑已经过于离谱了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5NzY2OTE2MQ==&mid=2652254340&idx=1&sn=5b65258743d67f49ff4d67ba103a27f1",
+      "source": "阑夕",
+      "score": 77,
+      "why": "为公众号作者、行业观察者及普通用户提供了对当前AI炒作热潮的批判性视角，呼吁理性看待技术工具与自身需求的匹配度。"
+    },
+    {
+      "title": "果蝇大脑被完整“上传”并驱动虚拟身体，全脑仿真进入具身时代",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791639&idx=1&sn=bb8e5f4f2a60f34974e2c6b08e8087fd",
+      "source": "DeepTech深科技",
+      "score": 73,
+      "why": "为神经科学家和AI研究人员提供了研究生物智能机理和开发新型具身智能体的强大仿真实验平台，具有重大科研价值。"
+    },
+    {
+      "title": "Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts",
+      "link": "https://www.lennysnewsletter.com/p/mastering-midjourney-how-to-create",
+      "source": "Lenny's Newsletter",
+      "score": 70,
+      "why": "为品牌设计师和内容创作者提供了一套可立即上手的、高效生成高质量且风格统一视觉资产的具体操作框架。"
+    },
+    {
+      "title": "AI“养龙虾”爆火！多家A股公司回应",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg5MzEyNzEwNQ==&mid=2247798392&idx=1&sn=9dd4749274d1b79a97e62ec1b007f34e",
+      "source": "财联社AI daily",
+      "score": 70,
+      "why": "对投资者而言，揭示了AI Agent领域的技术演进方向与潜在产业链投资逻辑，但需警惕概念炒作与实际业务增长之间的时间差。"
+    },
+    {
+      "title": "小龙虾是怎么养成的？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIwODA3MDUwOQ==&mid=2652775966&idx=1&sn=d36f6c8a90ceaa7d8fdec821dd443cb9",
+      "source": "张无常",
+      "score": 70,
+      "why": "对产品经理和创业者而言，揭示了AI Agent产品设计的一种差异化、高增长潜力的路径，即通过寄生/整合现有高流量生态而非独立创造新入口。"
+    }
+  ],
+  "neutral": [
+    {
+      "title": "The Relativity of Life",
+      "link": "https://www.thealgorithmicbridge.com/p/the-relativity-of-life",
+      "source": "The Algorithmic Bridge",
+      "score": 67,
+      "why": ""
+    },
+    {
+      "title": "陶哲轩用Claude Code解题，两度宕机，因为token不够用",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791639&idx=3&sn=484ad0626ff3f81430b2a61bb69c9bfc",
+      "source": "DeepTech深科技",
+      "score": 67,
+      "why": "对开发者和研究者而言，这是关于如何高效与AI代理协作、管理其执行成本与发散风险的宝贵实战案例。"
+    },
+    {
+      "title": "AI 下半场，LLM Benchmark 要补全什么？",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651020452&idx=2&sn=47cb8488376aa2b82bbd2a5fac7c2b9a",
+      "source": "机器之心",
+      "score": 67,
+      "why": "对AI从业者和投资者而言，意味着需要超越现有刷分榜单，从更本质和实用的能力维度去评估和选择大模型。"
+    },
+    {
+      "title": "第一个能在手机上跑的小龙虾来了，它的名字，叫miclaw。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680504&idx=1&sn=23393cf3d19dfd69a756aaa442467553",
+      "source": "数字生命卡兹克",
+      "score": 63,
+      "why": "对消费者和行业观察者而言，预示着AI Agent的竞争将从软件层蔓延至硬件与操作系统层，端侧智能体验可能迎来重大变革。"
+    },
+    {
+      "title": "林俊旸离职，阿里AI告别“英雄主义”",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzkyMTYwNzk2MA==&mid=2247516754&idx=1&sn=c5ea80cdd4ae1e87447d8530dc83719f",
+      "source": "智能相对论",
+      "score": 63,
+      "why": "对AI企业管理者和投资者而言，提示了在技术攻坚期后，组织能力、工程效率和商业化落地将成为衡量企业长期竞争力的关键。"
+    }
+  ],
   "overhyped": []
 }

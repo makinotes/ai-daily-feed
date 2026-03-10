@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-09",
+  "updated": "2026-03-10",
   "categories": {
     "AI/Tech": [
       {
@@ -64,6 +64,15 @@
         "verdict": "must_read",
         "pub_date": "2026-02-22",
         "why_matters": ""
+      },
+      {
+        "title": "ICLR2026 Oral | 北大彭一杰团队提出高效优化新范式，递归似然比梯度优化器赋能扩散模型后训练",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651020452&idx=3&sn=03867dc330326ea9435922490dc834f7",
+        "source": "机器之心",
+        "score": 93,
+        "verdict": "must_read",
+        "pub_date": "2026-03-09",
+        "why_matters": "为AI视觉生成领域的研究者与工程师提供了一种高效、稳定的扩散模型后训练方案，能加速模型在实际场景中的部署。"
       },
       {
         "title": "ICLR 2026 | 越推越快! 首个面向「Test-Time Scaling」的投机解码基准",
@@ -316,6 +325,15 @@
         "verdict": "must_read",
         "pub_date": "2026-02-08",
         "why_matters": ""
+      },
+      {
+        "title": "Anthropic 用一份报告，说透了 AI 时代的就业真相",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&mid=2247493441&idx=1&sn=f545ea6859d55197b140d163d862c8e0",
+        "source": "硅基观察Pro",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-09",
+        "why_matters": "为投资者、政策制定者和职场人提供了基于实证数据的AI就业影响分析，有助于理性规划职业路径与投资方向。"
       },
       {
         "title": "让你的 ClaudeCode 秒变 Openclaw（龙虾），连接飞书、Discord 远程控制",
@@ -687,15 +705,6 @@
         "why_matters": ""
       },
       {
-        "title": "用了两周OpenClaw后，决定今年不招人类员工了",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247501061&idx=1&sn=313eb32186afd04d4c12cedabe1b6321",
-        "source": "刘小排r",
-        "score": 83,
-        "verdict": "worth_reading",
-        "pub_date": "",
-        "why_matters": ""
-      },
-      {
         "title": "让Claude和Kimi接管真实系统，跑个实验差点把服务器干崩了",
         "link": "https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247718008&idx=1&sn=7fb65e64bd7565b688cd18aa82599504",
         "source": "PaperWeekly",
@@ -838,6 +847,24 @@
         "verdict": "worth_reading",
         "pub_date": "2026-02-09",
         "why_matters": ""
+      },
+      {
+        "title": "我花了3万块钱，养了8个AI员工，干了 5 个人的活！",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzI4NDk2NTU1NQ==&mid=2247492723&idx=1&sn=3a718d48d092e1c057137cf345bb9a90",
+        "source": "陈天AI实战笔记",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-09",
+        "why_matters": "为个体创业者、自由职业者及中小微企业主展示了如何利用现有AI工具低成本实现业务流程自动化，提升个人效能的实战案例。"
+      },
+      {
+        "title": "普通路由器变“透视眼”？WiFi穿墙识别人体姿态",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791639&idx=2&sn=4775c476f560eae9b1dc1dbe546f957b",
+        "source": "DeepTech深科技",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-09",
+        "why_matters": "为物联网开发者、健康科技公司及安防领域提供了全新的、低成本且隐私友好的环境感知技术路径。"
       },
       {
         "title": "Coding Agent 越过奇点，人类该怎么办？",
@@ -1092,15 +1119,6 @@
         "why_matters": ""
       },
       {
-        "title": "你知道吗？Claude Agent Teams 还可以这样玩！",
-        "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453480325&idx=2&sn=84bab6dc3e1d81a12935d516f5d2a99a",
-        "source": "AGI Hunt",
-        "score": 79,
-        "verdict": "worth_reading",
-        "pub_date": "2026-02-07",
-        "why_matters": ""
-      },
-      {
         "title": "深度｜Claude Code创造者：面向六个月后模型开发，而非当下模型；未来人人皆可开发软件，跨领域通才更具竞争力",
         "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514273&idx=1&sn=57ea11919d135872b452fe07e645c3fd",
         "source": "Z Potentials",
@@ -1234,6 +1252,15 @@
         "verdict": "worth_reading",
         "pub_date": "2026-02-08",
         "why_matters": ""
+      },
+      {
+        "title": "AI圈贩卖焦虑已经过于离谱了",
+        "link": "https://mp.weixin.qq.com/s?__biz=MjM5NzY2OTE2MQ==&mid=2652254340&idx=1&sn=5b65258743d67f49ff4d67ba103a27f1",
+        "source": "阑夕",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-09",
+        "why_matters": "为公众号作者、行业观察者及普通用户提供了对当前AI炒作热潮的批判性视角，呼吁理性看待技术工具与自身需求的匹配度。"
       },
       {
         "title": "浏览器已死？Tabbit 实测：AI 接管鼠标，人类负责修 bug｜AI 上新",
@@ -1553,6 +1580,15 @@
         "why_matters": "对安全研究者和政策制定者而言，这揭示了AI技术被滥用的新途径和防御的紧迫性。"
       },
       {
+        "title": "Production query plans without production data",
+        "link": "https://simonwillison.net/2026/Mar/9/production-query-plans-without-production-data/#atom-everything",
+        "source": "Simon Willison",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-09",
+        "why_matters": "对数据工程师和DBA而言，这能显著提升查询性能调试的效率和准确性，降低开发与生产环境差异带来的风险。"
+      },
+      {
         "title": "Google's new command-line tool can plug OpenClaw into your Workspace data",
         "link": "https://arstechnica.com/ai/2026/03/googles-new-command-line-tool-can-plug-openclaw-into-your-workspace-data/",
         "source": "Ars Technica AI",
@@ -1596,6 +1632,15 @@
         "verdict": "must_read",
         "pub_date": "2026-02-25",
         "why_matters": "对开发者和技术爱好者而言，这标志着AI助手向更深度、跨设备的系统控制能力演进。"
+      },
+      {
+        "title": "Perhaps not Boring Technology after all",
+        "link": "https://simonwillison.net/2026/Mar/9/not-so-boring/#atom-everything",
+        "source": "Simon Willison",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-09",
+        "why_matters": "对技术决策者而言，这意味着AI辅助编程不一定会将技术生态锁死在主流选项上，为新工具的创新和采用保留了空间。"
       },
       {
         "title": "[AINews] AI Engineer will be the LAST job",
@@ -1695,6 +1740,15 @@
         "verdict": "worth_reading",
         "pub_date": "2026-02-23",
         "why_matters": "对AI研究者和开发者而言，这意味着需要重新审视和选择更可靠、无缺陷的基准来评估大模型的代码生成能力，避免被过时或有问题的指标误导。"
+      },
+      {
+        "title": "🎙️ This week on How I AI: Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts",
+        "link": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-mastering-midjourney",
+        "source": "Lenny's Newsletter",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-09",
+        "why_matters": "对营销人员、设计师和品牌管理者而言，这提供了降低AI图像生成使用门槛、规模化产出高质量品牌资产的具体方法。"
       },
       {
         "title": "Codex for Open Source",
@@ -1841,6 +1895,26 @@
         "why_matters": ""
       }
     ],
+    "AI 观点": [
+      {
+        "title": "Claude Code, Claude Cowork and Codex #5",
+        "link": "https://thezvi.substack.com/p/claude-code-claude-cowork-and-codex",
+        "source": "Zvi Mowshowitz",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-09",
+        "why_matters": "对开发者而言，了解AI编码智能体的当前能力边界和实用场景，有助于更有效地将其集成到工作流中。"
+      },
+      {
+        "title": "A Tale of Three Contracts",
+        "link": "https://thezvi.substack.com/p/a-tale-of-three-contracts",
+        "source": "Zvi Mowshowitz",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-03",
+        "why_matters": "对投资者和行业观察者而言，这揭示了AI公司与政府合作的高度政治化和合同风险，可能影响公司生存和行业格局。"
+      }
+    ],
     "Builder 实践": [
       {
         "title": "Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines",
@@ -1951,17 +2025,6 @@
         "verdict": "worth_reading",
         "pub_date": "2026-03-05",
         "why_matters": "对普通用户和专业人士而言，这意味着与AI的协作变得更加直观、可控，能更高效地达成复杂目标。"
-      }
-    ],
-    "AI 观点": [
-      {
-        "title": "A Tale of Three Contracts",
-        "link": "https://thezvi.substack.com/p/a-tale-of-three-contracts",
-        "source": "Zvi Mowshowitz",
-        "score": 77,
-        "verdict": "worth_reading",
-        "pub_date": "2026-03-03",
-        "why_matters": "对投资者和行业观察者而言，这揭示了AI公司与政府合作的高度政治化和合同风险，可能影响公司生存和行业格局。"
       }
     ]
   }

@@ -1,14 +1,14 @@
 {
-  "updated": "2026-03-09",
+  "updated": "2026-03-10",
   "window": "7d",
-  "article_count": 119,
+  "article_count": 116,
   "trending": [
     {
       "keyword": "OpenClaw",
-      "count": 12
+      "count": 10
     },
     {
-      "keyword": "开源",
+      "keyword": "Claude",
       "count": 7
     },
     {
@@ -16,7 +16,7 @@
       "count": 7
     },
     {
-      "keyword": "Claude",
+      "keyword": "开源",
       "count": 6
     },
     {
@@ -28,7 +28,7 @@
       "count": 5
     },
     {
-      "keyword": "Agents",
+      "keyword": "Anthropic",
       "count": 4
     },
     {
@@ -36,19 +36,23 @@
       "count": 4
     },
     {
-      "keyword": "阿里",
-      "count": 4
+      "keyword": "without",
+      "count": 3
+    },
+    {
+      "keyword": "data",
+      "count": 3
+    },
+    {
+      "keyword": "Codex",
+      "count": 3
+    },
+    {
+      "keyword": "Agents",
+      "count": 3
     },
     {
       "keyword": "Openclaw",
-      "count": 3
-    },
-    {
-      "keyword": "Coding",
-      "count": 3
-    },
-    {
-      "keyword": "Anthropic",
       "count": 3
     },
     {
@@ -56,31 +60,27 @@
       "count": 3
     },
     {
-      "keyword": "Banana",
-      "count": 3
-    },
-    {
       "keyword": "Nano",
       "count": 3
     },
     {
-      "keyword": "Skills",
+      "keyword": "Banana",
       "count": 3
     },
     {
-      "keyword": "推理",
+      "keyword": "阿里",
       "count": 3
     },
     {
-      "keyword": "AINews",
+      "keyword": "训练",
       "count": 2
     },
     {
-      "keyword": "大模型",
+      "keyword": "create",
       "count": 2
     },
     {
-      "keyword": "AGI",
+      "keyword": "complex",
       "count": 2
     }
   ]
