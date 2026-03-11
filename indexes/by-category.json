@@ -214,6 +214,15 @@
         "why_matters": ""
       },
       {
+        "title": "不用花Anthropic API的钱，本地跑Qwen3.5就能用Claude Code",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158797&idx=1&sn=983be86fc629f9851c5dcf6725d735a0",
+        "source": "AI工程化",
+        "score": 93,
+        "verdict": "must_read",
+        "pub_date": "2026-03-11",
+        "why_matters": "对开发者意味着可以零成本、高隐私地在本地使用 Claude Code 的核心功能，尤其适合处理敏感代码项目。"
+      },
+      {
         "title": "ICLR2026 Oral | 北大彭一杰团队提出高效优化新范式，递归似然比梯度优化器赋能扩散模型后训练",
         "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651020452&idx=3&sn=03867dc330326ea9435922490dc834f7",
         "source": "机器之心",
@@ -482,6 +491,15 @@
         "verdict": "must_read",
         "pub_date": "2026-03-10",
         "why_matters": "为关注AI Agent生态和未来工作模式的开发者、投资者提供了一个观察Agent群体智能如何落地的具体实验案例。"
+      },
+      {
+        "title": "终于完成了！实测效率提升10倍，电商评论深度分析Skill已就位！",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA3MDA3NzI1Nw==&mid=2455087871&idx=1&sn=ea89dac9d45548785200dfc62a7430ca",
+        "source": "新西楼",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "",
+        "why_matters": "对电商从业者和数据PM意味着可以极低成本、高效率地自动化完成海量用户评论的深度分析，快速获取产品改进和营销洞察。"
       },
       {
         "title": "Anthropic 用一份报告，说透了 AI 时代的就业真相",
@@ -1015,6 +1033,15 @@
         "why_matters": "为所有关注AI Agent落地的观察者、潜在用户和投资者提供了必要的风险提示和冷静剂，避免被热潮裹挟。"
       },
       {
+        "title": "创业者正在围绕OpenClaw生态做什么产品？",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247501492&idx=1&sn=2a23582d44638538689bed0709e0332e",
+        "source": "刘小排r",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-09",
+        "why_matters": "对投资者和创业者意味着，在看似被大厂垄断的AI生态中，改善用户体验和提供“最后一公里”服务是可行的、有利可图的创业方向。"
+      },
+      {
         "title": "我花了3万块钱，养了8个AI员工，干了 5 个人的活！",
         "link": "https://mp.weixin.qq.com/s?__biz=MzI4NDk2NTU1NQ==&mid=2247492723&idx=1&sn=3a718d48d092e1c057137cf345bb9a90",
         "source": "陈天AI实战笔记",
@@ -1409,6 +1436,24 @@
         "verdict": "worth_reading",
         "pub_date": "2026-03-10",
         "why_matters": "为所有考虑引入OpenClaw的个人和公司提供了一份务实的成本效益分析清单，有助于做出理性决策。"
+      },
+      {
+        "title": "OpenClaw 和 Claude Code 的本质分歧",
+        "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODU1MzQzOQ==&mid=2451429020&idx=1&sn=01d5361c93a5c463ddcf431d956cb4f6",
+        "source": "AI产品黄叔",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-10",
+        "why_matters": "对AI产品经理和开发者意味着，在设计AI助手时需要从根本上明确其与用户的关系定位，这决定了产品的功能边界、交互设计和市场策略。"
+      },
+      {
+        "title": "细胞也有“年轮”？科学家造出可回溯生命历史的记忆体",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791662&idx=1&sn=6cf270ec696564595dd4fc0265348b8a",
+        "source": "DeepTech深科技",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-10",
+        "why_matters": "对生命科学研究者意味着拥有了一种强大的新工具，可以以前所未有的时空分辨率解析细胞在复杂组织环境中的动态历史，可能催生重大科学发现。"
       },
       {
         "title": "AI圈贩卖焦虑已经过于离谱了",
@@ -1906,6 +1951,15 @@
         "verdict": "worth_reading",
         "pub_date": "2026-03-10",
         "why_matters": "对于产品经理和创业者，在 AI 赋能生产的背景下，掌握精准的市场定位技能比以往任何时候都更为关键，这直接关系到产品能否在市场中脱颖而出。"
+      },
+      {
+        "title": "[AINews] Yann LeCun’s AMI Labs launches with a $1B seed @ $4.5B to build world models around JEPA",
+        "link": "https://www.latent.space/p/ainews-yann-lecuns-ami-labs-launches",
+        "source": "Latent Space",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-11",
+        "why_matters": "对投资者和AI从业者而言，这标志着巨额资本正涌入探索下一代AI基础架构（如世界模型）的初创公司，可能预示着AI研究重点从单纯的大语言模型向更接近通用智能的体系转移。"
       },
       {
         "title": "🎙️ This week on How I AI: Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts",

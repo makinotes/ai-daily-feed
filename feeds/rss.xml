@@ -23,6 +23,14 @@
   <source url="https://huggingface.co/blog/async-rl-training-landscape">Hugging Face Blog</source>
 </item>
 <item>
+  <title>不用花Anthropic API的钱，本地跑Qwen3.5就能用Claude Code</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158797&amp;idx=1&amp;sn=983be86fc629f9851c5dcf6725d735a0</link>
+  <description><![CDATA[详细教程：通过修改环境变量让Claude Code调用本地Qwen3.5模型，实现降本增效。<ul><li>通过修改环境变量即可将 Claude Code 无缝切换至本地模型后端</li><li>提供了基于 Qwen3.5 和 llama.cpp 的详细、可操作的本地部署步骤</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158797&amp;idx=1&amp;sn=983be86fc629f9851c5dcf6725d735a0">AI工程化</source>
+</item>
+<item>
   <title>不平衡数据下对比学习的理论分析：从训练动态到剪枝解决方案</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651020878&amp;idx=4&amp;sn=492fb7b6dc2618d35d581acdef45ec38</link>
   <description><![CDATA[针对不平衡数据下对比学习的深度理论分析，提出了基于幅值的剪枝解决方案。<ul><li>首次从理论层面系统刻画了数据不平衡对对比学习训练动态的影响。</li><li>提出了一种动态剪枝方法，能有效缓解不平衡带来的性能下降。</li></ul>]]></description>
@@ -37,6 +45,14 @@
   <category>AI/Tech</category>
   <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651020878&amp;idx=2&amp;sn=74a0750d4696301e37324368dc422aa8">机器之心</source>
+</item>
+<item>
+  <title>终于完成了！实测效率提升10倍，电商评论深度分析Skill已就位！</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA3MDA3NzI1Nw==&amp;mid=2455087871&amp;idx=1&amp;sn=ea89dac9d45548785200dfc62a7430ca</link>
+  <description><![CDATA[开源电商评论分析 Skill，基于 Claude Code 实现零成本、高效率的 22 维度深度打标与看板生成。<ul><li>将电商评论分析工作流升级为 Claude Code Skill，实现一键安装和使用</li><li>宣称运行效率提升10倍，并内置了可自动生成的专业报告看板</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA3MDA3NzI1Nw==&amp;mid=2455087871&amp;idx=1&amp;sn=ea89dac9d45548785200dfc62a7430ca">新西楼</source>
 </item>
 <item>
   <title>估值300亿美金的Cursor，怎么就过时了？</title>
@@ -95,12 +111,28 @@
   <source url="https://huggingface.co/blog/storage-buckets">Hugging Face Blog</source>
 </item>
 <item>
+  <title>[AINews] Yann LeCun’s AMI Labs launches with a $1B seed @ $4.5B to build world models around JEPA</title>
+  <link>https://www.latent.space/p/ainews-yann-lecuns-ami-labs-launches</link>
+  <description><![CDATA[Yann LeCun 创办 AMI Labs 的重磅消息及 JEPA 世界模型的技术路线解析。<ul><li>亮点1：AMI Labs 获得了10.3亿美元（约8.9亿欧元）的巨额种子轮融资，投前估值达35亿美元，被描述为有史以来最大的种子轮融资之一，尤其对欧洲公司而言。</li><li>亮点2：公司的核心使命是围绕 JEPA（联合嵌入预测架构）构建“世界模型”，旨在创建能够真正理解现实世界的智能系统，LeCun 和 CEO Alex Lebrun 均强调了这是一项长期科学探索。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://www.latent.space/p/ainews-yann-lecuns-ami-labs-launches">Latent Space</source>
+</item>
+<item>
   <title>全民装虾，一戳就破的AI幻觉</title>
   <link>https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656156842&amp;idx=1&amp;sn=614c04925b65f0c1083a93983627c985</link>
   <description><![CDATA[冷思考“龙虾热”，揭示OpenClaw在安全合规、Token消耗和调教成本方面的现实困境。<ul><li>以冷静的视角剖析了OpenClaw热潮背后的社会心理和行业乱象。</li><li>引用了权威安全机构的研究报告，有力支撑了其对安全风险的警告。</li></ul>]]></description>
   <category>AI/Tech</category>
   <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656156842&amp;idx=1&amp;sn=614c04925b65f0c1083a93983627c985">虎嗅</source>
+</item>
+<item>
+  <title>创业者正在围绕OpenClaw生态做什么产品？</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&amp;mid=2247501492&amp;idx=1&amp;sn=2a23582d44638538689bed0709e0332e</link>
+  <description><![CDATA[深度剖析 OpenClaw 的草根创业生态，列举了通过配置模板、一键部署、硬件预装等方式实现商业化的真实案例。<ul><li>基于真实收入数据，揭示了围绕 OpenClaw 生态已出现月收入数万美元的创业产品</li><li>总结出创业者主要从“配置模板化”、“部署服务化”、“硬件打包化”三个方向解决用户痛点</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&amp;mid=2247501492&amp;idx=1&amp;sn=2a23582d44638538689bed0709e0332e">刘小排r</source>
 </item>
 <item>
   <title>How Uber uses AI for development: inside look</title>
@@ -117,6 +149,22 @@
   <category>AI/Tech</category>
   <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656156938&amp;idx=2&amp;sn=c6bf039436b4f3f16d84690511eb481e">虎嗅</source>
+</item>
+<item>
+  <title>OpenClaw 和 Claude Code 的本质分歧</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MjM5ODU1MzQzOQ==&amp;mid=2451429020&amp;idx=1&amp;sn=01d5361c93a5c463ddcf431d956cb4f6</link>
+  <description><![CDATA[深度对比了 OpenClaw 与 Claude Code 的底层逻辑差异，提出了“人本位”与“AI 本位”的 Agent 演进范式。<ul><li>提出“人本位”与“AI本位”的核心范式差异，清晰区分了两类产品的设计哲学</li><li>指出环境（终端/聊天框）决定了产品的可及性和使用场景，进而影响用户群体</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MjM5ODU1MzQzOQ==&amp;mid=2451429020&amp;idx=1&amp;sn=01d5361c93a5c463ddcf431d956cb4f6">AI产品黄叔</source>
+</item>
+<item>
+  <title>细胞也有“年轮”？科学家造出可回溯生命历史的记忆体</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791662&amp;idx=1&amp;sn=6cf270ec696564595dd4fc0265348b8a</link>
+  <description><![CDATA[介绍 Nature 最新研究 GEMINI 技术，通过基因编码的蛋白自组装在细胞内构建“记忆体”，实现生命历史的回溯解析。<ul><li>创新性地将“时间信息”带回固定组织样本，实现了细胞历史的“录像式”回溯</li><li>在活体肿瘤模型中实现了全器官尺度的表达与记录，突破了以往工具的局限</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791662&amp;idx=1&amp;sn=6cf270ec696564595dd4fc0265348b8a">DeepTech深科技</source>
 </item>
 <item>
   <title>Improving instruction hierarchy in frontier LLMs</title>
@@ -143,12 +191,36 @@
   <source url="https://www.latent.space/p/ainews-autoresearch-sparks-of-recursive">Latent Space</source>
 </item>
 <item>
+  <title>Oracle Earnings, Oracle’s Cloud Growth, Oracle’s Software Defense</title>
+  <link>https://stratechery.com/2026/oracle-earnings-oracles-cloud-growth-oracles-software-defense/</link>
+  <description><![CDATA[Stratechery 对 Oracle 财报及其在 AI 浪潮中战略地位的深度商业分析。<ul><li>亮点1：甲骨文最新财报表现远超市场预期（“crushed earnings”）。</li><li>亮点2：其成功被归因于两个核心因素：一是抓住了行业性的AI发展浪潮，二是依靠了公司自身强大的市场地位和业务基础。</li></ul>]]></description>
+  <category>AI 产业</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://stratechery.com/2026/oracle-earnings-oracles-cloud-growth-oracles-software-defense/">Stratechery</source>
+</item>
+<item>
   <title>企业才是真正需要部署 OpenClaw 的</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&amp;mid=2247490747&amp;idx=1&amp;sn=c59bf6665000436f757464661a084f30</link>
   <description><![CDATA[论证企业级部署OpenClaw的必要性，并提供了功能隔离与集成的初步方案建议。<ul><li>明确区分了个人部署与企业部署的价值差异，指出后者才是OpenClaw的真正用武之地。</li><li>详细列举了10项企业级功能，为说服老板提供了具体论据。</li><li>提出了一套整合现有AI资产（DeepSeek, Dify, MCP）并赋能业务的具体操作路径。</li></ul>]]></description>
   <category>AI/Tech</category>
   <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&amp;mid=2247490747&amp;idx=1&amp;sn=c59bf6665000436f757464661a084f30">喜新</source>
+</item>
+<item>
+  <title>独家对话米磊：“面壁者”的12年，如何投出下一个智谱</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656157036&amp;idx=1&amp;sn=23e3800e3ceb7ba2f27807c5ca5bba6a</link>
+  <description><![CDATA[专访中科创星米磊，探讨硬科技投资的底层逻辑与AI赛道的判断框架。<ul><li>揭示了中科创星“在低谷时加仓”的反周期投资策略及其在智谱AI等案例上的成功实践</li><li>介绍了其通过系统化的“投资地图”和紧密的科学家社群来构建前沿技术判断力的方法论</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656157036&amp;idx=1&amp;sn=23e3800e3ceb7ba2f27807c5ca5bba6a">虎嗅</source>
+</item>
+<item>
+  <title>哪些Skill最好用？都自动整理在这份AI表格啦！</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkxMzUyODQ3OA==&amp;mid=2247490882&amp;idx=1&amp;sn=4773ced09b90939160505824cdef3175</link>
+  <description><![CDATA[介绍了利用 OpenClaw 结合钉钉 AI 表格自动搜集、分类并持续更新 AI Skill 的全流程自动化方案。<ul><li>展示了从指令到生成结构化表格的端到端自动化流程。</li><li>生成的表格支持筛选、查询和持续更新，具有长期复用价值。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkxMzUyODQ3OA==&amp;mid=2247490882&amp;idx=1&amp;sn=4773ced09b90939160505824cdef3175">AI产品银海</source>
 </item>
 <item>
   <title>AI should help us produce better code</title>
@@ -189,6 +261,22 @@
   <category>AI/Tech</category>
   <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656156938&amp;idx=4&amp;sn=cb881c25fdcd47360e723d81993e99c2">虎嗅</source>
+</item>
+<item>
+  <title>海平面比想象涨得还要高：研究揭露学界20年致命误差，千万三角洲居民风险被严重低估</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791662&amp;idx=2&amp;sn=ff73ce2c3726bbe1ecb70ba5a778db63</link>
+  <description><![CDATA[揭露过去 20 年沿海灾害评估中关于海平面基准面（MDT）的系统性误差，指出千万居民风险被低估。<ul><li>揭示了气候风险评估中一个长期被忽视的基础性技术误差。</li><li>误差的普遍性极高（99%以上研究存在），影响范围巨大。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649791662&amp;idx=2&amp;sn=ff73ce2c3726bbe1ecb70ba5a778db63">DeepTech深科技</source>
+</item>
+<item>
+  <title>小米做了个能在手机上跑的"小龙虾 (Openclaw)"：Agent 终于能接触现实世界</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&amp;mid=2247496025&amp;idx=1&amp;sn=ed83d552854eb4e1dc59e8ad85bd2f42</link>
+  <description><![CDATA[小米推出手机端类 OpenClaw 智能体 Xiaomi miclaw，通过米家生态实现 Agent 对现实物理世界的感知与控制。<ul><li>展示了AI通过手机和智能家居设备实现环境感知与控制的实际案例。</li><li>强调了庞大的设备生态是AI变得更‘聪明’和价值更高的关键。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&amp;mid=2247496025&amp;idx=1&amp;sn=ed83d552854eb4e1dc59e8ad85bd2f42">歸藏的AI工具箱</source>
 </item>
 <item>
   <title>ICLR2026 Oral | 北大彭一杰团队提出高效优化新范式，递归似然比梯度优化器赋能扩散模型后训练</title>
@@ -317,94 +405,6 @@
   <category>AI/Tech</category>
   <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;mid=2247732009&amp;idx=2&amp;sn=270d9f06707798dd3f8ed50034821371">AI科技评论</source>
-</item>
-<item>
-  <title>Atom Capital：OpenClaw带来了哪些机会，窗口期还有多久？</title>
-  <link>https://mp.weixin.qq.com/s?__biz=Mzg5NDc5NDkzMA==&amp;mid=2247484360&amp;idx=1&amp;sn=b6d4d88198756db077b5951a472fc5e1</link>
-  <description><![CDATA[从 VC 视角深度剖析 OpenClaw 爆火背后的 Agent 安全挑战、竞争胜负手与行业新架构机会。<ul><li>指出Agent能力与安全是内生冲突，非权衡关系</li><li>预测竞争核心将转向安全架构创新而非功能叠加</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=Mzg5NDc5NDkzMA==&amp;mid=2247484360&amp;idx=1&amp;sn=b6d4d88198756db077b5951a472fc5e1">Atom Capital</source>
-</item>
-<item>
-  <title>让你的 ClaudeCode 秒变 Openclaw（龙虾），连接飞书、Discord 远程控制</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&amp;mid=2247495994&amp;idx=1&amp;sn=f94ed7ee25976b39e5b89e6cab681b92</link>
-  <description><![CDATA[介绍了将 Claude Code 远程连接至飞书/Discord 的开源工具及配置指南。<ul><li>开源即用Skill，实现Claude Code与主流IM的远程连接</li><li>强调交互式配置和权限控制，提升易用性与安全性</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&amp;mid=2247495994&amp;idx=1&amp;sn=f94ed7ee25976b39e5b89e6cab681b92">歸藏的AI工具箱</source>
-</item>
-<item>
-  <title>用OpenClaw自动做了个公众号排版工具，开源</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&amp;mid=2247501307&amp;idx=1&amp;sn=d92279dc19df3e7c548aa58e78525421</link>
-  <description><![CDATA[作者分享了使用多模型协作（小龙虾/OpenClaw）开发并开源一款公众号排版工具的过程及核心功能实现方案。<ul><li>全程使用AI Agent协同开发完整可用的生产工具</li><li>工具功能针对公众号排版痛点（如图片外链、多端预览）做了优化</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&amp;mid=2247501307&amp;idx=1&amp;sn=d92279dc19df3e7c548aa58e78525421">刘小排r</source>
-</item>
-<item>
-  <title>[AINews] AI Engineer will be the LAST job</title>
-  <link>https://www.latent.space/p/ainews-ai-engineer-will-be-the-last</link>
-  <description><![CDATA[深入分析 AI 时代软件工程师职位的演变，提出 AI Engineer 将是最后一份工作的论点。<ul><li>亮点1：OpenAI和Anthropic认为AI可以完成约70%的白领工作，但Citadel的数据显示软件工程师的招聘数量反而在反弹。</li><li>亮点2：作者预测“AI工程师将是最后一份工作”，并认为用杰文斯悖论来解释这一现象是低估了其背后的因果和规模。</li><li>亮点3：Anthropic的报告显示，软件工程已占Claude模型用例的50%以上，作者以此质疑读者是否应该专注于其他用例。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.latent.space/p/ainews-ai-engineer-will-be-the-last">Latent Space</source>
-</item>
-<item>
-  <title>北大王选所彭宇新团队：让多模态大模型学会「看懂物种关系」丨CVPR 2026</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;mid=2247732029&amp;idx=1&amp;sn=3aef5a4eab981ee59aa6dc39fff7de85</link>
-  <description><![CDATA[北大彭宇新团队提出 TARA 方法，通过分类学知识对齐提升多模态模型的层级识别能力。<ul><li>提出知识-表征对齐框架TARA，提升层级识别一致性</li><li>在已知和未知类别识别任务上均验证了有效性</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;mid=2247732029&amp;idx=1&amp;sn=3aef5a4eab981ee59aa6dc39fff7de85">AI科技评论</source>
-</item>
-<item>
-  <title>压缩即智能，左脚踩右脚，就是通往 AGI 之路</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&amp;mid=2247489164&amp;idx=1&amp;sn=b37ecb188bdd1e5e3953e8c1b96f748c</link>
-  <description><![CDATA[基于学术论文探讨‘压缩即智能’及 Epiplexity 概念，深度剖析 AI 突破数据墙、实现 AGI 的底层逻辑。<ul><li>提出“智能是算力不足的产物”这一颠覆性观点</li><li>引入Epiplexity概念，强调信息的结构性而非数据量</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&amp;mid=2247489164&amp;idx=1&amp;sn=b37ecb188bdd1e5e3953e8c1b96f748c">有机大橘子</source>
-</item>
-<item>
-  <title>Claude Code + 开源工具的暴力工作流，下次直接躺赢</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&amp;mid=2247615230&amp;idx=1&amp;sn=6e59cf84e44bc315f1c26f1edce9092d</link>
-  <description><![CDATA[分享了利用 Claude Code 结合开源翻译项目高效完成大体量书籍翻译的工作流，提倡“先搜后做”的工程思维。<ul><li>处理AI任务前，先花10分钟搜索开源社区，避免重复造轮子。</li><li>将Claude Code（大脑）与LinguaGacha（双手）结合，构建高效翻译流水线。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIwNzc2NTk0NQ==&amp;mid=2247615230&amp;idx=1&amp;sn=6e59cf84e44bc315f1c26f1edce9092d">夕小瑶科技说</source>
-</item>
-<item>
-  <title>用OpenClaw搭跨境电商团队：5个AI员工，跑通全平台矩阵！</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MjM5NDI4MTY3NA==&amp;mid=2257498997&amp;idx=1&amp;sn=338966fe80824578f4f4efa77414bafc</link>
-  <description><![CDATA[详细分享了使用OpenClaw构建多Agent团队在跨境电商场景落地的架构设计与飞书配置实操指南。<ul><li>用OpenClaw搭建5个AI Agent组成的自动化跨境运营团队。</li><li>采用“异步状态机”逻辑，实现多Agent的流水线式协作。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Sun, 08 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MjM5NDI4MTY3NA==&amp;mid=2257498997&amp;idx=1&amp;sn=338966fe80824578f4f4efa77414bafc">饼干哥哥AGI</source>
-</item>
-<item>
-  <title>Codex for Open Source</title>
-  <link>https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything</link>
-  <description><![CDATA[OpenAI 推出针对开源维护者的 Codex 免费计划，回应 Anthropic 的类似举措。<ul><li>亮点1：OpenAI为热门开源项目的核心维护者提供6个月免费ChatGPT Pro（含Codex和条件性访问Codex Security）。</li><li>亮点2：此举效仿了Anthropic在2月27日为高星标或高下载量开源项目维护者提供免费Claude Max服务的做法。</li><li>亮点3：OpenAI的申请表单要求提供项目影响力的信息，如GitHub星标、月度下载量或项目对生态的重要性。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://simonwillison.net/2026/Mar/7/codex-for-open-source/#atom-everything">Simon Willison</source>
-</item>
-<item>
-  <title>Coding Agent 越过奇点，人类该怎么办？</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&amp;mid=2247489176&amp;idx=1&amp;sn=a3a1500d775f249c7235375dcc90b24b</link>
-  <description><![CDATA[探讨 Coding Agent 跨越奇点后，软件供给爆炸导致注意力成为唯一稀缺资源的思考。<ul><li>Coding Agent能力越过奇点，导致软件供给爆炸，“做出来”不值钱了。</li><li>竞争焦点从“生产能力”转向“注意力”和“判断力”。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Sat, 07 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzkwMzY5NzU2Nw==&amp;mid=2247489176&amp;idx=1&amp;sn=a3a1500d775f249c7235375dcc90b24b">有机大橘子</source>
-</item>
-<item>
-  <title>全球OpenClaw用量第一的模型，竟然是中国的？（附实测）</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzkwMzE4NjU5NA==&amp;mid=2247515065&amp;idx=1&amp;sn=761f9b2e534fa5ccea9124f9b4b75ae5</link>
-  <description><![CDATA[分析并实测了国产模型 MiniMax M2.5 在全球 AI 开发者社区（OpenRouter/OpenClaw）中用量领先的现象及其性能优势。<ul><li>国产MiniMax M2.5模型成为OpenClaw和OpenRouter全球用量第一。</li><li>该模型在编程等生产力任务上达到SOTA，且速度成本优势明显。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzkwMzE4NjU5NA==&amp;mid=2247515065&amp;idx=1&amp;sn=761f9b2e534fa5ccea9124f9b4b75ae5">袋鼠帝AI客栈</source>
 </item>
 </channel>
 </rss>
