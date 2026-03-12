@@ -1,22 +1,38 @@
 {
   "updated": "2026-03-12",
   "window": "7d",
-  "article_count": 136,
+  "article_count": 214,
   "trending": [
     {
       "keyword": "OpenClaw",
-      "count": 12
-    },
-    {
-      "keyword": "Agent",
-      "count": 8
-    },
-    {
-      "keyword": "GPT",
-      "count": 8
+      "count": 25
     },
     {
       "keyword": "Claude",
+      "count": 12
+    },
+    {
+      "keyword": "GPT",
+      "count": 10
+    },
+    {
+      "keyword": "Agent",
+      "count": 10
+    },
+    {
+      "keyword": "开源",
+      "count": 9
+    },
+    {
+      "keyword": "OpenAI",
+      "count": 7
+    },
+    {
+      "keyword": "腾讯",
+      "count": 7
+    },
+    {
+      "keyword": "Anthropic",
       "count": 7
     },
     {
@@ -24,19 +40,39 @@
       "count": 6
     },
     {
-      "keyword": "Anthropic",
+      "keyword": "Codex",
       "count": 6
     },
     {
-      "keyword": "开源",
+      "keyword": "大模型",
       "count": 5
     },
     {
-      "keyword": "OpenAI",
+      "keyword": "code",
       "count": 5
     },
     {
-      "keyword": "Codex",
+      "keyword": "阿里",
+      "count": 5
+    },
+    {
+      "keyword": "Openclaw",
+      "count": 5
+    },
+    {
+      "keyword": "智能体",
+      "count": 4
+    },
+    {
+      "keyword": "Skill",
+      "count": 4
+    },
+    {
+      "keyword": "多模态",
+      "count": 4
+    },
+    {
+      "keyword": "Coding",
       "count": 4
     },
     {
@@ -44,43 +80,7 @@
       "count": 4
     },
     {
-      "keyword": "Openclaw",
-      "count": 4
-    },
-    {
-      "keyword": "Agents",
-      "count": 3
-    },
-    {
-      "keyword": "agents",
-      "count": 3
-    },
-    {
-      "keyword": "open",
-      "count": 3
-    },
-    {
-      "keyword": "source",
-      "count": 3
-    },
-    {
-      "keyword": "训练",
-      "count": 3
-    },
-    {
-      "keyword": "Coding",
-      "count": 3
-    },
-    {
-      "keyword": "Skill",
-      "count": 3
-    },
-    {
-      "keyword": "code",
-      "count": 3
-    },
-    {
-      "keyword": "without",
+      "keyword": "API",
       "count": 3
     }
   ]
