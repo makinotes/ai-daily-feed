@@ -1,30 +1,26 @@
 {
-  "updated": "2026-03-12",
+  "updated": "2026-03-13",
   "window": "7d",
-  "article_count": 214,
+  "article_count": 204,
   "trending": [
     {
       "keyword": "OpenClaw",
-      "count": 25
+      "count": 26
     },
     {
       "keyword": "Claude",
       "count": 12
     },
     {
+      "keyword": "开源",
+      "count": 8
+    },
+    {
       "keyword": "GPT",
-      "count": 10
+      "count": 7
     },
     {
       "keyword": "Agent",
-      "count": 10
-    },
-    {
-      "keyword": "开源",
-      "count": 9
-    },
-    {
-      "keyword": "OpenAI",
       "count": 7
     },
     {
@@ -33,26 +29,30 @@
     },
     {
       "keyword": "Anthropic",
-      "count": 7
+      "count": 6
+    },
+    {
+      "keyword": "大模型",
+      "count": 6
     },
     {
       "keyword": "Code",
       "count": 6
     },
     {
+      "keyword": "多模态",
+      "count": 5
+    },
+    {
+      "keyword": "OpenAI",
+      "count": 5
+    },
+    {
+      "keyword": "Coding",
+      "count": 5
+    },
+    {
       "keyword": "Codex",
-      "count": 6
-    },
-    {
-      "keyword": "大模型",
-      "count": 5
-    },
-    {
-      "keyword": "code",
-      "count": 5
-    },
-    {
-      "keyword": "阿里",
       "count": 5
     },
     {
@@ -60,7 +60,19 @@
       "count": 5
     },
     {
-      "keyword": "智能体",
+      "keyword": "Agents",
+      "count": 4
+    },
+    {
+      "keyword": "CVPR",
+      "count": 4
+    },
+    {
+      "keyword": "谷歌",
+      "count": 4
+    },
+    {
+      "keyword": "字节",
       "count": 4
     },
     {
@@ -68,20 +80,8 @@
       "count": 4
     },
     {
-      "keyword": "多模态",
+      "keyword": "code",
       "count": 4
-    },
-    {
-      "keyword": "Coding",
-      "count": 4
-    },
-    {
-      "keyword": "AINews",
-      "count": 4
-    },
-    {
-      "keyword": "API",
-      "count": 3
     }
   ]
 }
