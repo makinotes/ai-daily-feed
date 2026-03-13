@@ -1,34 +1,38 @@
 {
   "updated": "2026-03-13",
   "window": "7d",
-  "article_count": 204,
+  "article_count": 219,
   "trending": [
     {
       "keyword": "OpenClaw",
-      "count": 26
+      "count": 28
     },
     {
       "keyword": "Claude",
-      "count": 12
+      "count": 13
+    },
+    {
+      "keyword": "Agent",
+      "count": 9
+    },
+    {
+      "keyword": "腾讯",
+      "count": 8
     },
     {
       "keyword": "开源",
       "count": 8
     },
     {
+      "keyword": "Anthropic",
+      "count": 7
+    },
+    {
       "keyword": "GPT",
       "count": 7
     },
     {
-      "keyword": "Agent",
-      "count": 7
-    },
-    {
-      "keyword": "腾讯",
-      "count": 7
-    },
-    {
-      "keyword": "Anthropic",
+      "keyword": "多模态",
       "count": 6
     },
     {
@@ -36,11 +40,23 @@
       "count": 6
     },
     {
+      "keyword": "Openclaw",
+      "count": 6
+    },
+    {
       "keyword": "Code",
       "count": 6
     },
     {
-      "keyword": "多模态",
+      "keyword": "训练",
+      "count": 5
+    },
+    {
+      "keyword": "Skill",
+      "count": 5
+    },
+    {
+      "keyword": "谷歌",
       "count": 5
     },
     {
@@ -56,31 +72,15 @@
       "count": 5
     },
     {
-      "keyword": "Openclaw",
-      "count": 5
-    },
-    {
       "keyword": "Agents",
       "count": 4
     },
     {
+      "keyword": "智能体",
+      "count": 4
+    },
+    {
       "keyword": "CVPR",
-      "count": 4
-    },
-    {
-      "keyword": "谷歌",
-      "count": 4
-    },
-    {
-      "keyword": "字节",
-      "count": 4
-    },
-    {
-      "keyword": "Skill",
-      "count": 4
-    },
-    {
-      "keyword": "code",
       "count": 4
     }
   ]

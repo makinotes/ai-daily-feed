@@ -2,6 +2,34 @@
   "date": "2026-03-13",
   "must_read": [
     {
+      "title": "Meta 删邮件事故背后，OpenClaw 为什么会“失忆”？代码库维护者拆解记忆架构",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278059&idx=1&sn=1ac806426cea58f14f1e8da1b71bee1b",
+      "source": "InfoQ",
+      "score": 100,
+      "why": "对AI开发者/使用者而言，理解智能体记忆架构的脆弱性是避免其失控、造成实际损失的关键。"
+    },
+    {
+      "title": "Build an Agent That Thinks Like a Data Scientist: How We Hit #1 on DABStep with Reusable Tool Generation",
+      "link": "https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place",
+      "source": "Hugging Face Blog",
+      "score": 93,
+      "why": "对数据科学家和AI开发者而言，这展示了构建更智能、更自主的数据分析助手的新方向，可能改变人机协作处理数据的工作模式。"
+    },
+    {
+      "title": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
+      "link": "https://simonwillison.net/2026/Mar/13/liquid/#atom-everything",
+      "source": "Simon Willison",
+      "score": 93,
+      "why": "对于开发者而言，这展示了利用自动化实验和系统性微优化方法，即使在成熟项目中也能挖掘巨大性能潜力的可能性。"
+    },
+    {
+      "title": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247658581&idx=1&sn=5bb3721d3a180eab12ff1b65b67b73d5",
+      "source": "AI前线",
+      "score": 93,
+      "why": "对AI投资者和创业者而言，这表明基础设施和工程平台（如可观测性、部署工具）是比追逐尖端模型更具确定性的投资和创业方向。"
+    },
+    {
       "title": "Retrieval After RAG: Hybrid Search, Agents, and Database Design — Simon Hørup Eskildsen of Turbopuffer",
       "link": "https://www.latent.space/p/turbopuffer",
       "source": "Latent Space",
@@ -21,6 +49,41 @@
       "source": "夕小瑶科技说",
       "score": 87,
       "why": "展示了AI自我改进的可行性与效率，预示着未来AI研发可能进入由AI主导自动迭代的新范式。"
+    },
+    {
+      "title": "被AI夺走工作的白领们，正在被雇来训练AI夺走更多工作",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791978&idx=3&sn=c23709271ad1cdf360043fb1de505210",
+      "source": "DeepTech深科技",
+      "score": 87,
+      "why": "对所有职场人士而言，这警示了AI对知识工作的侵蚀不仅是替代，还可能重构职业价值链，将部分专业能力降维成数据标注任务。"
+    },
+    {
+      "title": "有效思考激发多模态智能体决策潜力！清华&北大&腾讯联合提出GTR训练新框架",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021367&idx=3&sn=b7b35b16e17903e153208b3dbe638c74",
+      "source": "机器之心",
+      "score": 87,
+      "why": "对AI研究员和工程师而言，这表明优化智能体的“思考过程”而非仅关注最终输出，是提升其复杂任务决策能力的关键。"
+    },
+    {
+      "title": "所有用OpenClaw的朋友，我都劝你先装上这个能保命的Skill。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680584&idx=1&sn=e855a0f04661660b215c0fc9b3bab55d",
+      "source": "数字生命卡兹克",
+      "score": 87,
+      "why": "对任何智能体用户和开发者而言，这是防止智能体被恶意插件控制、执行危险操作的最低成本且必备的安全防护。"
+    },
+    {
+      "title": "2秒终结AI 3D不可能三角，我们和VAST首席科学家曹炎培聊了聊",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021287&idx=1&sn=3ca66cd1501888b3aee50055a269c1b1",
+      "source": "机器之心",
+      "score": 87,
+      "why": "对3D内容创作者、游戏开发者和投资者而言，这标志着AI 3D生成从“玩具”迈向“生产工具”的关键转折点，将释放巨大的内容生产力。"
+    },
+    {
+      "title": "不用排长龙！JiuwenClaw助你一键养龙虾！",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021287&idx=2&sn=4b1b78f7116a4ec8c049dafb1e836f8f",
+      "source": "机器之心",
+      "score": 87,
+      "why": "对开发者而言，这提供了一个易于上手且具备自主演进潜力的开源智能体框架，可用于探索更灵活的AI任务编排方案。"
     }
   ],
   "worth_reading": [
@@ -60,6 +123,13 @@
       "why": "提供了将AI智能体能力落地的标准化方法，是构建实用、高效行业AI应用的关键技术文档。"
     },
     {
+      "title": "“传统设计流程已死”！IDE成Claude设计负责人新宠：Anthropic人人写代码，最不怕Bug",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278170&idx=2&sn=0787d2d40d2523722c8ffab8d6ff5dd5",
+      "source": "InfoQ",
+      "score": 80,
+      "why": "对设计师和设计团队管理者而言，这意味着必须重新定义设计岗位的核心技能和招聘标准，以适应AI驱动的产品开发模式。"
+    },
+    {
       "title": "叫板OpenClaw，一款主动找活干的agent原生硬件即将发售",
       "link": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248881412&idx=2&sn=e911e2caec3ad4a77227c63099113abf",
       "source": "36氪",
@@ -79,6 +149,13 @@
       "source": "追问nextquestion",
       "score": 77,
       "why": "对科研人员和科技投资者而言，这标志着AI正从辅助工具演变为驱动科学发现的引擎，在生物医学等基础科学领域价值巨大。"
+    },
+    {
+      "title": "D2：Openclaw的安全本质：人工智能木马。请停止不负责任的宣传！",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5OTQ2MTk2MQ==&mid=2247490391&idx=2&sn=a84e3994716c5f41c3b47d7ee2c90f7b",
+      "source": "饭後服用AfterHours",
+      "score": 77,
+      "why": "对任何考虑部署AI智能体的个人或企业而言，这是一份至关重要的安全风险警示，强调了在追求效率时必须优先评估安全底线。"
     },
     {
       "title": "最高涨100%！光纤光缆招标价加速上行",
@@ -107,6 +184,20 @@
       "source": "追问nextquestion",
       "score": 73,
       "why": "对AI研究者和产品经理而言，理解提示词设计的“度”是构建有效、可信的生成式智能体模型（如社会模拟、游戏NPC）的关键前提。"
+    },
+    {
+      "title": "日本率先破局，中国力量并跑：iPSC疗法获批，“现货时代”细胞治疗产业来临",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791978&idx=1&sn=7eb678e07cbc3b816fece9a639ccca80",
+      "source": "DeepTech深科技",
+      "score": 73,
+      "why": "对生物科技投资者和产业观察者而言，这标志着细胞治疗领域一个关键商业化节点的到来，可能重塑全球竞争格局。"
+    },
+    {
+      "title": "这年头学不会数理化，只能怪自己懒，谷歌NotebookLM上新，秒出科普视频",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021367&idx=2&sn=08e63953264aa59b4e919e3de9a62465",
+      "source": "机器之心",
+      "score": 73,
+      "why": "对教育工作者、内容创作者和终身学习者而言，这提供了一个强大的知识可视化与传播工具，可能颠覆传统的内容生产和学习模式。"
     },
     {
       "title": "Coding After Coders: The End of Computer Programming as We Know It",
@@ -156,6 +247,20 @@
       "source": "晚点LatePost",
       "score": 70,
       "why": "对消费品投资者和战略分析师而言，这展示了在存量竞争市场中，通过商业模式创新（如B2B代工）突破渠道封锁、实现增长的有效路径。"
+    },
+    {
+      "title": "我用“龙虾”搭的梦幻11人和做的十件事，尤其是第十件",
+      "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656157454&idx=1&sn=316cf99d21e3213492771d697b7ecdce",
+      "source": "虎嗅",
+      "score": 70,
+      "why": "对AI产品经理和早期使用者而言，这澄清了智能体（Agent）类产品的核心使用范式——从“使用工具”转向“定义和塑造工具”。"
+    },
+    {
+      "title": "美伊战争的走向",
+      "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656157454&idx=3&sn=539553295e1d858928e0f19ce507fe1f",
+      "source": "虎嗅",
+      "score": 70,
+      "why": "对投资者和地缘政治观察者而言，理解冲突背后的非传统战略逻辑（“可控混乱”）比关注具体战事更重要。"
     }
   ],
   "neutral": [
@@ -202,6 +307,13 @@
       "why": "对投资者和机器人领域从业者而言，这标志着具身智能的基础设施赛道已经成熟并出现头部玩家，数据与仿真能力成为该领域新的竞争壁垒。"
     },
     {
+      "title": "OpenClaw凉了？不，是你没有工作流",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODU1MzQzOQ==&mid=2451429044&idx=1&sn=06fca4d6098c26c13223a3d737fe4ed3",
+      "source": "AI产品黄叔",
+      "score": 67,
+      "why": "对AI产品经理而言，这是关于工具“大众化”失败和“用户预期管理”的经典案例，说明降低使用门槛与提供清晰价值同样重要。"
+    },
+    {
       "title": "这个30年无败绩的传奇投资人，清仓了所有AI股票",
       "link": "https://mp.weixin.qq.com/s?__biz=MzkyNTY1MjE2OA==&mid=2247493457&idx=1&sn=56c147db17a95bfb344277e06bf874b5",
       "source": "硅基观察Pro",
@@ -244,6 +356,34 @@
       "why": "标志着计算模型在生命科学中已达到能精准模拟微观生命过程的水平，同时脑组织冷冻复苏技术具有巨大的基础研究和医学应用潜力。"
     },
     {
+      "title": "猫咪坠落时为何总是四脚着地？困扰物理学家300年的问题终于有了答案",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791978&idx=2&sn=eefd4829782596da34de1b1b25be00cf",
+      "source": "DeepTech深科技",
+      "score": 63,
+      "why": "对科普作者和科学爱好者而言，这是一个融合了物理学原理、生物学适应性和科学史故事的绝佳题材。"
+    },
+    {
+      "title": "OpenClaw 之父惊叹中国速度！大厂集体杀入新战场：用AI 批量制造“一人公司”",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278170&idx=1&sn=76d8b0c9f1207395dc821c3315ac2f34",
+      "source": "InfoQ",
+      "score": 63,
+      "why": "对投资者和创业者而言，这预示着一个由无数微型、敏捷的“一人公司”构成的新创业生态正在形成。"
+    },
+    {
+      "title": "近期，看到最惊喜的养龙虾工具(OpenClaw)~",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247505009&idx=1&sn=ec269096d4bf5aeaae18665ae2f37df8",
+      "source": "PaperAgent",
+      "score": 63,
+      "why": "对AI工具开发者和推广者而言，这展示了通过构建“安装器”或“管理平台”来攻克工具“最后一公里”普及难题的有效路径。"
+    },
+    {
+      "title": "想安全简洁的养虾吗? 选择JVS Claw吧",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&mid=2247497792&idx=1&sn=8452dd7e6fca0b5ea01a2054727efc6c",
+      "source": "zartbot",
+      "score": 63,
+      "why": "对AI产品经理和云服务商而言，将开源AI工具进行云端服务化封装，是一个清晰的产品化和商业化方向。"
+    },
+    {
       "title": "Perplexity's \"Personal Computer\" brings its AI agents to the, uh, Personal Computer",
       "link": "https://arstechnica.com/ai/2026/03/perplexitys-personal-computer-brings-its-ai-agents-to-the-uh-personal-computer/",
       "source": "Ars Technica AI",
@@ -270,6 +410,20 @@
       "source": "AI科技评论",
       "score": 60,
       "why": "对创业者/投资者意味着，AI Agent可能催生全新的商业模式和投资机会，其生态构建是下一阶段的关键。"
+    },
+    {
+      "title": "首款侵入式脑机接口医疗器械，获批上市",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg5MzEyNzEwNQ==&mid=2247799349&idx=1&sn=3d0912e4929c4999e591b328032862af",
+      "source": "财联社AI daily",
+      "score": 60,
+      "why": "对投资者和医疗科技从业者而言，这标志着脑机接口技术从实验室走向商业化应用的关键一步，开辟了新的市场赛道。"
+    },
+    {
+      "title": "全球最小电缸诞生：原法雷奥团队创业、上汽等投资超亿元｜早起看早期",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248881413&idx=4&sn=9e0b8f38f45a9c505cbb482a9d996366",
+      "source": "36氪",
+      "score": 60,
+      "why": "对机器人及精密制造领域的投资者和产品经理而言，这展示了核心零部件微型化与降本的关键突破，是推动人形机器人灵巧手商业化的重要基石。"
     }
   ],
   "overhyped": []

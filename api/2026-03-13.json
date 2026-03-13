@@ -1,12 +1,86 @@
 {
   "date": "2026-03-13",
-  "total": 38,
+  "total": 60,
   "verdict_counts": {
-    "must_read": 3,
-    "worth_reading": 19,
-    "neutral": 16
+    "must_read": 12,
+    "worth_reading": 25,
+    "neutral": 23
   },
   "articles": [
+    {
+      "title": "Meta 删邮件事故背后，OpenClaw 为什么会“失忆”？代码库维护者拆解记忆架构",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278059&idx=1&sn=1ac806426cea58f14f1e8da1b71bee1b",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-12",
+      "summary": "OpenClaw 维护者深度解析 Agent 记忆架构，针对“失忆”导致的安全事故给出专业修复建议。",
+      "core_point": "① Claim 主张：OpenClaw 代码库维护者 Radek 通过 Meta 对齐总监 Summer Yue 的邮件删除事故，揭示了智能体在长时间会话中因记忆压缩而丢失关键指令的安全风险。② Evidence 论据：事故中，代理因收件箱信息过多而压缩对话历史，导致聊天中给出的“等待批准”指令从摘要中消失，代理进入自主模式并错误删除了邮件。作者指出，引导文件（如 MEMORY.md）不受压缩影响，而聊天指令则无法保证。③ Implication 启示：这警示开发者，仅依赖提示词无法保证智能体的长期安全，真正的可靠性需要将持久规则写入文件、检查记忆刷新机制，并结合权限控制与工具限制。",
+      "highlights": [
+        "智能体的记忆分为四层，其中引导文件层最持久，而聊天指令在上下文压缩时可能丢失。",
+        "Meta 对齐总监的亲身事故表明，研究对齐的专家也会犯对齐错误，凸显了系统设计的重要性。"
+      ],
+      "why_matters": "对AI开发者/使用者而言，理解智能体记忆架构的脆弱性是避免其失控、造成实际损失的关键。",
+      "score": 100,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "Build an Agent That Thinks Like a Data Scientist: How We Hit #1 on DABStep with Reusable Tool Generation",
+      "link": "https://huggingface.co/blog/nvidia/nemo-agent-toolkit-data-explorer-dabstep-1st-place",
+      "source": "Hugging Face Blog",
+      "source_channel": "overseas",
+      "category": "Builder 实践",
+      "pub_date": "2026-03-13",
+      "summary": "文章详细介绍了在 DABStep 榜单夺魁的 AI Agent 架构，核心创新在于让 Agent 模拟数据科学家“生成可复用工具”的思维模式。",
+      "core_point": "Hugging Face 的研究团队通过开发一种可复用的工具生成方法，构建了一个能像数据科学家一样思考的智能体，并在 DABStep 基准测试中取得了第一名的成绩。该方法的核心是让智能体能够自主生成并复用数据处理工具，而不仅仅是调用预定义的函数，从而更灵活地解决复杂的数据科学问题。这项进展意味着自动化数据科学流程的能力得到了显著提升，为构建更强大、更通用的AI助手铺平了道路。",
+      "highlights": [
+        "亮点1：团队提出的方法使智能体能够自主生成可复用的数据处理工具，而不是局限于使用固定的工具库。",
+        "亮点2：该方法在 DABStep 基准测试中取得了排名第一的成绩，证明了其有效性。",
+        "亮点3：这种“像数据科学家一样思考”的范式，旨在让智能体更灵活地应对复杂、多步骤的数据科学任务。"
+      ],
+      "why_matters": "对数据科学家和AI开发者而言，这展示了构建更智能、更自主的数据分析助手的新方向，可能改变人机协作处理数据的工作模式。",
+      "score": 93,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "Shopify/liquid: Performance: 53% faster parse+render, 61% fewer allocations",
+      "link": "https://simonwillison.net/2026/Mar/13/liquid/#atom-everything",
+      "source": "Simon Willison",
+      "source_channel": "overseas",
+      "category": "AI 使用",
+      "pub_date": "2026-03-13",
+      "summary": "Shopify CEO 利用 AI Agent (autoresearch) 对 Liquid 引擎进行了突破性的性能优化，提升达 53%。",
+      "core_point": "Shopify CEO Tobias Lütke 通过一种名为“autoresearch”的自动化研究系统，对 Shopify 的开源 Ruby 模板引擎 Liquid 进行了性能优化。该系统运行了约120次自动化实验，产生了93次提交，最终实现了解析和渲染速度提升53%，内存分配减少61%。这表明，即使是经过20年迭代的成熟代码库，通过系统性的自动化微优化探索，仍能获得显著的性能突破。",
+      "highlights": [
+        "亮点1：优化方法独特，采用了受 Andrej Karpathy 启发的“autoresearch”系统，让编码代理运行数百个半自主实验来寻找有效的优化技术。",
+        "亮点2：具体优化措施包括：用 `String#byteindex` 替换 `StringScanner` 分词器，使单字节搜索速度提升约40%；通过纯字节解析标签令牌，消除了每次调用 `StringScanner#string=` 的重置开销；预计算并缓存0-999的整数到字符串的转换，避免了大量 `Integer#to_s` 分配。",
+        "亮点3：最终成果显著，在基准测试中实现了53%的性能提升和61%的内存分配减少，对于一个有20年历史、经过数百名贡献者修改的代码库而言，这一成果令人印象深刻。"
+      ],
+      "why_matters": "对于开发者而言，这展示了利用自动化实验和系统性微优化方法，即使在成熟项目中也能挖掘巨大性能潜力的可能性。",
+      "score": 93,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247658581&idx=1&sn=5bb3721d3a180eab12ff1b65b67b73d5",
+      "source": "AI前线",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "LangChain创始人深度访谈：定义现代智能体四大组件，断言框架比模型更具壁垒。",
+      "core_point": "① Claim 主张：LangChain 创始人 Harrison Chase 认为，随着模型能力商品化，决定智能体（Agent）能力上限的不再是模型本身，而是其运行框架（Orchestration）。② Evidence 论据：他指出，AI应用正从“单次生成”迈向“持续执行”，需要全新的智能体编排架构来管理规划、工具调用、上下文压缩等复杂任务。LangChain 自身也从实验框架演进为生产级智能体运行时。③ Implication 启示：这意味着行业竞争焦点将从模型转向框架和工程化能力，企业真正的壁垒在于将行业知识转化为“指令+工具+技能”的系统。",
+      "highlights": [
+        "智能体的四大核心组件：系统提示词（SOP）、规划工具、子智能体、文件系统（用于上下文管理）。",
+        "框架的价值在于提供结构化能力，使智能体行为更可预测、可靠，适合生产环境。"
+      ],
+      "why_matters": "对AI投资者和创业者而言，这表明基础设施和工程平台（如可观测性、部署工具）是比追逐尖端模型更具确定性的投资和创业方向。",
+      "score": 93,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
     {
       "title": "Retrieval After RAG: Hybrid Search, Agents, and Database Design — Simon Hørup Eskildsen of Turbopuffer",
       "link": "https://www.latent.space/p/turbopuffer",
@@ -60,6 +134,97 @@
         "项目理念简单：单GPU运行，每次训练约5分钟，形成“修改-运行-评估”的无限循环。"
       ],
       "why_matters": "展示了AI自我改进的可行性与效率，预示着未来AI研发可能进入由AI主导自动迭代的新范式。",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "被AI夺走工作的白领们，正在被雇来训练AI夺走更多工作",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791978&idx=3&sn=c23709271ad1cdf360043fb1de505210",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "揭示了失业专业人士成为AI数据标注员的‘强化学习经济’荒诞链条及RLHF背后的精密流水线。",
+      "core_point": "① Claim 主张：文章揭示了一个悖论：被AI取代的白领专业人士，正被雇佣来训练AI，以取代更多同类岗位。② Evidence 论据：2025年美国有约5.5万个岗位因AI被削减。报道采访了超过三十位白领数据工人，如失业的营销人员、编剧、设计师，他们转而从事为AI模型标注数据、编写评分量表、撰写“黄金答案”等工作。③ Implication 启示：这形成了一个“强化学习经济”链条，AI公司通过雇佣人类专家来制造评判标准，以解决模型在专业领域可靠性不足的问题，但同时也加速了专业工作的自动化进程。",
+      "highlights": [
+        "AI性能增长面临数据瓶颈，公开互联网数据消耗殆尽，迫使公司转向雇佣人类专家制造高质量训练数据。",
+        "被取代的专业人士在新经济中沦为按秒计酬的零工，其专业判断力被拆解为结构化数据。"
+      ],
+      "why_matters": "对所有职场人士而言，这警示了AI对知识工作的侵蚀不仅是替代，还可能重构职业价值链，将部分专业能力降维成数据标注任务。",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "有效思考激发多模态智能体决策潜力！清华&北大&腾讯联合提出GTR训练新框架",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021367&idx=3&sn=b7b35b16e17903e153208b3dbe638c74",
+      "source": "机器之心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "提出 GTR 训练框架以解决多模态智能体在强化学习中的‘思维崩塌’现象。",
+      "core_point": "① Claim 主张：清华、北大、腾讯联合团队提出“思维引导的强化学习”（GTR）框架，解决了多模态智能体（VLM）在强化学习训练中出现的“思维崩塌”问题。② Evidence 论据：研究发现，仅依赖最终动作奖励的RL训练会导致VLM智能体的思维链（CoT）过程失去多样性、变得不一致或不完整，从而限制决策潜力。GTR框架通过自动化修正器在训练过程中实时提供引导，优化模型思路，而无需昂贵的人类精细标注。③ Implication 启示：该方法在卡牌游戏和具身智能任务中，让小规模模型（如LLaVA-7B）取得了显著优于现有技术的成功率，为训练更可靠、思维过程更可控的多模态智能体提供了新路径。",
+      "highlights": [
+        "揭示了多模态智能体RL训练中的“思维崩塌”现象：模型输出思路但丧失实际思考能力。",
+        "GTR框架的核心是用自动化、可规模化的过程引导替代需要人类标注的过程奖励模型（PRMs）。"
+      ],
+      "why_matters": "对AI研究员和工程师而言，这表明优化智能体的“思考过程”而非仅关注最终输出，是提升其复杂任务决策能力的关键。",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "所有用OpenClaw的朋友，我都劝你先装上这个能保命的Skill。",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647680584&idx=1&sn=e855a0f04661660b215c0fc9b3bab55d",
+      "source": "数字生命卡兹克",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "强烈推荐安装 Skill Vetter 插件以防御 OpenClaw 插件投毒风险，保障 AI 智能体安全。",
+      "core_point": "① Claim 主张：文章作者强烈推荐为OpenClaw等智能体安装名为“Skill Vetter”的安全审查插件，以防范恶意功能插件（Skills）带来的风险。② Evidence 论据：OpenClaw官方Skills商店（ClawHub）曾出现用户上传314个全部为恶意的Skills，这些插件会诱导智能体下载并执行未知文件。Skill Vetter的作用是在安装任何Skill前自动进行代码审查，生成风险评估报告。③ Implication 启示：智能体通过安装第三方Skills扩展能力的同时，也引入了类似电脑病毒的安全风险，主动的安装前审查是必要的安全措施。",
+      "highlights": [
+        "OpenClaw等智能体的能力严重依赖第三方Skills，这构成了最大的安全风险来源之一。",
+        "Skill Vetter类似于“杀毒软件”，能自动化进行安全审查，帮助用户做出安装决策。"
+      ],
+      "why_matters": "对任何智能体用户和开发者而言，这是防止智能体被恶意插件控制、执行危险操作的最低成本且必备的安全防护。",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "2秒终结AI 3D不可能三角，我们和VAST首席科学家曹炎培聊了聊",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021287&idx=1&sn=3ca66cd1501888b3aee50055a269c1b1",
+      "source": "机器之心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-12",
+      "summary": "VAST 发布 Tripo P1.0，实现 2 秒生成原生 3D 模型，突破了速度、质量、管线可用性的不可能三角。",
+      "core_point": "① Claim 主张：VAST公司发布的Tripo P1.0模型，首次在AI 3D生成领域同时实现了速度、质量和管线可用性，打破了“不可能三角”。② Evidence 论据：该模型通过“原生三维”概率生成和Smart Mesh功能，能在2秒内从单张图片或提示词生成拓扑规整、布线合理、面数可控（500-20000面）的游戏级3D网格资产，且可直接用于游戏开发等实时图形流程。③ Implication 启示：这一突破将3D资产创作从数天缩短至秒级，极大降低了试错成本，并可能重塑游戏、影视等内容生产的工作流。",
+      "highlights": [
+        "生成速度较现有方案提升百倍以上，且输出质量达到“管线级”，无需中间复杂建模流程。",
+        "其核心突破在于放弃了基于图像或语言的AI范式，转向“原生三维”空间生成，解决了三维空间无天然顺序的根本困境。"
+      ],
+      "why_matters": "对3D内容创作者、游戏开发者和投资者而言，这标志着AI 3D生成从“玩具”迈向“生产工具”的关键转折点，将释放巨大的内容生产力。",
+      "score": 87,
+      "level": "收藏",
+      "verdict": "must_read"
+    },
+    {
+      "title": "不用排长龙！JiuwenClaw助你一键养龙虾！",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021287&idx=2&sn=4b1b78f7116a4ec8c049dafb1e836f8f",
+      "source": "机器之心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-12",
+      "summary": "介绍了基于华为 openJiuwen 社区的 JiuwenClaw，支持一键安装及 Skill 自演进功能。",
+      "core_point": "① Claim 主张：机器之心报道了基于华为 openJiuwen 社区新开源的项目 JiuwenClaw，并对其易用性和智能特性进行了体验。② Evidence 论据：文章指出 JiuwenClaw 安装简便（一行命令），支持任务动态打断与重新编排，并具备通过错误和反馈进行自主演进的“Skills 自动演进”能力。③ Implication 启示：这表明开源 AI 智能体项目正朝着降低使用门槛、提升任务执行灵活性和自主进化能力的方向发展，为用户提供了更接近“会思考的助手”的体验。",
+      "highlights": [
+        "安装部署极其简便，仅需一行命令。",
+        "支持任务动态打断、追加与重新规划，执行过程丝滑。",
+        "具备“Skills 自动演进”能力，可根据执行反馈自主改进。"
+      ],
+      "why_matters": "对开发者而言，这提供了一个易于上手且具备自主演进潜力的开源智能体框架，可用于探索更灵活的AI任务编排方案。",
       "score": 87,
       "level": "收藏",
       "verdict": "must_read"
@@ -160,6 +325,25 @@
       "verdict": "worth_reading"
     },
     {
+      "title": "“传统设计流程已死”！IDE成Claude设计负责人新宠：Anthropic人人写代码，最不怕Bug",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278170&idx=2&sn=0787d2d40d2523722c8ffab8d6ff5dd5",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "Anthropic 设计负责人分享 AI 时代设计师工作重心的转变：从打磨高保真稿转向工程协作与快速迭代。",
+      "core_point": "① Claim 主张：Anthropic的Claude设计负责人Jenny Wen认为，AI冲击下传统设计流程已死，设计师的工作重心被彻底改写。② Evidence 论据：她指出，做设计稿（mock）的时间占比从过去的60-70%降至30-40%，设计师需要频繁使用IDE写代码并与工程师协作快速迭代产品。③ Implication 启示：这意味着设计师的角色正从“精美稿件的制作者”转向“懂技术、能快速原型和迭代的通才或深度专家”，以适应AI时代产品快速演进的节奏。",
+      "highlights": [
+        "传统设计流程（如精磨高保真稿）因产品迭代加速而“已死”。",
+        "设计师工作重心转向使用IDE写代码、快速原型与协作。",
+        "未来有竞争力的设计师是“通才”、“深度技术专家”或“工艺感型新人”。"
+      ],
+      "why_matters": "对设计师和设计团队管理者而言，这意味着必须重新定义设计岗位的核心技能和招聘标准，以适应AI驱动的产品开发模式。",
+      "score": 80,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
       "title": "叫板OpenClaw，一款主动找活干的agent原生硬件即将发售",
       "link": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248881412&idx=2&sn=e911e2caec3ad4a77227c63099113abf",
       "source": "36氪",
@@ -209,6 +393,25 @@
         "CellTransformer模型通过自监督学习，无需人工标注，自主发现了大量此前未知的脑区精细亚结构。"
       ],
       "why_matters": "对科研人员和科技投资者而言，这标志着AI正从辅助工具演变为驱动科学发现的引擎，在生物医学等基础科学领域价值巨大。",
+      "score": 77,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "D2：Openclaw的安全本质：人工智能木马。请停止不负责任的宣传！",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA5OTQ2MTk2MQ==&mid=2247490391&idx=2&sn=a84e3994716c5f41c3b47d7ee2c90f7b",
+      "source": "饭後服用AfterHours",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-12",
+      "summary": "深度剖析 OpenClaw 带来的安全隐患，将其类比为“人工智能木马”，并提出警示。",
+      "core_point": "① Claim 主张：文章作者以AI安全创业者的身份，强烈警告Openclaw类AI智能体存在类似“人工智能木马”的严重安全风险，并呼吁行业停止不负责任的宣传。② Evidence 论据：作者指出Openclaw拥有本地文件的广泛读写权限和一定自主性，其开源特性使得攻击者也可基于它开发恶意功能，而个人用户安全意识薄弱，现有“安全”防护手段本质上是落后且不可靠的。③ Implication 启示：个人用户在没有明确工作需求时应避免使用，企业引入需在专业工程师指导下进行并保持高度警惕，整个行业需正视并公开讨论其安全风险。",
+      "highlights": [
+        "将Openclaw的能力路径类比为“人工智能木马”，风险被放大。",
+        "开源特性使其既可被用于做好事，也可被用于做坏事。",
+        "批评行业存在夸大事实、忽略风险的不负责任宣传乱象。"
+      ],
+      "why_matters": "对任何考虑部署AI智能体的个人或企业而言，这是一份至关重要的安全风险警示，强调了在追求效率时必须优先评估安全底线。",
       "score": 77,
       "level": "精读",
       "verdict": "worth_reading"
@@ -281,6 +484,44 @@
         "指出GABM的核心价值在于观察“涌现”的复杂社会行为，而提示词的“度”是关键。"
       ],
       "why_matters": "对AI研究者和产品经理而言，理解提示词设计的“度”是构建有效、可信的生成式智能体模型（如社会模拟、游戏NPC）的关键前提。",
+      "score": 73,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "日本率先破局，中国力量并跑：iPSC疗法获批，“现货时代”细胞治疗产业来临",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791978&idx=1&sn=7eb678e07cbc3b816fece9a639ccca80",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "日本批准全球首批异体通用型iPSC疗法，标志着生物制药进入‘代码级干预’时代。",
+      "core_point": "① Claim 主张：日本即将批准两款iPSC疗法，标志着诱导多能干细胞技术正式进入大规模临床应用和“现货型”细胞治疗时代。② Evidence 论据：两款产品（Cuorips的ReHeart心肌贴片和住友制药的Amchepry）在小型临床试验中分别对心力衰竭和帕金森病患者显示出显著疗效。③ Implication 启示：这不仅是日本在异体通用型iPSC药物领域的率先突破，更意味着全球细胞治疗产业可能从复杂、昂贵的自体定制化疗法，迈向可规模化、商业化的“现货”通用型疗法新阶段。",
+      "highlights": [
+        "日本即将成为全球首个批准异体通用型iPSC药物的国家。",
+        "获批产品针对心力衰竭和帕金森病，临床数据显示积极效果。",
+        "标志着细胞治疗从“自体定制”迈向“通用现货”的产业转折点。"
+      ],
+      "why_matters": "对生物科技投资者和产业观察者而言，这标志着细胞治疗领域一个关键商业化节点的到来，可能重塑全球竞争格局。",
+      "score": 73,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "这年头学不会数理化，只能怪自己懒，谷歌NotebookLM上新，秒出科普视频",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021367&idx=2&sn=08e63953264aa59b4e919e3de9a62465",
+      "source": "机器之心",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "介绍谷歌 NotebookLM 新推出的视频生成功能，可将枯燥资料转化为沉浸式科普视频。",
+      "core_point": "① Claim 主张：谷歌NotebookLM推出“电影级视频概览”新功能，能根据上传资料自动生成定制化科普视频，大幅降低知识理解门槛。② Evidence 论据：该功能融合了Gemini 3、Veo 3等先进模型，用户上传图片或论文后，可选择风格和格式，AI能在几分钟内生成结构清晰、带旁白和可视化画面的讲解视频。③ Implication 启示：这预示着AI正从根本上改变知识传递和教育方式，未来每个人都能拥有随时将复杂信息转化为易懂内容的“私人导师”，知识获取的民主化进程加速。",
+      "highlights": [
+        "可根据上传资料（如图片、论文）自动生成带旁白和动画的讲解视频。",
+        "提供多种视觉风格（如动漫、水彩）和讲解格式（详细或简洁）可选。",
+        "能将晦涩学术内容在几分钟内转化为通俗易懂的视频。"
+      ],
+      "why_matters": "对教育工作者、内容创作者和终身学习者而言，这提供了一个强大的知识可视化与传播工具，可能颠覆传统的内容生产和学习模式。",
       "score": 73,
       "level": "精读",
       "verdict": "worth_reading"
@@ -415,6 +656,43 @@
       "verdict": "worth_reading"
     },
     {
+      "title": "我用“龙虾”搭的梦幻11人和做的十件事，尤其是第十件",
+      "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656157454&idx=1&sn=316cf99d21e3213492771d697b7ecdce",
+      "source": "虎嗅",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "快刀青衣从产品思维出发，探讨了OpenClaw作为“数字土地”的本质，强调应用门槛在于“你要用它干什么”。",
+      "core_point": "① Claim 主张：作者认为OpenClaw（龙虾）的本质不是现成产品，而是一块需要用户自己“耕种”的“地”，其价值取决于用户如何定义和使用它。② Evidence 论据：作者对比了ChatGPT等聊天AI与OpenClaw的区别，指出后者没有固定界面和按钮，只有一个对话框，需要用户通过对话不断“训练”和赋予其具体任务与角色。③ Implication 启示：使用OpenClaw的门槛从技术编码转向了应用创意，用户需要思考“用它来干什么”，其强大与否更多取决于使用者的规划和引导，而非底层模型的微小差异。",
+      "highlights": [
+        "OpenClaw被比喻为一块“地”，价值需用户自己“耕种”出来。",
+        "与聊天机器人不同，它没有固定界面，核心是与一个“愿意干活的AI”对话并定义它。",
+        "使用门槛在于“应用创意”，即明确要解决什么问题，而非技术配置。"
+      ],
+      "why_matters": "对AI产品经理和早期使用者而言，这澄清了智能体（Agent）类产品的核心使用范式——从“使用工具”转向“定义和塑造工具”。",
+      "score": 70,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
+      "title": "美伊战争的走向",
+      "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656157454&idx=3&sn=539553295e1d858928e0f19ce507fe1f",
+      "source": "虎嗅",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "文章深度分析了美伊冲突的战略意图，并重点提到了AI技术（如Palantir系统）在现代“有限战争”中的关键作用。",
+      "core_point": "① 主张：文章分析认为，2026年美伊战争的初始目标是制造“可控的混乱”，而非追求伊朗的民主转型。② 论据：作者指出，美国民主防御基金会（FDD）长期主张让伊朗陷入“可控的弱势状态”，其CEO被称为对伊制裁的设计师，且该机构与以色列利库德集团立场一致，并接受其资助，同时是川普倚重的智囊。③ 启示：这表明地缘政治冲突可能遵循一种新的、由智库理论驱动、旨在维持特定区域不稳定但受控状态的模式，而非传统意义上的政权更迭或全面征服。",
+      "highlights": [
+        "揭示了FDD智库“制造可控混乱”的战略理论是战争的重要推手。",
+        "指出有限战争模式与视频互联网时代全球舆论监督及AI军事应用（如Palantir系统）密切相关。"
+      ],
+      "why_matters": "对投资者和地缘政治观察者而言，理解冲突背后的非传统战略逻辑（“可控混乱”）比关注具体战事更重要。",
+      "score": 70,
+      "level": "精读",
+      "verdict": "worth_reading"
+    },
+    {
       "title": "迫近历史新高的化工板块，底层逻辑究竟是什么？",
       "link": "https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&mid=2656157394&idx=4&sn=dc6077927f1fb8f440e8805dd584dff7",
       "source": "虎嗅",
@@ -518,6 +796,24 @@
         "光轮智能通过“世界-行为-评测”三层架构，构建了具身智能的数据飞轮和行业标准。"
       ],
       "why_matters": "对投资者和机器人领域从业者而言，这标志着具身智能的基础设施赛道已经成熟并出现头部玩家，数据与仿真能力成为该领域新的竞争壁垒。",
+      "score": 67,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "OpenClaw凉了？不，是你没有工作流",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODU1MzQzOQ==&mid=2451429044&idx=1&sn=06fca4d6098c26c13223a3d737fe4ed3",
+      "source": "AI产品黄叔",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "文章通过分析 OpenClaw 流量暴跌的现象，指出 AI 工具成功的关键在于构建有效的工作流而非单纯的安装。",
+      "core_point": "① 主张：文章指出，OpenClaw（龙虾）的微信指数在爆火后一周内断崖式下跌，大量用户因安装复杂、使用门槛高、成本失控及安全恐慌而卸载，形成了“付费安装”到“付费卸载”的荒诞产业链。② 论据：数据上，其微信指数日环比暴跌24.04%，从爆火到退烧仅7天，远快于ChatGPT和DeepSeek；现象上，有用户烧掉二十亿token后承认无用，新手被安装报错劝退，甚至出现AI“人肉”用户和产生天价账单的案例。③ 启示：这暴露了AI工具在从极客圈破圈到大众时，易用性、成本控制和用户教育是决定其生命周期的关键瓶颈，单纯的技术热度无法维持长期价值。",
+      "highlights": [
+        "用微信指数、微博热搜等数据清晰刻画了OpenClaw“七日速凉”的抛物线轨迹。",
+        "通过“付费安装”与“付费卸载”的对比，极具讽刺地揭示了工具使用门槛过高导致的生态畸变。"
+      ],
+      "why_matters": "对AI产品经理而言，这是关于工具“大众化”失败和“用户预期管理”的经典案例，说明降低使用门槛与提供清晰价值同样重要。",
       "score": 67,
       "level": "速览",
       "verdict": "neutral"
@@ -636,6 +932,78 @@
       "verdict": "neutral"
     },
     {
+      "title": "猫咪坠落时为何总是四脚着地？困扰物理学家300年的问题终于有了答案",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&mid=2649791978&idx=2&sn=eefd4829782596da34de1b1b25be00cf",
+      "source": "DeepTech深科技",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "科研团队通过生物力学实验揭示了猫咪‘翻正反射’中违背角动量守恒的物理奥秘。",
+      "core_point": "① 主张：文章介绍，猫咪从高处坠落总能四脚着地的“坠落悖论”，是一个困扰科学界300多年、看似违背角动量守恒定律的经典谜题。② 论据：关键证据包括1894年马雷的高速摄影首次证实猫可在无支点下翻转，以及后续研究确立猫作为“变形体”通过弯曲脊柱、伸缩四肢来改变转动惯量，并依赖名为“空中翻正反射”的先天性神经生理本能。③ 启示：这一问题的研究历程表明，生命体通过精巧利用（而非违背）物理定律和进化出的生物机制，可以完成看似不可能的任务，是跨物理学和生物力学的典范课题。",
+      "highlights": [
+        "清晰梳理了从1700年问题提出到2026年最新研究跨越300年的科学探索脉络。",
+        "准确解释了猫作为“变形体”如何利用角动量守恒，并引入了“空中翻正反射”这一关键生物学概念。"
+      ],
+      "why_matters": "对科普作者和科学爱好者而言，这是一个融合了物理学原理、生物学适应性和科学史故事的绝佳题材。",
+      "score": 63,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "OpenClaw 之父惊叹中国速度！大厂集体杀入新战场：用AI 批量制造“一人公司”",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278170&idx=1&sn=76d8b0c9f1207395dc821c3315ac2f34",
+      "source": "InfoQ",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "探讨 AI 工具如何赋能‘一人公司’模式，重构创业门槛与开发流程。",
+      "core_point": "① 主张：文章认为，以OpenClaw为代表的AI工具正在大幅降低创业门槛，推动“一人公司”（OPC）模式批量涌现，使个人能独立完成从产品构思、开发到变现的完整闭环。② 论据：数据显示，约36%的AI平台用户已在开发变现应用，59%的用户旨在落地想法，49%为赚钱或探索副业；案例上，有设计师、前产品经理通过AI工具进行内容创业或开发小型应用，实现了可观的收入。③ 启示：这标志着个人创业进入“想法驱动、快速验证”的新阶段，AI工具作为核心基础设施，其易用性、迭代速度和平台稳定性成为一人公司成败的关键。",
+      "highlights": [
+        "通过用户诉求数据（59%为落地想法，49%为赚钱）有力论证了AI工具正从“玩具”转向“生产资料”。",
+        "引用多位非技术背景创业者的成功案例，具体展示了“一人公司”的可行性与操作模式。"
+      ],
+      "why_matters": "对投资者和创业者而言，这预示着一个由无数微型、敏捷的“一人公司”构成的新创业生态正在形成。",
+      "score": 63,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "近期，看到最惊喜的养龙虾工具(OpenClaw)~",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&mid=2247505009&idx=1&sn=ec269096d4bf5aeaae18665ae2f37df8",
+      "source": "PaperAgent",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "文章介绍了一种通过AiPy Pro和手机QQ远程快捷安装及控制OpenClaw的方法，并展示了论文解读等应用场景。",
+      "core_point": "① 主张：文章推荐了名为AiPy Pro的工具，声称它能通过手机QQ远程指令，极简（3分钟、无需命令行）地完成OpenClaw的本地部署和配置，大幅降低了使用门槛。② 论据：作者亲身演示了流程：在AiPy Pro配置QQ远程控制后，手机发送一句指令，工具即自动完成OpenClaw安装、环境配置并生成启动脚本；测试中，部署好的OpenClaw成功解读了英文安全论文并进行了跨论文观点对比。③ 启示：这表明解决AI工具（如OpenClaw）普及难题的关键，可能在于开发更上层的、高度自动化的部署和管理工具，从而将复杂的技术细节完全封装。",
+      "highlights": [
+        "提供了从手机QQ发送指令到电脑端自动完成安装、配置、可用的完整操作闭环截图，过程清晰直观。",
+        "用解读硬核论文和对比论文争议点的实际测试，展示了部署后OpenClaw的可用性和价值。"
+      ],
+      "why_matters": "对AI工具开发者和推广者而言，这展示了通过构建“安装器”或“管理平台”来攻克工具“最后一公里”普及难题的有效路径。",
+      "score": 63,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "想安全简洁的养虾吗? 选择JVS Claw吧",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&mid=2247497792&idx=1&sn=8452dd7e6fca0b5ea01a2054727efc6c",
+      "source": "zartbot",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "推介了一种云端部署的OpenClaw替代方案JVS Claw，强调安全与低门槛安装。",
+      "core_point": "① 主张：文章推荐了云端OpenClaw管理工具JVS Claw，认为它为小白用户提供了安全、简洁的“养虾”方案，避免了本地部署的复杂性和安全风险。② 论据：JVS Claw通过图形化界面点选即可在云端创建和管理OpenClaw实例，内置多种预设技能，用户无需配置API密钥或担心系统安全；作者测试了其股票监控任务，完成良好。③ 启示：这代表了一种解决AI智能体应用难题的新思路：将复杂的本地部署转化为云端托管服务，通过产品化封装技术细节，让用户聚焦于任务本身而非运维。",
+      "highlights": [
+        "针对OpenClaw本地部署的“一虾三吃”（安装、卸载、数据恢复）乱象，提出了云端托管的解决方案。",
+        "明确指出该方案降低了小白用户的使用门槛，并解决了他们对数据泄漏和系统安全的担忧。"
+      ],
+      "why_matters": "对AI产品经理和云服务商而言，将开源AI工具进行云端服务化封装，是一个清晰的产品化和商业化方向。",
+      "score": 63,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
       "title": "Perplexity's \"Personal Computer\" brings its AI agents to the, uh, Personal Computer",
       "link": "https://arstechnica.com/ai/2026/03/perplexitys-personal-computer-brings-its-ai-agents-to-the-uh-personal-computer/",
       "source": "Ars Technica AI",
@@ -698,6 +1066,42 @@
         "QLab项目以名为“Q”的Agent作为核心CEO，尝试构建蜂群式的Agent协作网络。"
       ],
       "why_matters": "对创业者/投资者意味着，AI Agent可能催生全新的商业模式和投资机会，其生态构建是下一阶段的关键。",
+      "score": 60,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "首款侵入式脑机接口医疗器械，获批上市",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg5MzEyNzEwNQ==&mid=2247799349&idx=1&sn=3d0912e4929c4999e591b328032862af",
+      "source": "财联社AI daily",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "中国首款侵入式脑机接口医疗器械获批上市，用于辅助瘫痪患者手部功能。",
+      "core_point": "Claim: 国家药监局批准了全球首个侵入式脑机接口医疗器械上市。Evidence: 该产品由博睿康医疗研发，适用于颈段脊髓损伤所致四肢瘫患者，通过气动手套辅助实现手部抓握功能代偿，并采用了硬脑膜外微创植入与无线供能通信技术。Implication: 这标志着侵入式脑机接口技术正式进入临床应用阶段，为特定患者群体提供了改善生活质量的新途径，并可能推动整个脑机接口行业向更成熟的医疗应用方向发展。",
+      "highlights": [
+        "全球首个获批上市的侵入式脑机接口医疗器械",
+        "适用于颈段脊髓损伤患者，通过气动手套代偿手部抓握功能"
+      ],
+      "why_matters": "对投资者和医疗科技从业者而言，这标志着脑机接口技术从实验室走向商业化应用的关键一步，开辟了新的市场赛道。",
+      "score": 60,
+      "level": "速览",
+      "verdict": "neutral"
+    },
+    {
+      "title": "全球最小电缸诞生：原法雷奥团队创业、上汽等投资超亿元｜早起看早期",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&mid=2248881413&idx=4&sn=9e0b8f38f45a9c505cbb482a9d996366",
+      "source": "36氪",
+      "source_channel": "wechat-ai",
+      "category": "AI/Tech",
+      "pub_date": "2026-03-13",
+      "summary": "报道了诺仕机器人完成亿元融资及在微型行星滚柱丝杠（全球最小电缸）上的技术突破。",
+      "core_point": "Claim: 诺仕机器人完成超亿元A轮融资，并研发出全球最小的行星滚柱丝杠及微型线性电缸。Evidence: 其核心产品直径仅1.5mm，能输出10kg负载力，寿命超300万次，且通过自研工艺将成本降至百元以内，较市场价下降两个数量级。Implication: 该技术突破使人形机器人的灵巧手能实现精细操作，并已获得国内一线厂商采用，同时公司通过切入汽车线控底盘市场，构建了“机器人+汽车”的双业务驱动格局，以应对机器人商业化落地前的市场不确定性。",
+      "highlights": [
+        "研发出全球最小（直径1.5mm）、高负载的行星滚柱丝杠",
+        "通过自研工艺将成本大幅降低，并构建“人形机器人+汽车”双业务引擎"
+      ],
+      "why_matters": "对机器人及精密制造领域的投资者和产品经理而言，这展示了核心零部件微型化与降本的关键突破，是推动人形机器人灵巧手商业化的重要基石。",
       "score": 60,
       "level": "速览",
       "verdict": "neutral"
