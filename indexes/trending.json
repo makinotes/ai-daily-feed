@@ -1,7 +1,7 @@
 {
-  "updated": "2026-03-13",
+  "updated": "2026-03-14",
   "window": "7d",
-  "article_count": 219,
+  "article_count": 217,
   "trending": [
     {
       "keyword": "OpenClaw",
@@ -12,35 +12,31 @@
       "count": 13
     },
     {
+      "keyword": "腾讯",
+      "count": 9
+    },
+    {
       "keyword": "Agent",
       "count": 9
     },
     {
-      "keyword": "腾讯",
-      "count": 8
-    },
-    {
-      "keyword": "开源",
-      "count": 8
+      "keyword": "大模型",
+      "count": 7
     },
     {
       "keyword": "Anthropic",
       "count": 7
     },
     {
-      "keyword": "GPT",
+      "keyword": "开源",
       "count": 7
     },
     {
+      "keyword": "训练",
+      "count": 6
+    },
+    {
       "keyword": "多模态",
-      "count": 6
-    },
-    {
-      "keyword": "大模型",
-      "count": 6
-    },
-    {
-      "keyword": "Openclaw",
       "count": 6
     },
     {
@@ -48,23 +44,11 @@
       "count": 6
     },
     {
-      "keyword": "训练",
-      "count": 5
-    },
-    {
       "keyword": "Skill",
       "count": 5
     },
     {
-      "keyword": "谷歌",
-      "count": 5
-    },
-    {
-      "keyword": "OpenAI",
-      "count": 5
-    },
-    {
-      "keyword": "Coding",
+      "keyword": "Openclaw",
       "count": 5
     },
     {
@@ -72,7 +56,19 @@
       "count": 5
     },
     {
-      "keyword": "Agents",
+      "keyword": "LLM",
+      "count": 4
+    },
+    {
+      "keyword": "ICLR",
+      "count": 4
+    },
+    {
+      "keyword": "Meta",
+      "count": 4
+    },
+    {
+      "keyword": "字节",
       "count": 4
     },
     {
@@ -81,6 +77,10 @@
     },
     {
       "keyword": "CVPR",
+      "count": 4
+    },
+    {
+      "keyword": "谷歌",
       "count": 4
     }
   ]

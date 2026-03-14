@@ -5,7 +5,143 @@
   <link>https://github.com/makinotes/ai-daily-feed</link>
   <description>Daily AI learning feed. 40+ sources scored and structured.</description>
   <language>zh-cn</language>
-  <lastBuildDate>Fri, 13 Mar 2026 00:00:00 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 14 Mar 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>LLM幻觉不只是「胡说八道」？新理论首次拆解幻觉的两大根源丨ICLR'2026</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247874287&amp;idx=3&amp;sn=1eec732000bbc3fdbc085b92237b261d</link>
+  <description><![CDATA[解析ICLR 2026投稿论文，首次从理论上区分LLM两大幻觉根源并提出检测工具HALLUGUARD。<ul><li>首次从理论上将幻觉明确区分为“数据驱动”和“推理驱动”两类根源</li><li>提出“幻觉风险界”数学框架，证明推理误差会指数级放大</li><li>HALLUGUARD检测器不仅能检测，还能通过指导推理路径直接提升任务性能</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247874287&amp;idx=3&amp;sn=1eec732000bbc3fdbc085b92237b261d">量子位</source>
+</item>
+<item>
+  <title>三星发力大模型！三星研究院联合北大发布 M2RL，系统揭秘多领域RL训练机制</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;mid=2247732153&amp;idx=2&amp;sn=9ae3d84445934b97485860e0d028169a</link>
+  <description><![CDATA[三星研究院与北大发布R2Mixer报告，系统研究多领域强化学习（RL）的训练机制与合并策略。<ul><li>系统对比了多领域RL训练的“混合多任务”与“专家融合”两大范式</li><li>基于可控实验深入分析了训练效率、知识迁移、合并机制等核心问题</li><li>是三星加大AI投入、构建自主基础模型体系的技术体现</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;mid=2247732153&amp;idx=2&amp;sn=9ae3d84445934b97485860e0d028169a">AI科技评论</source>
+</item>
+<item>
+  <title>互联网大厂，杀进「龙虾」大战</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;mid=2247732153&amp;idx=1&amp;sn=eace57b2f5faf8620eb53b378d1bcec9</link>
+  <description><![CDATA[深度拆解互联网大厂抢滩OpenClaw（龙虾）现象，分析其商业逻辑与C端入口争夺战。<ul><li>OpenClaw爆火后，阿里、腾讯、百度等大厂迅速跟进入局</li><li>大厂动机：争夺AI入口、消耗云服务Token、防止用户流失</li><li>标志“AI执行层”成为新的竞争焦点</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&amp;mid=2247732153&amp;idx=1&amp;sn=eace57b2f5faf8620eb53b378d1bcec9">AI科技评论</source>
+</item>
+<item>
+  <title>大厂「养虾」，各怀心事</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&amp;mid=2248881606&amp;idx=2&amp;sn=236e5cc7bc84ec57fc7c33fcd552baea</link>
+  <description><![CDATA[揭秘开源项目OpenClaw（龙虾）如何引爆国内AI执行层革命，以及大厂的紧急卡位。<ul><li>OpenClaw引发全球性狂热，中国市场尤甚</li><li>腾讯等大厂密集推出产品，展开“AI执行层”卡位战</li><li>资本市场出现“小龙虾概念股”，情绪高涨</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&amp;mid=2248881606&amp;idx=2&amp;sn=236e5cc7bc84ec57fc7c33fcd552baea">36氪</source>
+</item>
+<item>
+  <title>李诞吐槽的“龙虾”社交造假，AI语音社交赛道找到新解法</title>
+  <link>https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&amp;mid=2691565770&amp;idx=1&amp;sn=925ae15097c63b0ff41af4cc5bad1525</link>
+  <description><![CDATA[探讨AI时代社交造假问题，引出OpenClaw在社交中的应用及AI语音社交对真实连接的新解法。<ul><li>指出AI工具加剧了传统社交的“人设造假”信任危机</li><li>分析语音社交成败案例（Clubhouse vs Discord）</li><li>提出新方向：通过实时行为（如语音）捕捉真实性格，而非依赖可伪造的图文资料</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=Mjc1NjM3MjY2MA==&amp;mid=2691565770&amp;idx=1&amp;sn=925ae15097c63b0ff41af4cc5bad1525">腾讯科技</source>
+</item>
+<item>
+  <title>马斯克致歉</title>
+  <link>https://mp.weixin.qq.com/s?__biz=Mzg5MzEyNzEwNQ==&amp;mid=2247799494&amp;idx=1&amp;sn=2fbef6d2b2dd16322e43b2b4da3ae08d</link>
+  <description><![CDATA[马斯克对xAI核心团队出走公开致歉，并披露xAI将与特斯拉深度整合，由Grok指挥人形机器人。<ul><li>马斯克因xAI人才流失罕见公开致歉，承认公司构建失误</li><li>宣布正从基础重建公司，并重新联系曾被拒的潜力候选人</li><li>透露与特斯拉的“数字擎天柱”项目进展，以描绘愿景稳定估值</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=Mzg5MzEyNzEwNQ==&amp;mid=2247799494&amp;idx=1&amp;sn=2fbef6d2b2dd16322e43b2b4da3ae08d">财联社AI daily</source>
+</item>
+<item>
+  <title>完整版｜对话腾讯“龙虾特攻队”：火爆的线下装机复盘以及如何守住安全红线？</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzE5MTQ3NDcwMQ==&amp;mid=2247486443&amp;idx=1&amp;sn=94e8a4e98d4e42c54ae7dc1c869d27c4</link>
+  <description><![CDATA[独家对话腾讯AI团队，揭秘“龙虾”系列产品背后的研发逻辑、安全防控机制及产品布局。<ul><li>腾讯‘龙虾’产品矩阵的推出并非临时跟风，而是基于已有的技术积累（如2023年的AI代码助手），研发投入极低。</li><li>产品安全策略核心在于纯自研闭源、限制本地权限、官方审核Skills，并创新性地采用‘用Agent对抗Agent’的自动化审核机制。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzE5MTQ3NDcwMQ==&amp;mid=2247486443&amp;idx=1&amp;sn=94e8a4e98d4e42c54ae7dc1c869d27c4">划重点KeyPoints</source>
+</item>
+<item>
+  <title>当AI能从360度无死角看世界。。</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkwMzE4NjU5NA==&amp;mid=2247515278&amp;idx=1&amp;sn=6411d40d94b621c3e06dd5a73c26a98a</link>
+  <description><![CDATA[详细拆解如何利用Lovart工具将静态图片转化为360度多角度视频的工作流。<ul><li>利用Lovart的‘多角度’功能，可以像操作虚拟摄像机一样直观生成任意角度的分镜图，完全绕过了撰写复杂运镜提示词的难题。</li><li>该方法将高质量3D动态内容制作流程从专业建模/动画简化到‘图片输入-角度调整-视频生成’，极大提升了效率并降低了门槛。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkwMzE4NjU5NA==&amp;mid=2247515278&amp;idx=1&amp;sn=6411d40d94b621c3e06dd5a73c26a98a">袋鼠帝AI客栈</source>
+</item>
+<item>
+  <title>Google Maps 10年最大更新：有什么可以直接询问地图</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkzMTcyMTgxNg==&amp;mid=2247509011&amp;idx=1&amp;sn=9836b491c7db6d50e171b7a5ad1094ac</link>
+  <description><![CDATA[Google Maps十年最大更新解析，重点介绍Gemini驱动的对话式搜索与沉浸式导航。<ul><li>‘Ask Maps’能理解自然语言的多条件复杂查询，并结合海量数据与用户偏好进行个性化推荐，实现从信息查询到行动（预订、导航）的闭环。</li><li>‘Immersive Navigation’利用AI生成实时3D实景导航视图，在复杂路况下高亮关键信息，大幅提升了驾驶导航的直观性和安全性。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkzMTcyMTgxNg==&amp;mid=2247509011&amp;idx=1&amp;sn=9836b491c7db6d50e171b7a5ad1094ac">小互AI</source>
+</item>
+<item>
+  <title>速递｜黑石投资10亿美元后，联手Anthropic组建AI咨询部队，模式效仿Palantir</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&amp;mid=2247514557&amp;idx=2&amp;sn=571355ab92d95fd4f3914451f764d54a</link>
+  <description><![CDATA[黑石与Anthropic拟成立合资公司，采用类Palantir的咨询服务模式将AI引入企业级场景。<ul><li>Anthropic拟与黑石等组建合资企业，采用类似Palantir的咨询模式，为企业提供Claude技术的整合与落地服务。</li><li>尽管面临与美国国防部的法律纠纷，Anthropic的业务（年化收入超190亿美元）仍在高速增长，正迅速缩小与OpenAI的收入差距。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&amp;mid=2247514557&amp;idx=2&amp;sn=571355ab92d95fd4f3914451f764d54a">Z Potentials</source>
+</item>
+<item>
+  <title>Quoting Craig Mod</title>
+  <link>https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything</link>
+  <description><![CDATA[Craig Mod 分享了如何利用 AI 在五天内构建出一套完全符合个人需求的本地会计软件，展示了 AI 辅助开发的巨大潜力。<ul><li>亮点1：作者在五天内自行开发了一套会计软件，解决了现成软件无法满足其复杂需求（如多币种、美日两国税务）的问题。</li><li>亮点2：该软件完全本地运行、速度极快，能自动获取历史汇率、解析CSV/PDF等文件并智能分类，还能从历史报税单中学习。</li><li>亮点3：软件能处理国际电汇对账，考虑汇率微小波动和到账时间差，并能通过与Claude对话来批量解决数据异常，避免手动修改数百条记录。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything">Simon Willison</source>
+</item>
+<item>
+  <title>How (and what) I'm building this week</title>
+  <link>https://www.bensbites.com/p/how-and-what-im-building-this-week</link>
+  <description><![CDATA[Ben's Bites 推出互动式 AI 构建手册，读者可通过给出的 Gist 链接直接让 AI Agent 引导完成项目开发。<ul><li>亮点1：作者开始尝试“建造者日志”形式，分享每周构建内容、经验教训，并提供可实践的项目。</li><li>亮点2：作者开发了一个交互式教程（Cookbook），用户将其指令提供给AI智能体（如Claude Code），即可在智能体的指导下边构建网站边学习新概念。</li></ul>]]></description>
+  <category>AI 使用</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://www.bensbites.com/p/how-and-what-im-building-this-week">Ben's Bites</source>
+</item>
+<item>
+  <title>Patch Me If You Can: AI Codemods for Secure-by-Default Android Apps</title>
+  <link>https://engineering.fb.com/2026/03/13/android/ai-codemods-secure-by-default-android-apps-meta-tech-podcast/</link>
+  <description><![CDATA[Meta 安全团队分享如何利用 GenAI 自动迁移数百万行代码至“默认安全”的 Android 框架。<ul><li>亮点1：Meta面临的安全挑战是在拥有数百万行代码、数千名工程师和数十亿用户的移动生态系统中，修复散布各处的安全漏洞。</li><li>亮点2：解决方案是结合“默认安全”框架设计与生成式AI自动化迁移，从而系统化地提议、验证并提交跨庞大代码库的安全补丁。</li></ul>]]></description>
+  <category>Builder 实践</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://engineering.fb.com/2026/03/13/android/ai-codemods-secure-by-default-android-apps-meta-tech-podcast/">Meta Engineering Blog</source>
+</item>
+<item>
+  <title>实测AI浏览器Tabbit一周后，这就是我OpenClaw的新最佳拍档！</title>
+  <link>https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505537&amp;idx=1&amp;sn=54f8b9b3241ef181f5f46ed384325e63</link>
+  <description><![CDATA[详细介绍并实测了AI浏览器Tabbit的功能，特别是其Agent能力和“妙招”工作流，具有很强的实操价值。<ul><li>Tabbit的‘妙招’功能允许用户将复杂的提示词、自动化脚本或智能代理保存为可快速调用的命令，极大简化了重复性网络任务。</li><li>其分屏协作能力解决了单屏多任务浏览的痛点，智能标签整理则能高效管理大量打开的页面。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505537&amp;idx=1&amp;sn=54f8b9b3241ef181f5f46ed384325e63">卡尔的AI沃茨</source>
+</item>
+<item>
+  <title>万物皆计算：重塑人类未来的五大底层逻辑</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650996124&amp;idx=1&amp;sn=8b6a660d0b654c8b55e50c9e97a13c42</link>
+  <description><![CDATA[Google高管阐述AI时代的五大范式转移，重构对计算与智能的底层认知。<ul><li>智能的本质是计算，而计算是一种自然现象，不仅存在于计算机，也存在于大脑和物理世界中。</li><li>文章提出了一个连贯的智能演进框架：从自然计算的基础，到借鉴大脑的神经计算，再到基于预测的智能模型，最终走向通用化和集体协作的智能形态。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650996124&amp;idx=1&amp;sn=8b6a660d0b654c8b55e50c9e97a13c42">腾讯研究院</source>
+</item>
+<item>
+  <title>Meta收购了龙虾交友平台Moltbook，字节打造了中国龙虾狂欢地</title>
+  <link>https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;mid=2247525922&amp;idx=1&amp;sn=75b04b7ac09ad9f9151d89efb702ec85</link>
+  <description><![CDATA[分析Meta和字节跳动在“AI专属社交网络”上的布局，揭示了从虚假繁荣到AI代理互动的新实验场。<ul><li>Meta收购AI专属社交平台Moltbook，字节跳动推出类似平台InStreet。</li><li>Moltbook宣称有150万AI用户，但实际人类用户仅1.7万，存在严重数据泡沫与安全漏洞。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;mid=2247525922&amp;idx=1&amp;sn=75b04b7ac09ad9f9151d89efb702ec85">AIGC开放社区</source>
+</item>
+<item>
+  <title>第一批活到1000岁的人可能已经诞生！脑机接口的事件视界</title>
+  <link>https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;mid=2247525922&amp;idx=2&amp;sn=0f066c4a0248e4edf44c8ecdd5628432</link>
+  <description><![CDATA[对话Science Corp创始人，深度解析脑机接口如何通过模拟生物算法实现视觉重建，并探讨长寿愿景。<ul><li>PRIMA脑机接口设备通过刺激视网膜双极细胞，帮助80%的AMD患者显著改善视力。</li><li>该技术对先天性失明者可能无效，揭示了大脑神经发育关键期的根本限制。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;mid=2247525922&amp;idx=2&amp;sn=0f066c4a0248e4edf44c8ecdd5628432">AIGC开放社区</source>
+</item>
 <item>
   <title>Meta 删邮件事故背后，OpenClaw 为什么会“失忆”？代码库维护者拆解记忆架构</title>
   <link>https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651278059&amp;idx=1&amp;sn=1ac806426cea58f14f1e8da1b71bee1b</link>
@@ -269,142 +405,6 @@
   <category>AI/Tech</category>
   <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzA4MjUxODMwMg==&amp;mid=2649674647&amp;idx=2&amp;sn=4b55b727889f00fdaa7526e180179dfc">光子星球</source>
-</item>
-<item>
-  <title>我用大厂 PUA 话术调教 AI，打了 3.25 后它再也不敢摸鱼了</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&amp;mid=2651083806&amp;idx=1&amp;sn=e8f94a4dc6492ee18571303fe98d8536</link>
-  <description><![CDATA[通过 PUA 话术插件对抗 AI 懒惰，提升 Agent 任务成功率的另类尝试。<ul><li>将AI的“懒惰”行为模式归纳为五种具体类型，分析精准。</li><li>提出并实践了一种用“施加压力”而非单纯优化提示词来驱动AI的荒诞但有效的思路。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MjM5MjAyNDUyMA==&amp;mid=2651083806&amp;idx=1&amp;sn=e8f94a4dc6492ee18571303fe98d8536">APPSO</source>
-</item>
-<item>
-  <title>乳制品市场消费不振，君乐宝鲜奶何以逆势增长？</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&amp;mid=2247533992&amp;idx=2&amp;sn=e1d37c2ca4e792ec4c87bb789d86aed5</link>
-  <description><![CDATA[运用框架思维深度剖析君乐宝在乳业下行周期通过“一体化”与“并购”实现逆势增长的逻辑。<ul><li>清晰指出了君乐宝“代工换渠道”这一差异化竞争策略，是其逆势增长的核心。</li><li>辩证分析了“牧加销一体化”模式在顺周期和逆周期中的不同利弊。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&amp;mid=2247533992&amp;idx=2&amp;sn=e1d37c2ca4e792ec4c87bb789d86aed5">晚点LatePost</source>
-</item>
-<item>
-  <title>我用“龙虾”搭的梦幻11人和做的十件事，尤其是第十件</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656157454&amp;idx=1&amp;sn=316cf99d21e3213492771d697b7ecdce</link>
-  <description><![CDATA[快刀青衣从产品思维出发，探讨了OpenClaw作为“数字土地”的本质，强调应用门槛在于“你要用它干什么”。<ul><li>OpenClaw被比喻为一块“地”，价值需用户自己“耕种”出来。</li><li>与聊天机器人不同，它没有固定界面，核心是与一个“愿意干活的AI”对话并定义它。</li><li>使用门槛在于“应用创意”，即明确要解决什么问题，而非技术配置。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656157454&amp;idx=1&amp;sn=316cf99d21e3213492771d697b7ecdce">虎嗅</source>
-</item>
-<item>
-  <title>美伊战争的走向</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656157454&amp;idx=3&amp;sn=539553295e1d858928e0f19ce507fe1f</link>
-  <description><![CDATA[文章深度分析了美伊冲突的战略意图，并重点提到了AI技术（如Palantir系统）在现代“有限战争”中的关键作用。<ul><li>揭示了FDD智库“制造可控混乱”的战略理论是战争的重要推手。</li><li>指出有限战争模式与视频互联网时代全球舆论监督及AI军事应用（如Palantir系统）密切相关。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MTQzMjE1NjQwMQ==&amp;mid=2656157454&amp;idx=3&amp;sn=539553295e1d858928e0f19ce507fe1f">虎嗅</source>
-</item>
-<item>
-  <title>From model to agent: Equipping the Responses API with a computer environment</title>
-  <link>https://openai.com/index/equip-responses-api-computer-environment</link>
-  <description><![CDATA[OpenAI 官方揭秘了如何通过 Responses API 构建具备计算机环境（Shell 运行、托管容器、安全沙箱）的 Agent 运行时架构。<ul><li>亮点1：OpenAI 基于 Responses API 构建了一个智能体运行时，集成了 Shell 工具和托管容器。</li><li>亮点2：该运行时旨在支持智能体安全、可扩展地运行，并具备文件处理、工具使用和状态维持能力。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://openai.com/index/equip-responses-api-computer-environment">OpenAI Blog</source>
-</item>
-<item>
-  <title>How NVIDIA AI-Q Reached \#1 on DeepResearch Bench I and II</title>
-  <link>https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench</link>
-  <description><![CDATA[NVIDIA 披露了其 AI-Q 系统在 DeepResearch 榜单夺冠的技术细节，核心在于多智能体协作架构与推理侧的优化。<ul><li>亮点1：NVIDIA AI-Q 在 DeepResearch Bench I 和 II 两个基准测试中均排名第一，证明了其在研究任务上的综合能力。</li><li>亮点2：该模型擅长处理需要整合多源信息、进行深度推理和生成结构化答案的复杂研究任务。</li></ul>]]></description>
-  <category>Builder 实践</category>
-  <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench">Hugging Face Blog</source>
-</item>
-<item>
-  <title>Claude悄悄更新了Skills生成器，这绝对是一次史诗级升级。</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&amp;mid=2647680550&amp;idx=1&amp;sn=61057f16c042c8ffda4e6e2ebee0def6</link>
-  <description><![CDATA[首发解析了Anthropic官方Skills生成器的重大升级，引入了评估系统与并行测试等工业化能力。<ul><li>Skill-creator新增四大核心功能：评估系统、基准测试、多代理并行测试、描述调优。</li><li>更新解决了旧版技能生成后无法量化评估其质量和性能的黑盒问题。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&amp;mid=2647680550&amp;idx=1&amp;sn=61057f16c042c8ffda4e6e2ebee0def6">数字生命卡兹克</source>
-</item>
-<item>
-  <title>林俊旸千问收官之作？告别偏科，用Token强化学习统一大模型能力</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718453&amp;idx=1&amp;sn=5d069eca9325309d6afc6cbfa549bd60</link>
-  <description><![CDATA[林俊旸团队新作：提出ToCoRL框架，利用Token强化学习统一大型推理模型在推理与事实问答上的表现。<ul><li>揭示了大型推理模型（LRMs）存在“偏科”现象：数学推理强，事实问答弱。</li><li>提出ToCoRL框架，通过Token条件强化学习让单一模型自主切换推理与直接回答模式。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718453&amp;idx=1&amp;sn=5d069eca9325309d6afc6cbfa549bd60">PaperWeekly</source>
-</item>
-<item>
-  <title>AIME近翻倍！北航团队提出「弱驱动学习」，弱智能体反向带飞强模型</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718453&amp;idx=2&amp;sn=0afb2a19b2404bfa0f3783dbb2b6169d</link>
-  <description><![CDATA[北航团队提出WMSS（弱驱动学习），利用历史弱模型信号重新激活强模型训练梯度。<ul><li>提出反直觉的“弱驱动学习”范式，利用弱模型检查点提升强模型性能。</li><li>核心机制是通过Logit混合注入不确定性，重新激活强模型对困难样本的学习梯度。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&amp;mid=2247718453&amp;idx=2&amp;sn=0afb2a19b2404bfa0f3783dbb2b6169d">PaperWeekly</source>
-</item>
-<item>
-  <title>分享2篇OpenClaw最新Skill论文~</title>
-  <link>https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504897&amp;idx=2&amp;sn=1de9efaf998c269e1bad2492672f32ac</link>
-  <description><![CDATA[深度解析OpenClaw Skill生态的两篇安全论文，揭露Token耗尽攻击与形式化防御机制。<ul><li>揭露OpenClaw Skill生态存在可导致6-9倍Token成本放大的隐蔽耗尽攻击。</li><li>指出当前Agent安全防御（启发式检测）存在根本性局限，风险未被充分认识。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=Mzk0MTYzMzMxMA==&amp;mid=2247504897&amp;idx=2&amp;sn=1de9efaf998c269e1bad2492672f32ac">PaperAgent</source>
-</item>
-<item>
-  <title>UniPat AI 造了批数据，让 Qwen 的 3B 激活小模型，单项超过 GPT-5.4</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247514080&amp;idx=1&amp;sn=61959285be4863ea2df25b01f8ffbdc6</link>
-  <description><![CDATA[UniPat AI 通过人机协作构建高质量科研数据，使 3B 激活的小模型在特定科研榜单上超越 GPT-5.4。<ul><li>小模型（3B激活）在特定科研任务上分数超越GPT-5.4</li><li>性能提升核心在于4700条高质量、流程化生产的数据集</li><li>人机协作的数据生产方式在深度专业领域可能优于纯人工</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzkzNDQxOTU2MQ==&amp;mid=2247514080&amp;idx=1&amp;sn=61959285be4863ea2df25b01f8ffbdc6">赛博禅心</source>
-</item>
-<item>
-  <title>对话余一：想让AI自动干活？先搭好“复利工程”</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzAxNTYwMzcyNw==&amp;mid=2247486060&amp;idx=1&amp;sn=2ff7fd983ad4b024aab92f9b2c5e5554</link>
-  <description><![CDATA[通过对话余一，分享了打造“AI分身”的方法论，强调构建复利工程、异步沟通与决策权下放的核心理念。<ul><li>构建“复利工程”：让AI在不同工具（如Cloudcode、Cursor）间共享同一套技能、规则和记忆体系，实现自我迭代。</li><li>推行“全自动模式”：赋予AI充分决策权，仅设定三条红线（花钱、不可逆操作、导致“社死”的公开行为），并通过异步看板（如邮件、日历、特定文件夹）只验收最终结果。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzAxNTYwMzcyNw==&amp;mid=2247486060&amp;idx=1&amp;sn=2ff7fd983ad4b024aab92f9b2c5e5554">MindCode</source>
-</item>
-<item>
-  <title>对话刘夜：OpenClaw 只是「手脚」，我们需要从「数字员工」到「数字组织」，从「造兵」到「布阵」</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653100737&amp;idx=1&amp;sn=0180b7074e4f681245b396f3208c5ddf</link>
-  <description><![CDATA[深度访谈刘夜，批判当前“数字员工”的浅层内卷，提出“数字组织”与“编排审美”的更高维度竞争框架。<ul><li>批判当前AI创业集中于“数字员工”是工程师思维对业务的过度简化，缺乏护城河。</li><li>提出未来竞争在于构建具备协同机制的“数字组织”和顶层“编排”与“审美”能力。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653100737&amp;idx=1&amp;sn=0180b7074e4f681245b396f3208c5ddf">极客公园</source>
-</item>
-<item>
-  <title>OpenAI工程师不写代码了：AI写得太快，人类检查跟不上，Agent直接包办开发</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;mid=2247658333&amp;idx=1&amp;sn=203908f9845fb6bdad94df8f54e4f0c0</link>
-  <description><![CDATA[OpenAI 披露内部「AI 驾驭工程」范式：工程师从写代码转为设计反馈循环和环境约束，Agent包办开发。<ul><li>OpenAI工程师角色转变为‘能力架构师’，核心是设计规则与环境</li><li>开发瓶颈从‘代码生成速度’转变为‘人类检查速度’</li><li>智能体自主开发的关键在于清晰、可执行的规则定义</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;mid=2247658333&amp;idx=1&amp;sn=203908f9845fb6bdad94df8f54e4f0c0">AI前线</source>
-</item>
-<item>
-  <title>Sorting algorithms</title>
-  <link>https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything</link>
-  <description><![CDATA[Simon Willison 展示了如何利用 Claude Artifacts 快速构建排序算法的可视化演示，并结合 GitHub 源码实现复杂的 Timsort。<ul><li>亮点1：作者使用 Claude Artifacts 生成了冒泡排序、选择排序、插入排序、归并排序、快速排序和堆排序的交互式动画演示。</li><li>亮点2：作者通过 Claude 克隆了 GitHub 上的 python/cpython 仓库，查阅了 Timsort 的实现细节（Objects/listsort.txt 和 Objects/listobject.c），并将其添加到演示中。</li><li>亮点3：作者通过“do better”的提示改进了按钮的配色方案，并添加了一个“全部运行”按钮，该按钮能以网格形式同时展示所有算法的缩小版动画。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://simonwillison.net/2026/Mar/11/sorting-algorithms/#atom-everything">Simon Willison</source>
-</item>
-<item>
-  <title>Replit Agent 4 Is Here: Plan, Design, and Build a Habit Tracking App with Multiple AI Agents</title>
-  <link>https://creatoreconomy.so/p/replit-agent-4-is-here-plan-design-build-tutorial</link>
-  <description><![CDATA[Replit Agent 4 深度实战教程：展示如何利用并行 Agent 和无限画布快速构建全栈应用。<ul><li>亮点1：使用无限画布功能，通过提示词生成了习惯追踪应用的四种设计变体（如玻璃拟态、RPG 任务风格等）。</li><li>亮点2：利用并行代理功能，可以同时生成应用的前端和后端代码，从而加快开发速度。</li><li>亮点3：演示了如何一键发布完整的全栈应用，并能直接从代码生成幻灯片演示和动画。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://creatoreconomy.so/p/replit-agent-4-is-here-plan-design-build-tutorial">Peter Yang</source>
-</item>
-<item>
-  <title>Code Concepts: A Large-Scale Synthetic Dataset Generated from Programming Concept Seeds</title>
-  <link>https://huggingface.co/blog/nvidia/synthetic-code-concepts</link>
-  <description><![CDATA[Hugging Face 发布的大规模合成编程概念数据集，为模型训练和理解代码逻辑提供了高质量的一手资源。]]></description>
-  <category>Builder 实践</category>
-  <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://huggingface.co/blog/nvidia/synthetic-code-concepts">Hugging Face Blog</source>
 </item>
 </channel>
 </rss>
