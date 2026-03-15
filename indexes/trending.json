@@ -1,26 +1,34 @@
 {
   "updated": "2026-03-15",
   "window": "7d",
-  "article_count": 229,
+  "article_count": 251,
   "trending": [
     {
       "keyword": "OpenClaw",
-      "count": 25
+      "count": 26
     },
     {
       "keyword": "Claude",
-      "count": 15
+      "count": 16
+    },
+    {
+      "keyword": "大模型",
+      "count": 13
+    },
+    {
+      "keyword": "Agent",
+      "count": 11
     },
     {
       "keyword": "腾讯",
       "count": 11
     },
     {
-      "keyword": "Agent",
-      "count": 10
+      "keyword": "训练",
+      "count": 9
     },
     {
-      "keyword": "大模型",
+      "keyword": "Anthropic",
       "count": 9
     },
     {
@@ -28,15 +36,23 @@
       "count": 8
     },
     {
-      "keyword": "训练",
-      "count": 7
-    },
-    {
-      "keyword": "Anthropic",
-      "count": 7
+      "keyword": "开源",
+      "count": 6
     },
     {
       "keyword": "多模态",
+      "count": 6
+    },
+    {
+      "keyword": "Codex",
+      "count": 5
+    },
+    {
+      "keyword": "ICLR",
+      "count": 5
+    },
+    {
+      "keyword": "CVPR",
       "count": 5
     },
     {
@@ -48,7 +64,11 @@
       "count": 4
     },
     {
-      "keyword": "ICLR",
+      "keyword": "OpenAI",
+      "count": 4
+    },
+    {
+      "keyword": "Skills",
       "count": 4
     },
     {
@@ -61,26 +81,6 @@
     },
     {
       "keyword": "Coding",
-      "count": 4
-    },
-    {
-      "keyword": "字节",
-      "count": 4
-    },
-    {
-      "keyword": "Meta",
-      "count": 4
-    },
-    {
-      "keyword": "智能体",
-      "count": 4
-    },
-    {
-      "keyword": "谷歌",
-      "count": 4
-    },
-    {
-      "keyword": "code",
       "count": 4
     }
   ]

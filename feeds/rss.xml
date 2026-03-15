@@ -7,6 +7,30 @@
   <language>zh-cn</language>
   <lastBuildDate>Sun, 15 Mar 2026 00:00:00 GMT</lastBuildDate>
 <item>
+  <title>1500 个 PR、0 人写代码：Codex 驱动的百万行级内部产品实践</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;mid=2247658820&amp;idx=2&amp;sn=3e66878f5b8b55e81ae3a7e5b3a4c63d</link>
+  <description><![CDATA[分享了由 Agent 完全驱动、零人工代码开发百万行量级产品的极端工程实践与方法论。<ul><li>零人工代码：产品从应用到工具链的百万行代码均由Codex生成，人类仅负责设计和引导。</li><li>效率跃升：开发耗时仅为手动模式的10%，人均PR产出率在团队扩大后不降反升。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;mid=2247658820&amp;idx=2&amp;sn=3e66878f5b8b55e81ae3a7e5b3a4c63d">AI前线</source>
+</item>
+<item>
+  <title>龙虾爆出漏洞，斯坦福 OpenJarvis 重新定义本地 AI Agent，附实测</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453481541&amp;idx=1&amp;sn=8c98313a2101e3af030706a54ae14ad6</link>
+  <description><![CDATA[深度剖析 OpenClaw（小龙虾）的安全漏洞，并对比介绍了斯坦福本地优先的 Agent 框架 OpenJarvis。<ul><li>本地优先：核心主张是AI Agent应运行在个人设备上，减少对云端API的依赖和隐私泄露风险。</li><li>模块化架构：包含智能、引擎、行为、工具与记忆、学习五大层，支持灵活替换和优化。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453481541&amp;idx=1&amp;sn=8c98313a2101e3af030706a54ae14ad6">AGI Hunt</source>
+</item>
+<item>
+  <title>别再手写TrainingLoop了！Twinkle让大模型训练像搭积木一样简单</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIzNTI3MTQxMg==&amp;mid=2652560149&amp;idx=1&amp;sn=4ef4517e1ed47e6363db89efd470973c</link>
+  <description><![CDATA[ModelScope推出的Twinkle训练框架深度解析，展示了模块化、API化的LLM训练新范式。<ul><li>透明乐高：将训练逻辑封装为标准API，支持灵活组合，解决了深度定制和分布式扩展的难题。</li><li>无缝扩展：同一套业务代码可在单机与千卡集群间无缝迁移，降低了工程化门槛。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNTI3MTQxMg==&amp;mid=2652560149&amp;idx=1&amp;sn=4ef4517e1ed47e6363db89efd470973c">公子龙</source>
+</item>
+<item>
   <title>RL102: 从ORM到PRM, Reasoning模型诞生</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497834&amp;idx=1&amp;sn=5670d911aa83dd45a971fec5a888af01</link>
   <description><![CDATA[深度技术解析：从 RLHF 到强化学习推理模型（Reasoning Model）的演进，重点讲解了 PRM 与 GRPO 算法。<ul><li>指出第一代RLHF模型在复杂推理任务上的核心问题：稀疏且模糊的奖励信号。</li><li>介绍第二代模型增强推理能力的主要技术方向，如思维链、思维树、GRPO算法等。</li></ul>]]></description>
@@ -23,6 +47,46 @@
   <source url="https://mp.weixin.qq.com/s?__biz=MzUxNzQ5MTExNw==&amp;mid=2247497834&amp;idx=2&amp;sn=a08a61944726d7c1ccc5f1dab6e97396">zartbot</source>
 </item>
 <item>
+  <title>我复刻了 Claude 刚发布的生成式 UI 交互！</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&amp;mid=2247496050&amp;idx=1&amp;sn=3a73827c96fc93eac10a3e5b4e0d36ce</link>
+  <description><![CDATA[作者在开源项目 CodePilot 中复刻了 Claude 的生成式 UI 能力，并分享了应用场景与实现路径。<ul><li>流式交互UI：AI能边生成边渲染交互式图表（如SVG），改变了以往需等待完整代码生成才能查看的模式。</li><li>多模型兼容：功能不仅支持Claude，也适配了Kimi、Minimax等国产模型，拓宽了使用场景。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&amp;mid=2247496050&amp;idx=1&amp;sn=3a73827c96fc93eac10a3e5b4e0d36ce">歸藏的AI工具箱</source>
+</item>
+<item>
+  <title>OpenClaw带火AI记忆，DeepMind用混合记忆把3D重建拉到近2万帧</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651021511&amp;idx=2&amp;sn=e5194bc09c7ddbdeb96f773132df10e5</link>
+  <description><![CDATA[介绍 Google DeepMind 的 LoGeR 技术，通过混合记忆机制解决大规模 3D 重建的上下文壁垒。<ul><li>混合记忆模块：结合参数化测试时训练记忆和滑动窗口注意力，有效保持长序列的全局一致性与局部对齐。</li><li>泛化能力突破：仅在128帧序列上训练，即可在推理时泛化处理数千至上万帧的视频，实现大规模场景的稳健重建。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651021511&amp;idx=2&amp;sn=e5194bc09c7ddbdeb96f773132df10e5">机器之心</source>
+</item>
+<item>
+  <title>深度｜Anthropic CEO：AI行业的盈利本质上源于对市场需求的低估，而亏损则因为高估了需求，2030年AI行业营收将跃迁至万亿美元级</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&amp;mid=2247514566&amp;idx=1&amp;sn=79b002c47047d30e1e5d44fc392094e2</link>
+  <description><![CDATA[Anthropic CEO Dario 对AI指数增长尾声、Scaling Law演进及AI经济学逻辑的深度对话。<ul><li>增长拐点预警：认为公众尚未意识到AI技术指数增长已近尾声，但经济渗透将带来万亿美元级市场。</li><li>独特盈利逻辑：指出AI行业盈利核心是对算力需求的预判，与传统行业逻辑不同，盈利源于需求低估。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&amp;mid=2247514566&amp;idx=1&amp;sn=79b002c47047d30e1e5d44fc392094e2">Z Potentials</source>
+</item>
+<item>
+  <title>只用了几行代码！我居然就训练了自己的AI大模型</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA==&amp;mid=2247513891&amp;idx=1&amp;sn=33d48b7ba13fdf548fb60e2b1d63a37b</link>
+  <description><![CDATA[介绍使用 Twinkle 框架在无 GPU 环境下通过 API 快速微调大模型的方法和坑位总结。<ul><li>Twinkle框架提供免费云端训练环境，无需GPU，仅用几行代码即可微调模型。</li><li>作者实测在15分钟内，用500条数据成功将通用模型微调为具有特定身份认知的模型。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA==&amp;mid=2247513891&amp;idx=1&amp;sn=33d48b7ba13fdf548fb60e2b1d63a37b">路人甲TM</source>
+</item>
+<item>
+  <title>小龙虾又进化了！它现在竟然能“附体”浏览器，自动帮我上班了！</title>
+  <link>https://mp.weixin.qq.com/s?__biz=Mzk0NzQzOTczOA==&amp;mid=2247523513&amp;idx=1&amp;sn=4cd88667334f8a3cfb4e1d834d9d3193</link>
+  <description><![CDATA[详解Chrome原生支持MCP协议后，OpenClaw如何实现浏览器层面的自动化操作，并提供配置教程。<ul><li>Chrome 146原生支持MCP协议，为AI深度操作浏览器打开“后门”。</li><li>OpenClaw利用此功能，可免登录操作用户已打开的页面，实现如自动发微博等复杂流程。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=Mzk0NzQzOTczOA==&amp;mid=2247523513&amp;idx=1&amp;sn=4cd88667334f8a3cfb4e1d834d9d3193">AI范儿</source>
+</item>
+<item>
   <title>深度｜对话Google首席AI科学家：垂直模型是伪命题，AI 下半场是蒸馏、软硬协同与推理廉价化的战争</title>
   <link>https://mp.weixin.qq.com/s?__biz=MzA3NzUxMzM5MQ==&amp;mid=2453898185&amp;idx=1&amp;sn=14920b7efb40aab80c453223bbebb9d3</link>
   <description><![CDATA[Jeff Dean 深度访谈：详解模型双轨策略、知识蒸馏与推理廉价化的未来趋势。<ul><li>提出“移动数据成本比计算贵1000倍”，点明能效是AI竞争的核心。</li><li>系统阐述了“模型双轨策略”：前沿模型突破性能天花板，轻量化模型通过蒸馏实现大规模部署。</li></ul>]]></description>
@@ -37,6 +101,30 @@
   <category>AI/Tech</category>
   <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzA3MDA3NzI1Nw==&amp;mid=2455087903&amp;idx=1&amp;sn=6a60e72d25d25253ae02efed703c21de">新西楼</source>
+</item>
+<item>
+  <title>科研人有自己的“吃虾”方式！斯坦福普林斯顿最新开源，仅需一行指令</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247874486&amp;idx=2&amp;sn=529c6408a94fd4803f72b7dd8944b9cd</link>
+  <description><![CDATA[斯坦福与普林斯顿团队开源LabClaw，为AI Agent提供生物医学实验的结构化技能包与操作系统。<ul><li>LabClaw开源了包含211个预制技能的“技能包”，专为生物医学研究设计。</li><li>结合LabOS系统，可部署为永不下线的AI实验室助手，持续监控并分析实验数据。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247874486&amp;idx=2&amp;sn=529c6408a94fd4803f72b7dd8944b9cd">量子位</source>
+</item>
+<item>
+  <title>静态技能已死：cognee怎么让AI自己修自己的prompt</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158855&amp;idx=1&amp;sn=6652f5790052baa54c87b418b34dcb94</link>
+  <description><![CDATA[介绍Cognee如何通过‘观察-检查-修正-评估’闭环解决AI Agent技能随时间劣化的‘Silent Drift’问题。<ul><li>指出静态技能文件存在“静默漂移”风险，即因环境变化而性能悄然下降。</li><li>Cognee通过构建技能执行记忆图谱，实现技能的自我观察、诊断与修正闭环。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158855&amp;idx=1&amp;sn=6652f5790052baa54c87b418b34dcb94">AI工程化</source>
+</item>
+<item>
+  <title>ICLR 2026｜多模态大模型真的理解情绪吗？MME-Emotion给出了系统答案</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651021511&amp;idx=3&amp;sn=08a96e73521c602bd5066af107cdd9ff</link>
+  <description><![CDATA[ICLR 2026 论文解析：MME-Emotion 情感智能综合评测基准，旨在评估大模型对情绪的理解与推理。<ul><li>MME-Emotion是当前规模最大的多模态情感智能评测基准，包含6500段视频和8类任务。</li><li>首创同时评估情绪“识别”与“推理”能力，要求模型提供判断的情绪线索依据。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651021511&amp;idx=3&amp;sn=08a96e73521c602bd5066af107cdd9ff">机器之心</source>
 </item>
 <item>
   <title>刚刚，国家队讯飞下场「养虾」！一键部署 + 满级防护（附实测）</title>
@@ -63,12 +151,84 @@
   <source url="https://mp.weixin.qq.com/s?__biz=MzI4MjUyNTg1OQ==&amp;mid=2247567000&amp;idx=1&amp;sn=0506d786b2054c5afe9f70d3880e9d3b">莫理</source>
 </item>
 <item>
+  <title>Anthropic 和 OpenAI 同时开始撒钱倾销，AI的“外卖大战”来了</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&amp;mid=2247501561&amp;idx=1&amp;sn=8ef07c94a9a0728e49cc145a4e4efae3</link>
+  <description><![CDATA[分析了 Anthropic 和 OpenAI 开启价格/额度战的现状及对用户的实际意义。<ul><li>Anthropic和OpenAI在一周内相继推出超大力度的用量赠送和套餐升级。</li><li>官方套餐折扣低至0.3折，使得用户直接使用官方服务比通过“中转站”更划算。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&amp;mid=2247501561&amp;idx=1&amp;sn=8ef07c94a9a0728e49cc145a4e4efae3">刘小排r</source>
+</item>
+<item>
+  <title>变更即指标：用交付信号度量系统可靠性</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651278388&amp;idx=3&amp;sn=ddf862934585ce097c65211abd07f004</link>
+  <description><![CDATA[提出了一套以变更为核心的系统可靠性度量指标框架（CLT/CSR/ILR），适配现代分布式环境。<ul><li>提出以变更前置时间、变更成功率、事故泄漏率为核心的变更可观测性指标框架。</li><li>将DORA指标进行针对性调整，聚焦变更治理，排除部署频率和MTTR。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651278388&amp;idx=3&amp;sn=ddf862934585ce097c65211abd07f004">InfoQ</source>
+</item>
+<item>
+  <title>规模化人工判断：Dropbox 如何借助大语言模型优化 RAG 系统标注</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651278388&amp;idx=4&amp;sn=3d9d968d3bde311ebff3b81df3f6073c</link>
+  <description><![CDATA[Dropbox分享如何利用LLM辅助人工标注来优化RAG系统的检索排序质量。<ul><li>提出“人工校准的LLM标注”方法，用LLM大规模生成标注数据。</li><li>该方法解决了RAG系统对高质量相关性标注数据的依赖问题。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651278388&amp;idx=4&amp;sn=3d9d968d3bde311ebff3b81df3f6073c">InfoQ</source>
+</item>
+<item>
   <title>My fireside chat about agentic engineering at the Pragmatic Summit</title>
   <link>https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything</link>
   <description><![CDATA[Simon Willison 探讨 Agentic Engineering 的阶段演进及 AI 自动编程的信任边界。<ul><li>亮点1：作者描述了程序员采用AI的三个阶段：从用ChatGPT辅助，到AI代理编写代码量超过自己，再到近期出现的“无人编写或阅读代码”的极端模式。</li><li>亮点2：作者以安全公司StrongDM为例，指出其“无人写代码、无人读代码”的软件工厂原则是“疯狂的”和“极不负责任的”，并对此表示高度关注。</li></ul>]]></description>
   <category>AI 使用</category>
   <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything">Simon Willison</source>
+</item>
+<item>
+  <title>科技CEO用ChatGPT+基因数据定制癌症疫苗！肿瘤缩小50%</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247874486&amp;idx=1&amp;sn=0f60078e24cbdf12a40345ace334435c</link>
+  <description><![CDATA[工程师利用ChatGPT和AlphaFold为宠物狗定制mRNA癌症疫苗并取得显著疗效的案例报道。<ul><li>零生物学背景的个人借助AI工具链成功定制mRNA癌症疫苗。</li><li>案例展示了AI在辅助跨领域、个性化医疗问题解决中的潜力。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247874486&amp;idx=1&amp;sn=0f60078e24cbdf12a40345ace334435c">量子位</source>
+</item>
+<item>
+  <title>不会拍照有招了！北大彭宇新团队开源首个美学指导大模型Venus，帮你拍好照｜CVPR 2026</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247874486&amp;idx=3&amp;sn=cd5c18e3c988576ca798652573504695</link>
+  <description><![CDATA[北大团队开源Venus大模型，将AI能力从被动描述图像提升到主动提供摄影美学指导和裁剪建议。<ul><li>定义了“美学指导”新任务，并构建了首个专业数据集AesGuide。</li><li>提出Venus模型，通过渐进式问答与思维链推理实现可操作的拍摄指导。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247874486&amp;idx=3&amp;sn=cd5c18e3c988576ca798652573504695">量子位</source>
+</item>
+<item>
+  <title>全网爆火的龙虾总失忆？大佬亲自下场手搓解药，终结致命痛点</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652683211&amp;idx=1&amp;sn=03aaece4e7a0fd149f30205ce0a40875</link>
+  <description><![CDATA[TiDB创始人针对OpenClaw（龙虾）Agent易失忆的痛点，开发了免注册的永续记忆服务mem9。<ul><li>直击OpenClaw等AI智能体“失忆”的核心痛点，提供云端永续记忆解决方案。</li><li>采用“零注册、一句话安装”的极简设计哲学，大幅降低使用门槛。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652683211&amp;idx=1&amp;sn=03aaece4e7a0fd149f30205ce0a40875">新智元</source>
+</item>
+<item>
+  <title>CVPR'26 | 以机器人为中心的ToM推理框架，从心智推理到决策行动</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652683211&amp;idx=3&amp;sn=a00ca0aceff649d7a741f0b115b2e0ab</link>
+  <description><![CDATA[吉大与MSRA提出MindPower框架，构建以机器人为中心的心智推理（ToM）评测体系及数据集。<ul><li>构建了首个以机器人为中心的ToM推理评测体系MindPower Benchmark。</li><li>通过六层推理链条，将环境感知、心智推理、决策与动作生成进行统一建模。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652683211&amp;idx=3&amp;sn=a00ca0aceff649d7a741f0b115b2e0ab">新智元</source>
+</item>
+<item>
+  <title>与拓竹错位竞争，耗材比友商便宜10倍，深圳新兴3D打印公司拿下超470万美元众筹 | 产品观察</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&amp;mid=2248881704&amp;idx=2&amp;sn=343c167ebabaa99610f5d17312ecaa18</link>
+  <description><![CDATA[报道了深圳连续纤维3D打印公司“碳索科技”如何通过技术创新降低成本实现C端突围。<ul><li>全球首款消费级连续纤维3D打印机以不到3000美元价格众筹成功，打破该技术的高价壁垒。</li><li>通过将工业级连续纤维打印技术成本降低90%，实现从B端到C端的市场跨越，进行错位竞争。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&amp;mid=2248881704&amp;idx=2&amp;sn=343c167ebabaa99610f5d17312ecaa18">36氪</source>
+</item>
+<item>
+  <title>追问daily | 他人的评价如何影响你的真实感受？Science：鱼的楚门世界，从早期行为预测寿命</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&amp;mid=2247539318&amp;idx=1&amp;sn=19ae1a5f88de5f6c82fa78b2af6ba773</link>
+  <description><![CDATA[脑科学与AI前沿资讯汇总，重点介绍了Science关于鱼类行为预测寿命的研究及AI动态。<ul><li>通过终身自动化监测与机器学习，首次揭示脊椎动物衰老呈“阶梯式”而非平滑过程。</li><li>研究发现个体在生命中期（中年）的行为模式（如活力、睡眠节律）可有效预测其最终寿命。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzI3MjQ4MDMyOQ==&amp;mid=2247539318&amp;idx=1&amp;sn=19ae1a5f88de5f6c82fa78b2af6ba773">追问nextquestion</source>
 </item>
 <item>
   <title>为了让机器人学会做家务，这家公司做了一副 200 美元的「技能手套」</title>
@@ -85,6 +245,22 @@
   <category>AI/Tech</category>
   <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=MzU5OTI0NTc3Mg==&amp;mid=2247550935&amp;idx=1&amp;sn=12b055bc2eb17e4f81114fd2c1705e01">甲子光年</source>
+</item>
+<item>
+  <title>Skills过时了，我给龙虾配了一台手机，直接接管所有APP！</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&amp;mid=2247491069&amp;idx=1&amp;sn=234448137ce3b09b4387ae7de9d4ba94</link>
+  <description><![CDATA[通过红手指Operator展示了将虚拟手机GUI能力与OpenClaw Agent结合的新型Agent形态。<ul><li>产品核心创新在于结合了GUI操作能力与AI智能体技能，使其能操作任何手机APP，突破API限制。</li><li>通过“虚拟手机+智能体”的架构，实现了跨应用的任务编排，解锁了单一产品难以处理的复杂工作流。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzkxNjcyNTk2NA==&amp;mid=2247491069&amp;idx=1&amp;sn=234448137ce3b09b4387ae7de9d4ba94">探索AGI</source>
+</item>
+<item>
+  <title>龙虾创始人刚喊完合作，百度真打钱了</title>
+  <link>https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453481522&amp;idx=1&amp;sn=df1d300c658d0d4847dea44899faa30c</link>
+  <description><![CDATA[百度赞助开源项目OpenClaw（龙虾）的事件解读，分析了大厂对Agent开源生态的支持模式。<ul><li>百度在24小时内响应开源项目创始人喊话并完成赞助，展现了极高的合作效率和姿态。</li><li>赞助机制特殊（资金100%回馈社区），且同步贡献了自身AI能力（PaddleOCR Skill），是“资金+技术”的双重支持。</li></ul>]]></description>
+  <category>AI/Tech</category>
+  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
+  <source url="https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&amp;mid=2453481522&amp;idx=1&amp;sn=df1d300c658d0d4847dea44899faa30c">AGI Hunt</source>
 </item>
 <item>
   <title>LLM幻觉不只是「胡说八道」？新理论首次拆解幻觉的两大根源丨ICLR'2026</title>
@@ -229,182 +405,6 @@
   <category>AI/Tech</category>
   <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
   <source url="https://mp.weixin.qq.com/s?__biz=Mzg5MzEyNzEwNQ==&amp;mid=2247799494&amp;idx=1&amp;sn=2fbef6d2b2dd16322e43b2b4da3ae08d">财联社AI daily</source>
-</item>
-<item>
-  <title>完整版｜对话腾讯“龙虾特攻队”：火爆的线下装机复盘以及如何守住安全红线？</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzE5MTQ3NDcwMQ==&amp;mid=2247486443&amp;idx=1&amp;sn=94e8a4e98d4e42c54ae7dc1c869d27c4</link>
-  <description><![CDATA[独家对话腾讯AI团队，揭秘“龙虾”系列产品背后的研发逻辑、安全防控机制及产品布局。<ul><li>腾讯‘龙虾’产品矩阵的推出并非临时跟风，而是基于已有的技术积累（如2023年的AI代码助手），研发投入极低。</li><li>产品安全策略核心在于纯自研闭源、限制本地权限、官方审核Skills，并创新性地采用‘用Agent对抗Agent’的自动化审核机制。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzE5MTQ3NDcwMQ==&amp;mid=2247486443&amp;idx=1&amp;sn=94e8a4e98d4e42c54ae7dc1c869d27c4">划重点KeyPoints</source>
-</item>
-<item>
-  <title>当AI能从360度无死角看世界。。</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzkwMzE4NjU5NA==&amp;mid=2247515278&amp;idx=1&amp;sn=6411d40d94b621c3e06dd5a73c26a98a</link>
-  <description><![CDATA[详细拆解如何利用Lovart工具将静态图片转化为360度多角度视频的工作流。<ul><li>利用Lovart的‘多角度’功能，可以像操作虚拟摄像机一样直观生成任意角度的分镜图，完全绕过了撰写复杂运镜提示词的难题。</li><li>该方法将高质量3D动态内容制作流程从专业建模/动画简化到‘图片输入-角度调整-视频生成’，极大提升了效率并降低了门槛。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzkwMzE4NjU5NA==&amp;mid=2247515278&amp;idx=1&amp;sn=6411d40d94b621c3e06dd5a73c26a98a">袋鼠帝AI客栈</source>
-</item>
-<item>
-  <title>Google Maps 10年最大更新：有什么可以直接询问地图</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzkzMTcyMTgxNg==&amp;mid=2247509011&amp;idx=1&amp;sn=9836b491c7db6d50e171b7a5ad1094ac</link>
-  <description><![CDATA[Google Maps十年最大更新解析，重点介绍Gemini驱动的对话式搜索与沉浸式导航。<ul><li>‘Ask Maps’能理解自然语言的多条件复杂查询，并结合海量数据与用户偏好进行个性化推荐，实现从信息查询到行动（预订、导航）的闭环。</li><li>‘Immersive Navigation’利用AI生成实时3D实景导航视图，在复杂路况下高亮关键信息，大幅提升了驾驶导航的直观性和安全性。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzkzMTcyMTgxNg==&amp;mid=2247509011&amp;idx=1&amp;sn=9836b491c7db6d50e171b7a5ad1094ac">小互AI</source>
-</item>
-<item>
-  <title>速递｜黑石投资10亿美元后，联手Anthropic组建AI咨询部队，模式效仿Palantir</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&amp;mid=2247514557&amp;idx=2&amp;sn=571355ab92d95fd4f3914451f764d54a</link>
-  <description><![CDATA[黑石与Anthropic拟成立合资公司，采用类Palantir的咨询服务模式将AI引入企业级场景。<ul><li>Anthropic拟与黑石等组建合资企业，采用类似Palantir的咨询模式，为企业提供Claude技术的整合与落地服务。</li><li>尽管面临与美国国防部的法律纠纷，Anthropic的业务（年化收入超190亿美元）仍在高速增长，正迅速缩小与OpenAI的收入差距。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&amp;mid=2247514557&amp;idx=2&amp;sn=571355ab92d95fd4f3914451f764d54a">Z Potentials</source>
-</item>
-<item>
-  <title>“为了让工程师用 AI，公司会裁掉一半人！”硅谷顶级大佬直言，AI 一天 3 小时搞定工作，还搞 996 的公司必垮</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;mid=2247658703&amp;idx=1&amp;sn=d04b68d26cf9d5d20f1e581f600bf129</link>
-  <description><![CDATA[硅谷元老Steve Yegge谈AI对工程文化的剧变：裁员增效、提效百倍以及编程范式的重构。<ul><li>提出“吸血鬼效应”概念，描述AI带来的矛盾状态</li><li>预测企业将裁减半数工程师以供养AI驱动的核心团队</li><li>指出AI指挥AI（Agent模式）将成为下一代主流开发范式</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&amp;mid=2247658703&amp;idx=1&amp;sn=d04b68d26cf9d5d20f1e581f600bf129">AI前线</source>
-</item>
-<item>
-  <title>龙虾版支付宝来了！睡觉都在帮你抢红包</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247874410&amp;idx=1&amp;sn=8d24b6ba1c8f2759a0c2592f37fa7bb8</link>
-  <description><![CDATA[FluxA 推出专为 Agent 设计的支付工具 Agent Wallet，通过抢红包等趣味场景验证了 AI 自主经济行为的可行性。<ul><li>AI Agent（龙虾）通过专属钱包获得自主支付能力</li><li>通过红包活动实证AI可自主完成复杂经济行为闭环</li><li>产品设计理念是将AI Agent视为与人类同等的“一等公民”</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247874410&amp;idx=1&amp;sn=8d24b6ba1c8f2759a0c2592f37fa7bb8">量子位</source>
-</item>
-<item>
-  <title>拜拜了SWE-Bench！Cursor刚发了个AI Coding评测基准，难哭Claude</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247874410&amp;idx=2&amp;sn=83db01754f46b1e17009f58089e3ce38</link>
-  <description><![CDATA[Cursor 发布全新编程基准 CursorBench，旨在衡量 AI 在真实约束下的执行效率而非单纯的正确性。<ul><li>新基准CursorBench侧重评估AI作为“智能体”的高效执行能力</li><li>基于真实开发者请求构建任务库，更贴近实际开发场景</li><li>采用“线上+线下混合评”方案以提升评估真实性和公平性</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247874410&amp;idx=2&amp;sn=83db01754f46b1e17009f58089e3ce38">量子位</source>
-</item>
-<item>
-  <title>上海交大教授创业，用AI研发新材料，交大系基金投资｜早起看早期</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&amp;mid=2248881607&amp;idx=3&amp;sn=d4801fedfe12eb97426db0127127574d</link>
-  <description><![CDATA[报道上海交大教授创业项目索格智算，利用 AI 算法（SOG-Net）突破新材料研发的计算瓶颈。<ul><li>用原创AI算法（SOG-Net）解决材料模拟中的长程相互作用精度瓶颈</li><li>推出软硬件一体化专用模拟器，计算速度提升数十倍</li><li>已与天和磁材、宁德时代、华为等在关键材料领域展开合作</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzI2NDk5NzA0Mw==&amp;mid=2248881607&amp;idx=3&amp;sn=d4801fedfe12eb97426db0127127574d">36氪</source>
-</item>
-<item>
-  <title>晚点独家丨OMOWAY 获数千万美元投资，摩托车自研技术将用于两轮机器人</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&amp;mid=2247534016&amp;idx=3&amp;sn=5ffe1111e3127fc778b90bf5b1f670f2</link>
-  <description><![CDATA[晚点独家报道小鹏前联创何涛的创业进展，其摩托车自平衡技术将迁移至机器人领域。<ul><li>发布全球首款自平衡电动摩托车OMO X</li><li>核心技术为基于强化学习的两轮车自平衡技术</li><li>目标明确：快速占领印尼及东南亚电动摩托车市场</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzU3Mjk1OTQ0Ng==&amp;mid=2247534016&amp;idx=3&amp;sn=5ffe1111e3127fc778b90bf5b1f670f2">晚点LatePost</source>
-</item>
-<item>
-  <title>Quoting Craig Mod</title>
-  <link>https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything</link>
-  <description><![CDATA[Craig Mod 分享了如何利用 AI 在五天内构建出一套完全符合个人需求的本地会计软件，展示了 AI 辅助开发的巨大潜力。<ul><li>亮点1：作者在五天内自行开发了一套会计软件，解决了现成软件无法满足其复杂需求（如多币种、美日两国税务）的问题。</li><li>亮点2：该软件完全本地运行、速度极快，能自动获取历史汇率、解析CSV/PDF等文件并智能分类，还能从历史报税单中学习。</li><li>亮点3：软件能处理国际电汇对账，考虑汇率微小波动和到账时间差，并能通过与Claude对话来批量解决数据异常，避免手动修改数百条记录。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://simonwillison.net/2026/Mar/13/craig-mod/#atom-everything">Simon Willison</source>
-</item>
-<item>
-  <title>How (and what) I'm building this week</title>
-  <link>https://www.bensbites.com/p/how-and-what-im-building-this-week</link>
-  <description><![CDATA[Ben's Bites 推出互动式 AI 构建手册，读者可通过给出的 Gist 链接直接让 AI Agent 引导完成项目开发。<ul><li>亮点1：作者开始尝试“建造者日志”形式，分享每周构建内容、经验教训，并提供可实践的项目。</li><li>亮点2：作者开发了一个交互式教程（Cookbook），用户将其指令提供给AI智能体（如Claude Code），即可在智能体的指导下边构建网站边学习新概念。</li></ul>]]></description>
-  <category>AI 使用</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://www.bensbites.com/p/how-and-what-im-building-this-week">Ben's Bites</source>
-</item>
-<item>
-  <title>Patch Me If You Can: AI Codemods for Secure-by-Default Android Apps</title>
-  <link>https://engineering.fb.com/2026/03/13/android/ai-codemods-secure-by-default-android-apps-meta-tech-podcast/</link>
-  <description><![CDATA[Meta 安全团队分享如何利用 GenAI 自动迁移数百万行代码至“默认安全”的 Android 框架。<ul><li>亮点1：Meta面临的安全挑战是在拥有数百万行代码、数千名工程师和数十亿用户的移动生态系统中，修复散布各处的安全漏洞。</li><li>亮点2：解决方案是结合“默认安全”框架设计与生成式AI自动化迁移，从而系统化地提议、验证并提交跨庞大代码库的安全补丁。</li></ul>]]></description>
-  <category>Builder 实践</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://engineering.fb.com/2026/03/13/android/ai-codemods-secure-by-default-android-apps-meta-tech-podcast/">Meta Engineering Blog</source>
-</item>
-<item>
-  <title>实测AI浏览器Tabbit一周后，这就是我OpenClaw的新最佳拍档！</title>
-  <link>https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505537&amp;idx=1&amp;sn=54f8b9b3241ef181f5f46ed384325e63</link>
-  <description><![CDATA[详细介绍并实测了AI浏览器Tabbit的功能，特别是其Agent能力和“妙招”工作流，具有很强的实操价值。<ul><li>Tabbit的‘妙招’功能允许用户将复杂的提示词、自动化脚本或智能代理保存为可快速调用的命令，极大简化了重复性网络任务。</li><li>其分屏协作能力解决了单屏多任务浏览的痛点，智能标签整理则能高效管理大量打开的页面。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw==&amp;mid=2247505537&amp;idx=1&amp;sn=54f8b9b3241ef181f5f46ed384325e63">卡尔的AI沃茨</source>
-</item>
-<item>
-  <title>万物皆计算：重塑人类未来的五大底层逻辑</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650996124&amp;idx=1&amp;sn=8b6a660d0b654c8b55e50c9e97a13c42</link>
-  <description><![CDATA[Google高管阐述AI时代的五大范式转移，重构对计算与智能的底层认知。<ul><li>智能的本质是计算，而计算是一种自然现象，不仅存在于计算机，也存在于大脑和物理世界中。</li><li>文章提出了一个连贯的智能演进框架：从自然计算的基础，到借鉴大脑的神经计算，再到基于预测的智能模型，最终走向通用化和集体协作的智能形态。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650996124&amp;idx=1&amp;sn=8b6a660d0b654c8b55e50c9e97a13c42">腾讯研究院</source>
-</item>
-<item>
-  <title>Meta收购了龙虾交友平台Moltbook，字节打造了中国龙虾狂欢地</title>
-  <link>https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;mid=2247525922&amp;idx=1&amp;sn=75b04b7ac09ad9f9151d89efb702ec85</link>
-  <description><![CDATA[分析Meta和字节跳动在“AI专属社交网络”上的布局，揭示了从虚假繁荣到AI代理互动的新实验场。<ul><li>Meta收购AI专属社交平台Moltbook，字节跳动推出类似平台InStreet。</li><li>Moltbook宣称有150万AI用户，但实际人类用户仅1.7万，存在严重数据泡沫与安全漏洞。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;mid=2247525922&amp;idx=1&amp;sn=75b04b7ac09ad9f9151d89efb702ec85">AIGC开放社区</source>
-</item>
-<item>
-  <title>第一批活到1000岁的人可能已经诞生！脑机接口的事件视界</title>
-  <link>https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;mid=2247525922&amp;idx=2&amp;sn=0f066c4a0248e4edf44c8ecdd5628432</link>
-  <description><![CDATA[对话Science Corp创始人，深度解析脑机接口如何通过模拟生物算法实现视觉重建，并探讨长寿愿景。<ul><li>PRIMA脑机接口设备通过刺激视网膜双极细胞，帮助80%的AMD患者显著改善视力。</li><li>该技术对先天性失明者可能无效，揭示了大脑神经发育关键期的根本限制。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=Mzg3Mzg5MjY3Nw==&amp;mid=2247525922&amp;idx=2&amp;sn=0f066c4a0248e4edf44c8ecdd5628432">AIGC开放社区</source>
-</item>
-<item>
-  <title>市值缩水98%，数字媒体巨头BuzzFeed走到破产边缘</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649792087&amp;idx=2&amp;sn=d26c60c8473139958b9848fca4195fe4</link>
-  <description><![CDATA[复盘数字媒体巨头BuzzFeed从算法造神到濒临破产的历程，探讨其试图靠AI续命的困局。<ul><li>市值暴跌98%，发出“持续经营疑虑”警告，面临破产清算风险</li><li>兴衰史是依赖单一平台算法和病毒式内容的流量商业模式的典型缩影</li><li>现试图转向AI驱动的自动化内容生产以求降本增效</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA3NTIyODUzNA==&amp;mid=2649792087&amp;idx=2&amp;sn=d26c60c8473139958b9848fca4195fe4">DeepTech深科技</source>
-</item>
-<item>
-  <title>烧了 400 亿，95% 血亏！Karpathy：别卷模型了，卷「Context」</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzkwMzYzMTc5NA==&amp;mid=2247512072&amp;idx=1&amp;sn=bc97fa0753153064f38dda8603e8a4f6</link>
-  <description><![CDATA[文章指出企业 AI 项目失败的核心在于缺乏“决策痕迹”的上下文，并提出了“上下文图谱”这一万亿美元的认知机会。<ul><li>MIT报告揭示企业AI项目95%失败率，引发行业反思。</li><li>Karpathy等专家提出从“提示工程”转向“上下文工程”，认为喂给模型的上下文比模型本身更重要。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Sat, 14 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzkwMzYzMTc5NA==&amp;mid=2247512072&amp;idx=1&amp;sn=bc97fa0753153064f38dda8603e8a4f6">AI信息Gap</source>
-</item>
-<item>
-  <title>AI工程圈大辩论：Big Model VS Big Harness？</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158847&amp;idx=2&amp;sn=29cfd507a8f39de517357eb483aa62a6</link>
-  <description><![CDATA[探讨AI工程中模型（Model）与框架工程（Harness）的路线之争，提出Agent=Model+Harness的观点。<ul><li>辩论核心是“模型能力”与“框架工程”在AI价值实现中的相对重要性。</li><li>有案例显示，仅优化框架即可让多个LLM的编码能力显著提升。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&amp;mid=2461158847&amp;idx=2&amp;sn=29cfd507a8f39de517357eb483aa62a6">AI工程化</source>
-</item>
-<item>
-  <title>我Agent的第一个“流氓软件”，竟然来自腾讯……</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&amp;mid=2247490765&amp;idx=1&amp;sn=7804efebc59903c0b26285ed9ca29088</link>
-  <description><![CDATA[作者实测并曝光了腾讯某Agent插件的流氓插入提示词行为，提醒开发者避坑。<ul><li>详细记录了Skillhub插件如何通过技术手段“劫持”用户与AI Agent的对话。</li><li>明确指出该行为增加了Token消耗并强行改变了Agent的默认行为。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzU1MTAwNzY4Mg==&amp;mid=2247490765&amp;idx=1&amp;sn=7804efebc59903c0b26285ed9ca29088">喜新</source>
-</item>
-<item>
-  <title>投研 Agent 的最佳形态是什么？AlphaEngine 给出了一种新答案</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&amp;mid=2649106166&amp;idx=1&amp;sn=e2b058ed1e3dc36eae816d63ec937d6b</link>
-  <description><![CDATA[实测基于OpenClaw的金融投研Agent AlphaClaw，展示了专业数据库与Agent结合的威力。<ul><li>展示了如何将通用AI Agent（OpenClaw）与垂直领域专业数据库深度结合。</li><li>实测案例说明了其在处理复杂投研任务（如企业估值分析）上的潜力。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MzAxMDMxOTI2NA==&amp;mid=2649106166&amp;idx=1&amp;sn=e2b058ed1e3dc36eae816d63ec937d6b">十字路口Crossing</source>
-</item>
-<item>
-  <title>Meta 删邮件事故背后，OpenClaw 为什么会“失忆”？代码库维护者拆解记忆架构</title>
-  <link>https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651278059&amp;idx=1&amp;sn=1ac806426cea58f14f1e8da1b71bee1b</link>
-  <description><![CDATA[OpenClaw 维护者深度解析 Agent 记忆架构，针对“失忆”导致的安全事故给出专业修复建议。<ul><li>智能体的记忆分为四层，其中引导文件层最持久，而聊天指令在上下文压缩时可能丢失。</li><li>Meta 对齐总监的亲身事故表明，研究对齐的专家也会犯对齐错误，凸显了系统设计的重要性。</li></ul>]]></description>
-  <category>AI/Tech</category>
-  <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
-  <source url="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651278059&amp;idx=1&amp;sn=1ac806426cea58f14f1e8da1b71bee1b">InfoQ</source>
 </item>
 </channel>
 </rss>

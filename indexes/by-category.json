@@ -75,6 +75,33 @@
         "why_matters": ""
       },
       {
+        "title": "1500 个 PR、0 人写代码：Codex 驱动的百万行级内部产品实践",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzU1NDA4NjU2MA==&mid=2247658820&idx=2&sn=3e66878f5b8b55e81ae3a7e5b3a4c63d",
+        "source": "AI前线",
+        "score": 93,
+        "verdict": "must_read",
+        "pub_date": "2026-03-15",
+        "why_matters": "对数据PM/投资者/公众号作者意味着什么：展示了AI Agent在复杂工程实践中实现量级效率突破的可行路径，为评估未来研发团队结构和生产力提供了关键案例。"
+      },
+      {
+        "title": "龙虾爆出漏洞，斯坦福 OpenJarvis 重新定义本地 AI Agent，附实测",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA4NzgzMjA4MQ==&mid=2453481541&idx=1&sn=8c98313a2101e3af030706a54ae14ad6",
+        "source": "AGI Hunt",
+        "score": 93,
+        "verdict": "must_read",
+        "pub_date": "2026-03-15",
+        "why_matters": "对数据PM/投资者/公众号作者意味着什么：揭示了AI Agent发展的一个重要分歧点（云端 vs. 本地），以及安全与隐私正成为影响技术采纳的关键因素。"
+      },
+      {
+        "title": "别再手写TrainingLoop了！Twinkle让大模型训练像搭积木一样简单",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzIzNTI3MTQxMg==&mid=2652560149&idx=1&sn=4ef4517e1ed47e6363db89efd470973c",
+        "source": "公子龙",
+        "score": 93,
+        "verdict": "must_read",
+        "pub_date": "2026-03-14",
+        "why_matters": "对数据PM/投资者/公众号作者意味着什么：标志大模型训练工程化进入新阶段，标准化和易用性提升将加速模型迭代和创新落地。"
+      },
+      {
         "title": "LLM幻觉不只是「胡说八道」？新理论首次拆解幻觉的两大根源丨ICLR'2026",
         "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247874287&idx=3&sn=1eec732000bbc3fdbc085b92237b261d",
         "source": "量子位",
@@ -433,6 +460,33 @@
         "verdict": "must_read",
         "pub_date": "2026-03-14",
         "why_matters": "对芯片架构师和投资者而言，这揭示了下一代AI芯片可能的关键技术演进方向和竞争格局。"
+      },
+      {
+        "title": "我复刻了 Claude 刚发布的生成式 UI 交互！",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzU0MDk3NTUxMA==&mid=2247496050&idx=1&sn=3a73827c96fc93eac10a3e5b4e0d36ce",
+        "source": "歸藏的AI工具箱",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-15",
+        "why_matters": "对数据PM/投资者/公众号作者意味着什么：展示了AI交互范式从纯文本向富媒体、可交互内容演进的具体案例，是提升AI应用可用性和价值的关键方向。"
+      },
+      {
+        "title": "OpenClaw带火AI记忆，DeepMind用混合记忆把3D重建拉到近2万帧",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021511&idx=2&sn=e5194bc09c7ddbdeb96f773132df10e5",
+        "source": "机器之心",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-15",
+        "why_matters": "对数据PM/投资者/公众号作者意味着什么：为解决大模型处理超长上下文这一核心挑战提供了跨领域（从NLP到3D视觉）的创新思路，具有重要的技术启发性。"
+      },
+      {
+        "title": "深度｜Anthropic CEO：AI行业的盈利本质上源于对市场需求的低估，而亏损则因为高估了需求，2030年AI行业营收将跃迁至万亿美元级",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzI4NTgxMDk1NA==&mid=2247514566&idx=1&sn=79b002c47047d30e1e5d44fc392094e2",
+        "source": "Z Potentials",
+        "score": 87,
+        "verdict": "must_read",
+        "pub_date": "2026-03-14",
+        "why_matters": "对数据PM/投资者/公众号作者意味着什么：来自行业核心领袖对技术周期与商业本质的深刻洞察，为判断行业未来走势和投资重点提供了高层框架。"
       },
       {
         "title": "三星发力大模型！三星研究院联合北大发布 M2RL，系统揭秘多领域RL训练机制",
@@ -795,6 +849,24 @@
         "why_matters": ""
       },
       {
+        "title": "只用了几行代码！我居然就训练了自己的AI大模型",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzIzMDQyMjcxOA==&mid=2247513891&idx=1&sn=33d48b7ba13fdf548fb60e2b1d63a37b",
+        "source": "路人甲TM",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-15",
+        "why_matters": "对个人开发者和小团队而言，这提供了一个前所未有的低成本AI模型定制化验证途径。"
+      },
+      {
+        "title": "小龙虾又进化了！它现在竟然能“附体”浏览器，自动帮我上班了！",
+        "link": "https://mp.weixin.qq.com/s?__biz=Mzk0NzQzOTczOA==&mid=2247523513&idx=1&sn=4cd88667334f8a3cfb4e1d834d9d3193",
+        "source": "AI范儿",
+        "score": 83,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-15",
+        "why_matters": "对普通用户和运营人员而言，这意味着许多重复性的网页操作工作可以被安全、可靠地自动化。"
+      },
+      {
         "title": "互联网大厂，杀进「龙虾」大战",
         "link": "https://mp.weixin.qq.com/s?__biz=MzA5ODEzMjIyMA==&mid=2247732153&idx=1&sn=eace57b2f5faf8620eb53b378d1bcec9",
         "source": "AI科技评论",
@@ -1063,6 +1135,33 @@
         "verdict": "worth_reading",
         "pub_date": "",
         "why_matters": "对普通用户和内容创作者而言，这降低了一个强大AI生产力工具的入门门槛，能直接提升工作效率。"
+      },
+      {
+        "title": "科研人有自己的“吃虾”方式！斯坦福普林斯顿最新开源，仅需一行指令",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247874486&idx=2&sn=529c6408a94fd4803f72b7dd8944b9cd",
+        "source": "量子位",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-15",
+        "why_matters": "对科研工作者而言，这提供了一个强大的自动化工具集，能显著解放其在文献处理和数据监控方面的精力。"
+      },
+      {
+        "title": "静态技能已死：cognee怎么让AI自己修自己的prompt",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA5MTIxNTY4MQ==&mid=2461158855&idx=1&sn=6652f5790052baa54c87b418b34dcb94",
+        "source": "AI工程化",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-15",
+        "why_matters": "对AI工程师和智能体开发者而言，这是构建可持续、免维护的生产级AI应用的关键思路。"
+      },
+      {
+        "title": "ICLR 2026｜多模态大模型真的理解情绪吗？MME-Emotion给出了系统答案",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021511&idx=3&sn=08a96e73521c602bd5066af107cdd9ff",
+        "source": "机器之心",
+        "score": 80,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-15",
+        "why_matters": "对多模态AI研究者而言，这提供了一个更严谨、全面的框架来衡量和提升模型的情感理解能力。"
       },
       {
         "title": "大厂「养虾」，各怀心事",
@@ -1747,6 +1846,33 @@
         "verdict": "worth_reading",
         "pub_date": "2026-03-14",
         "why_matters": "对开发者而言，这意味着能将重复、定时的开发或监控任务自动化，显著提升个人工作效率。"
+      },
+      {
+        "title": "Anthropic 和 OpenAI 同时开始撒钱倾销，AI的“外卖大战”来了",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzI1MTUxNzgxMA==&mid=2247501561&idx=1&sn=8ef07c94a9a0728e49cc145a4e4efae3",
+        "source": "刘小排r",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-15",
+        "why_matters": "对AI产品开发者和重度用户而言，这是以极低成本获取顶级模型能力、快速进行市场验证的黄金时期。"
+      },
+      {
+        "title": "变更即指标：用交付信号度量系统可靠性",
+        "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278388&idx=3&sn=ddf862934585ce097c65211abd07f004",
+        "source": "InfoQ",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-15",
+        "why_matters": "为数据PM和工程管理者提供了一套标准化的度量体系，用于评估和优化软件交付流程的可靠性与效率。"
+      },
+      {
+        "title": "规模化人工判断：Dropbox 如何借助大语言模型优化 RAG 系统标注",
+        "link": "https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651278388&idx=4&sn=3d9d968d3bde311ebff3b81df3f6073c",
+        "source": "InfoQ",
+        "score": 77,
+        "verdict": "worth_reading",
+        "pub_date": "2026-03-15",
+        "why_matters": "为AI工程师和数据科学家提供了一种高效获取大规模训练数据的新范式，尤其适用于优化检索和排序模型。"
       },
       {
         "title": "李诞吐槽的“龙虾”社交造假，AI语音社交赛道找到新解法",
